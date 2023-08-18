@@ -21,4 +21,5 @@ Grupo-2-ISB
 Este proyecto explora cómo el uso del electrocardiograma (ECG) puede ayudar en la detección temprana de enfermedades cardiovasculares relacionadas con el Dengue. Analizaremos patrones específicos en los ECG de pacientes con Dengue para determinar si pueden servir como indicadores de problemas cardiovasculares. Si se confirma esta relación, el ECG podría convertirse en una herramienta útil para identificar a las personas en riesgo y tomar medidas preventivas a tiempo.
 
 ## Problemática
+
 ## Motivación
