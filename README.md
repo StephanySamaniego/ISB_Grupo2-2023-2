@@ -14,8 +14,11 @@ Grupo-2-ISB
 1. Sara Victoria Rua Bermudo - sara.rua@upch.pe 
 2. Stephany Noemi Samaniego Orellana - stephany.samaniego@upch.pe
 3. Carlos Otto Santamaria Valera - carlos.santamaria@upch.pe
-4. Marcelo Durbal Goyzueta Lauri - Marcelo.goyzueta@upch.pe 
+4. Marcelo Durbal Goyzueta Lauri - marcelo.goyzueta@upch.pe 
 
 ## Presentación 
+
+Este proyecto explora cómo el uso del electrocardiograma (ECG) puede ayudar en la detección temprana de enfermedades cardiovasculares relacionadas con el Dengue. Analizaremos patrones específicos en los ECG de pacientes con Dengue para determinar si pueden servir como indicadores de problemas cardiovasculares. Si se confirma esta relación, el ECG podría convertirse en una herramienta útil para identificar a las personas en riesgo y tomar medidas preventivas a tiempo.
+
 ## Problemática
 ## Motivación
