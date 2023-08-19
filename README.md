@@ -15,7 +15,7 @@ Consideramos dos propuestas relacionadas al ECG
 1. Sara Victoria Rua Bermudo - sara.rua@upch.pe 
 2. Stephany Noemi Samaniego Orellana - stephany.samaniego@upch.pe
 3. Carlos Otto Santamaria Valera - carlos.santamaria@upch.pe
-4. Marcelo Durbal Goyzueta Lauri - marcelo.goyzueta@upch.pe 
+4. Marcelo Durval Goyzueta Lauri - marcelo.goyzueta@upch.pe 
 
 ## Presentación 
 
