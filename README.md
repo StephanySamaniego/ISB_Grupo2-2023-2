@@ -24,6 +24,7 @@ Consideramos dos propuestas relacionadas al ECG
 Este proyecto explora cómo el uso del electrocardiograma (ECG) puede ayudar en la detección temprana de enfermedades cardiovasculares relacionadas con el Dengue. Analizaremos patrones específicos en los ECG de pacientes con Dengue para determinar si pueden servir como indicadores de problemas cardiovasculares. Si se confirma esta relación, el ECG podría convertirse en una herramienta útil para identificar a las personas en riesgo y tomar medidas preventivas a tiempo.
 
 <strong> Contexto
+
 El dengue es una enfermedad tropical desatendida (ETD) que se transmite principalmente a través de la picadura de mosquitos Aedes que han picado previamente a una persona infectada. La transmisión del dengue está influenciada por el clima, la urbanización y la distribución del mosquito vector predominante Aedes aegypti. En aproximadamente el 80% de los síntomas son mínimos o nulos, sin embargo, el 5% de los casos de dengue son graves las complicaciones incluyen hepatitis, disfunción neurológica, coagulopatía y fisiopatología de complicaciones de afectación cardiovascular (CV) [1]. El virus del dengue causa fuga de plasma al dañar el revestimiento de células endoteliales a través de la membrana proinflamatoria y liberación de citocinas. El edema intersticial del miocardio y la miocarditis son los mecanismos propuestos de la disfunción cardíaca [2].
 
 
