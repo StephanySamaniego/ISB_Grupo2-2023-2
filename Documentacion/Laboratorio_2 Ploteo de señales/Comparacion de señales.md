@@ -6,10 +6,10 @@ Datos iniciales:
 3. Offset: 0v
 
 ## Señal 1 - Capacitor de 100 uF
-Señal obtenida pro el osciloscopio
+Señal obtenida 
 <div style="display: flex;">
-    <img src="ruta_de_la_primera_imagen.jpg" alt="Imagen 1" width="50%" />
-    <img src="ruta_de_la_segunda_imagen.jpg" alt="Imagen 2" width="50%" />
+    <img src="Diseño\osciloscopio_1.jpg" alt="Imagen 1" width="50%" />
+    <img src="Diseño\osciloscopio_1.jpg" alt="Imagen 2" width="50%" />
 </div>
 
 
