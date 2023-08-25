@@ -10,9 +10,19 @@ Señal obtenida
 
 <img src="Diseño\osciloscopio_1.jpg">
 
-<div style="display: flex;">
-    <img src="Diseño\osciloscopio_1.jpg" width="50%" >
-    <img src="Diseño\osciloscopio_1.jpg" width="50%" >
-<div>
+<img src="Diseño\osciloscopio_1.jpg">
 
+## Señal 2 - Capacitor de 100 uF
+Señal obtenida 
+
+<img src="Diseño\osciloscopio_1.jpg">
+
+<img src="Diseño\osciloscopio_1.jpg">
+
+## Señal 3 - Capacitor de 100 uF
+Señal obtenida 
+
+<img src="Diseño\osciloscopio_1.jpg">
+
+<img src="Diseño\osciloscopio_1.jpg">
 
