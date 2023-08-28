@@ -1,9 +1,9 @@
 # Ploteo de señales en Arduino IDE
 Datos iniciales: 
 
-1. Frecuencia: 1kHz
-2. Vpp : 5V
-3. Offset: 0v
+1. Frecuencia: 500 mHz
+2. Vpp : 3.3V
+3. Offset: 0 mv
 
 ## Señal 1 - Capacitor de 100 uF
 Señal obtenida 
