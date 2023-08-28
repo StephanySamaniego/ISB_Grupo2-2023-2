@@ -18,11 +18,15 @@ Señal en Arduino 33 IoT
 </p> 
 
 ## Señal 2 - Capacitor de 100 uF
-Señal obtenida 
+Señal en el Osciloscopio
+<p align="center">
+  <img width="460" height="300" src="https://github.com/StephanySamaniego/ISB_G2-2023-2/blob/main/Dise%C3%B1o/osciloscopio.jpg?raw=true">
+</p> 
 
-<img src="Diseño\osciloscopio_1.jpg">
-
-<img src="Diseño\osciloscopio_1.jpg">
+Señal en Arduino 33 IoT
+<p align="center">
+  <img width="460" height="300" src="https://github.com/StephanySamaniego/ISB_G2-2023-2/blob/main/Dise%C3%B1o/cuadrado.jpg?raw=true">
+</p> 
 
 ## Señal 3 - Capacitor de 100 uF
 Señal obtenida 
