@@ -8,7 +8,7 @@ Datos iniciales:
 ## Señal 1 - Capacitor de 100 uF
 Señal obtenida 
 
-<img src="Diseño\osciloscopio_1.jpg">
+<img src="Diseño\osciloscopio_1.jpg"/>
 
 <img src="Diseño\osciloscopio_1.jpg">
 
