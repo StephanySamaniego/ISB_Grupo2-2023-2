@@ -10,8 +10,8 @@ Datos iniciales:
 Señal en el Osciloscopio
 
 <div style="display: flex;">
-    <img src="https://github.com/StephanySamaniego/ISB_G2-2023-2/blob/main/Dise%C3%B1o/osciloscopio.jpg?raw=true" alt="Imagen 1" style="flex: 40%;">
-    <img src="https://github.com/StephanySamaniego/ISB_G2-2023-2/blob/main/Dise%C3%B1o/osciloscopio.jpg?raw=true" alt="Imagen 2" style="flex: 40%;">
+    <img width="460" height="300" img src="https://github.com/StephanySamaniego/ISB_G2-2023-2/blob/main/Dise%C3%B1o/osciloscopio.jpg?raw=true" alt="Imagen 1" style="flex: 40%;">
+    <img width="460" height="300" img src="https://github.com/StephanySamaniego/ISB_G2-2023-2/blob/main/Dise%C3%B1o/osciloscopio.jpg?raw=true" alt="Imagen 2" style="flex: 40%;">
 </div>
 
 <p align="center">
