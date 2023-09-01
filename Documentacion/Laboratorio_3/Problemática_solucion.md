@@ -85,10 +85,8 @@ Habiendo descrito la problemática en la que nuestros usuarios son los médicos,
 
 **Específicos** 
 
-- Realizar un estudio del estado del arte respecto a un dispositivo de monitorización continua de signos vitales no invasivo en el proceso perioperatorio. 
-- Definir las funciones que debe cumplir el sistema y sus elementos en conjunto, así como esquematizar el intercambio de información, materia y energía que ocurre entre cada una de estas funciones 
-- Realizar la selección de alternativas de solución para las funciones del sistema y diseñar tres conceptos de solución a partir de la combinación de dichas alternativas 
-- Seleccionar un diseño conceptual de solución óptimo a partir del análisis técnico-económico de los tres conceptos de solución anteriormente diseñados. 
+- Realizar un estudio del estado del arte respecto a un dispositivo de monitorización continua de signos vitales no invasivo en el proceso perioperatorio para niños de 1 a 2 años. 
+
 - Implementar un prototipo de baja resolución del diseño conceptual seleccionado.
 
 ## Referencias
