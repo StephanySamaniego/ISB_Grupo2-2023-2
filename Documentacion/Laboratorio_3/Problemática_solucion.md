@@ -91,35 +91,65 @@ Habiendo descrito la problemática en la que nuestros usuarios son los médicos,
 
 ## Referencias
 [1] M. de S. del Perú, “DIAGNOSTICOS DE EGRESO DE NIÑOS MENORES DE 5 AÑOS POR ESPECIALIDAD MEDICA - AÑO 2020”, Ministerio de Salud del Perú, sep. 2020.
+
 [2] O. de Epidemiología y U. de I. Epidemiologica, “Análisis Situacional de los Servicios de Salud INSN”, Instituto Nacional de Salud del Niño, 2015.
+
 [3] O. de Epidemiología y U. de I. Epidemiologica, “Análisis Situacional de los Servicios de Salud INSN”, Instituto Nacional de Salud del Niño, 2016.
+
 [4] O. de Epidemiología, U. de I. Epidemiologica, y A. S. de los S. de Salud, “Análisis Situacional de losServicios de Salud INSN”, Instituto Nacional de Salud del Niño, 2017.
+
 [5] O. de Epidemiología y U. de I. Epidemiologia, “Análisis Situacional de los Servicios de Salud INSN Tomo 1”, Instituto Nacional de Salud del Niño, 2019.
+
 [6] O. de Epidemiología y U. de I. Epidemiologica, “Análisis Situacional de los Servicios de Salud INSN Tomo 1”, Instituto Nacional de Salud del Niño, 2018.
+
 [7] L. Vutskits y A. Davidson, “Anestesia pediátrica”, en Miller. Anestesia, 9a ed., Barcelona: Elsevier, 2021, pp. 2420–2458. [En línea]. Disponible en: https://bibvirtual.upch.edu.pe:2051/#!/content/book/3-s2.0-B9788491137368000776
+
 [8] E. Motoyama y J. Finder, “Respiratory Physiology”, en Smith’s Anesthesia for Infants and Children,9a ed., Philadelphia: Elsevier, 2017, pp. 23-72.e15. [En línea]. Disponible en:https://bibvirtual.upch.edu.pe:2051/#!/content/book/3-s2.0-B9780323341257000036
+
 [9] J. Fiadjoe, R. Litman, J. Serber, P. Stricker, y C. Coté, “The Pediatric Airway”, en A Practice of Anesthesia for Infants and Children, 6a ed., Philadelphia: Elsevier, 2019, pp. 297-339.e21. [En línea]. Disponible en:https://bibvirtual.upch.edu.pe:2051/#!/content/book/3-s2.0-B9780323429740000148
+
 [10] Instituto Nacional de Salud del Niño, “Análisis situacional de los servicios de salud INSN año2018 (ASIS)”, 2018.
+
 [11] The Joint Commission, “Quick Safety 9: Preventing delays in treatment”. 2021. [En línea].Disponible en:https://www.jointcommission.org/resources/news-and-multimedia/newsletters/newsletters/quick-safe ty/quick-safety--issue-9-preventing-delays-in-treatment/preventing-delays-in-treatment/
+
 [12] J. A. Heneghan et al., “Outcome measures following critical illness in children with disabilities: A scoping review,” Frontiers in Pediatrics, vol. 9, 2021. doi:10.3389/fped.2021.689485 
+
 [13] A. T. Saxton et al., “Economic Analysis of children’s surgical care in low- and middle-income countries: A systematic review and analysis,” PLOS ONE, vol. 11, no. 10, 2016. doi:10.1371/journal.pone.0165480 
+
 [14]  E. Platt et al., “Economic impact of surgery on households and individuals in low income countries: A systematic review”, Int. J. Surg., vol. 90, p. 105956, jun. 2021, doi:10.1016/j.ijsu.2021.105956.
+
 [15]  The World Bank, “GDP per capita (current US$) - Peru, Uganda”. Consultado: sep. 21, 2021. [En línea]. Disponible en: https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=PE-UG
+
 [16]  Exchange Rates.org.uk, “US Dollar to Peruvian Nuevo Sol Spot Exchange Rates”. 2021.Consultado: sep. 21, 2021. [En línea]. Disponible en:https://www.exchangerates.org.uk/USD-PEN-spot-exchange-rates-history-2019.html
+
 [17]  H. U. Chung et al., “Skin-interfaced biosensors for advanced wireless physiological monitoring in neonatal and pediatric intensive-care units”, Nat. Med., vol. 26, núm. 3, mar. 2020, doi:10.1038/s41591-020-0792-9.
+
 [18]  Chapter 3: Prehospital Trauma Care. 2021. [En línea]. Disponible en:https://www.fdma.go.jp/singi_kento/kento/items/kento119_07_sankoubunken.pdf
+
 [19]  N. Seiger, M. van Veen, E. W. Steyerberg, M. Ruige, A. H. J. van Meurs, y H. A. Moll, “Undertriage in the Manchester triage system: an assessment of severity and options for improvement”, Arch. Dis. Child., vol. 96, núm. 7, 2011, doi: 10.1136/adc.2010.206797.
+
 [20]  J. van Andel, C. Ungureanu, R. Aarts, F. Leijten, y J. Arends, “Using photoplethysmography in heart rate monitoring of patients with epilepsy”, Epilepsy Behav., vol. 45, abr. 2015, doi:10.1016/j.yebeh.2015.02.018.
+
 [21]  J. Medina, “Conocimiento de las enfermeras sobre el efecto psicoemocional de la hospitalización en el niño menor de 5 años en el servicio de medicina, Instituto Nacional del Niño, Lima - Perú2015”, 2017. [En línea]. Disponible en: https://cybertesis.unmsm.edu.pe/handle/20.500.12672/7028
+
 [22]  A. Alfaro y R. Atria, “Factores ambientales y su incidencia en la experiencia emocional del niñoHospitalizado”, Rev. Pediatría Electrónica, vol. 6, núm. 1, pp. 36–54, 2009.
+
 [23]  COMEXPERU, “Informe de Calidad del Gasto Público en Salud 2019”, Lima, 2019. [En línea].Disponible en: https://www.comexperu.org.pe/upload/articles/reportes/informe-calidad-001.pdf
+
 [24]  Instituto Peruano de Economía, “Un gasto desarticulado en Salud”, 2020. https://www.ipe.org.pe/portal/un-gasto-desarticulado-en-salud/
+
 [25]  P. Booker, “Equipment and monitoring in paediatric anaesthesia”, Br. J. Anaesth., vol. 82, núm. 0, pp. 78–90, 1999.
+
 [26]  D. Seddon y M. McLeod, “Equipment and monitoring in paediatric anaesthesia”, Anaesth.Intensive Care Med., 2018, doi: 10.1016/j.mpaic.2018.05.00.
+
 [27]  K. E. O’Brien, M. L. Cannarozzi, D. M. Torre, A. J. Mechaber, y S. J. Durning, “Training and Assessment of ECG Interpretation Skills: Results From the 2005 CDIM Survey”, Teach. Learn. Med., vol. 21, núm. 2, 2009, doi: 10.1080/10401330902791255.
+
 [28]  E. y M. D. D. G. de Infraestructura, “INFRAESTRUCTURA Y EQUIPAMIENTO DE LOS ESTABLECIMIENTOS DE SALUD DEL SEGUNDO NIVEL DE ATENCIÓN”, Ministerio de Salud del Perú, 2014.
+
 [29]  “Falta de mantenimiento de equipos hospitalarios le cuesta 14 veces más al Estado | Noticias | Agencia Peruana de Noticias Andina”, 2014.
+
 [30]  D. Cobo y P. Daza, “Signos vitales en pediatria”, Gastrohnup, vol. 13, núm. 1, pp. A58–A58,2011.
+
 [31]  I. Valverde Molina, N. A. Mendoza Caballero, y I. C. Peralta Reyes, “Enfermería pediátrica”,2017.
 
 
