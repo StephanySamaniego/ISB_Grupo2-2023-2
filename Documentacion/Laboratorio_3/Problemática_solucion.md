@@ -73,7 +73,9 @@ Los signos vitales pueden ser evaluados en el examen físico y medirse a través
 “ Falta de dispositivos que midan continuamente y demanera no invasiva de signos vitales en niños de 1 a 2 años para reducir el riesgo perioperatorio “
 
 ## Propuesta de solución
-Descripción
+
+**Descripción**
+
 Habiendo descrito la problemática en la que nuestros usuarios son los médicos,el usuario será niños entre 1 y 2 años. Se busca realizar un dispositivo adaptado a las necesidades de un niño pequeño, el cual monitorea los signos vitales de manera constante y de forma no invasiva
 
 **Objetivo**
