@@ -70,7 +70,7 @@ La falta de mantenimiento adecuado de los equipos médicos hospitalarios luego d
 Los signos vitales pueden ser evaluados en el examen físico y medirse a través de dispositivos e instrumentos [30], estos dispositivos muestran cambios fisiológicos y patológicos. Sin embargo, en el caso pediátrico los valores considerados normales varían según la edad y sexo, debido a la fisionomía y anatomía de los niños [31] ; estas variaciones de no ser tomadas en consideración podrían ser fatales durante la cirugía o durante su estancia de hospitalización.
 
 ## Definición del problema
-“ Falta de dispositivos que midan continuamente y demanera no invasiva de signos vitales en niños de 1 a 2 años para reducir el riesgo perioperatorio “
+“ Una forma de medición continua y no invasiva de signos vitales en niños de 1 a 2 años para reducir el riesgo perioperatorio  “
 
 ## Propuesta de solución
 
