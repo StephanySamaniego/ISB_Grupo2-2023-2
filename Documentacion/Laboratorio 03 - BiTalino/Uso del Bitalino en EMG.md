@@ -11,7 +11,7 @@
 4. [Referencias](#ref)
 
 ## **Objetivos** <a name="obj"></a>
-
+---
 ● Adquirir señales biomédicas de EMG y ECG.
 
 ● Hacer una correcta configuración de BiTalino.
@@ -19,7 +19,7 @@
 ● Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution
 
 ## **Materiales y equipos** <a name="mat"></a>
-
+---
 <div align="center">
 
 | Modelo | Descripción | Cantidad |
@@ -33,7 +33,7 @@
 </div>
 
 ## **Resultados** <a name="resul"></a>
-
+---
 ### **Conexión usada** <a name="conex"></a>
 
 Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EMG de 3 electrodos.
@@ -108,7 +108,7 @@ Señal EMG Stephany
 |--------------------------|--------------------------|--------------------------|
 
 ## Referencias <a name="ref"></a>
-
+---
 
 [1] “BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official,” Pluxbiosignals.com, Apr. 2022. Available: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/. [Accessed: Sep. 09, 2023]
 
