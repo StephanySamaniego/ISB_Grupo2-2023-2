@@ -67,11 +67,16 @@ Para iniciar el experimento es necesario conectar el sensor a la placa y, a cont
 ### Video de la señal <a name="senal"></a>
 Para empezar a tomar la señal en reposo o silencio eléctrico es importante no tener objetos metálicos como aretes, anillos, cadenas, etc; ya que generan interferencias.
 
-https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/16f3f9ee-0a9f-429c-9950-d94414c28468
 
-https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7
+| (https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7) | !(https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/16f3f9ee-0a9f-429c-9950-d94414c28468) |
+|--------------------------|--------------------------|
+|(https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6) | (https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/2f495126-186e-4d6d-9352-d40d366348fd) |
 
-https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6
 
-https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/2f495126-186e-4d6d-9352-d40d366348fd
+### Comentarios sobre las señales obtenidas
+
+El estado de reposo varía según la presencia de actividades espontáneas propias de la fisiología de cada participante, de interferencia o ruidos propios del ambiente de trabajo y posibles errores en la medición, ya sea por desgaste del gel de los electrodos o por la falta de adherencia en la piel. [2]
+Por otro lado, la contracción voluntaria máxima que se produce al realizar la flexión del brazo para vencer una fuerza de agarre, esta se verá afectada por las interferencias, pero a su vez por el estímulo del participantes, pues la diferencia de potencial puede variar según el esfuerzo y anatomía del participante. [3]
+
+
 
