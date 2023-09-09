@@ -8,7 +8,7 @@
      3.3 [Ploteo de la señal en OpenSignal](#plot)\
      3.4 [Archivos](#arch)\
      3.5 [Ploteo de la señal en Python](#plote)
-
+4. [Referencias](#ref)
 
 ## Objetivos <a name="obj"></a>
 
@@ -104,3 +104,13 @@ Stephany
 
 | ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Se%C3%B1al_Stephany.JPG?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/FFT_Stephany.JPG?raw=true) | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Segmentos_Stephany.JPG?raw=true)|
 |--------------------------|--------------------------|--------------------------|
+
+## Referencias <a name="ref"></a>
+
+
+[1] “BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official,” Pluxbiosignals.com, Apr. 2022. Available: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/. [Accessed: Sep. 09, 2023]
+
+[2] L. Gila, A. Malanda, I. Rodríguez Carreño, J. Rodríguez Falces, and J. Navallas, “Métodos de procesamiento y análisis de señales electromiográficas,” An Sist Sanit Navar, vol. 32, pp. 27–43, 2009, Accessed: Sep. 08, 2023. [Online]. Available: https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1137-66272009000600003&lng=es&nrm=iso&tlng=es 
+
+[3] J. Antonio Domínguez Jiménez and S. H. Contreras Ortiz, “Análisis de las señales EMG de superficie del bíceps durante la ejecución de ejercicios con pesas,” 2015.
+‌
