@@ -21,6 +21,7 @@
 ## **Materiales y equipos** <a name="mat"></a>
 
 <div align="center">
+
 | Modelo | Descripción | Cantidad |
 |:-------------:|:-------------:|:-------------:|
 | (R)evolution | Kit Bitalino | 1 |
@@ -28,6 +29,7 @@
 | - | Cable EMG de 3 derivaciones | 1 |
 | - | Electrodos | 3 |
 | - | Software OpenSignals | 1 |
+
 </div>
 
 ## **Resultados** <a name="resul"></a>
