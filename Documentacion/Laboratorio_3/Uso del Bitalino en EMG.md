@@ -63,48 +63,17 @@ Para iniciar el experimento es necesario conectar el sensor a la placa y, a cont
 |--------------------------|--------------------------|
 | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Sara.jpg?raw=true) | ![Imagen 4](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Steph.jpg?raw=true) |
 
-### Video de la señal <a name="senal"></a>
+### Ploteo de la señal en OpenSignal <a name="plot"></a>
 Para empezar a tomar la señal en reposo o silencio eléctrico es importante no tener objetos metálicos como aretes, anillos, cadenas, etc; ya que generan interferencias.
 
 
-<video src=" https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7">
+|<video src=" https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7">|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7">|
+|--------------------------|--------------------------|
+|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6 ">|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/16f3f9ee-0a9f-429c-9950-d94414c28468">|
 
-<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/16f3f9ee-0a9f-429c-9950-d94414c28468">
-
-<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6 ">
-
-<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/2f495126-186e-4d6d-9352-d40d366348fd">
-
-<table>
-  <tr>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7" type="video/mp4">
-        Tu navegador no admite la reproducción de videos.
-      </video>
-    </td>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/16f3f9ee-0a9f-429c-9950-d94414c28468" type="video/mp4">
-        Tu navegador no admite la reproducción de videos.
-      </video>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6" type="video/mp4">
-        Tu navegador no admite la reproducción de videos.
-      </video>
-    </td>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/2f495126-186e-4d6d-9352-d40d366348fd" type="video/mp4">
-        Tu navegador no admite la reproducción de videos.
-      </video>
-    </td>
-  </tr>
-</table>
+|<video src=" https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/f83ecbe1-9d87-483c-9fca-0acb900327c7">|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6">|
+|--------------------------|--------------------------|
+|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/ab7bdc4d-9740-4748-a667-f6e4897306f6 ">|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/2f495126-186e-4d6d-9352-d40d366348fd">|
 
 
 
@@ -117,7 +86,7 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 
 - [Documentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/Documentos)
 
-- **Ploteo de señales de cada integrante**
+### Ploteo de la señal en Python <a name="plote"></a>
 
 Carlos
 | ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Carlos.jpg?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Marcelo.jpg?raw=true) |
