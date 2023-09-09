@@ -89,17 +89,18 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 ### Ploteo de la señal en Python <a name="plote"></a>
 
 Carlos
-| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Carlos.jpg?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Marcelo.jpg?raw=true) |
-|--------------------------|--------------------------|
+| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Se%C3%B1al_Carlos.JPG?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/FFT_Carlos.JPG?raw=true) | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Segmentos_Carlos.JPG?raw=true)|
+|--------------------------|--------------------------|--------------------------|
 
 Marcelo
-| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Carlos.jpg?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Marcelo.jpg?raw=true) |
-|--------------------------|--------------------------|
+| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Se%C3%B1al_Marcelo.JPG?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/FFT_Marcelo.JPG?raw=true) | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Segmentos_Marcelo.JPG?raw=true)|
+|--------------------------|--------------------------|--------------------------|
 
 Sara
-| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Carlos.jpg?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Marcelo.jpg?raw=true) |
-|--------------------------|--------------------------|
+| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Se%C3%B1al_Sara.JPG?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/FFT_Sara.JPG?raw=true) | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Segmentos_Sara.JPG?raw=true)|
+|--------------------------|--------------------------|--------------------------|
 
 Stephany
-| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Carlos.jpg?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Marcelo.jpg?raw=true) |
-|--------------------------|--------------------------|
+
+| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Se%C3%B1al_Stephany.JPG?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/FFT_Stephany.JPG?raw=true) | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Segmentos_Stephany.JPG?raw=true)|
+|--------------------------|--------------------------|--------------------------|
