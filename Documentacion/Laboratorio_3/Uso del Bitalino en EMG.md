@@ -10,7 +10,7 @@
      3.5 [Ploteo de la señal en Python](#plote)
 4. [Referencias](#ref)
 
-## Objetivos <a name="obj"></a>
+## **Objetivos** <a name="obj"></a>
 
 ● Adquirir señales biomédicas de EMG y ECG.
 
@@ -18,7 +18,7 @@
 
 ● Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution
 
-## Materiales y equipos <a name="mat"></a>
+## **Materiales y equipos** <a name="mat"></a>
 
 <div align="center">
 | Modelo | Descripción | Cantidad |
@@ -30,9 +30,9 @@
 | - | Software OpenSignals | 1 |
 </div>
 
-## Resultados <a name="resul"></a>
+## **Resultados** <a name="resul"></a>
 
-### Conexión usada <a name="conex"></a>
+### **Conexión usada** <a name="conex"></a>
 
 Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EMG de 3 electrodos.
 
@@ -81,12 +81,12 @@ Para empezar a tomar la señal en reposo o silencio eléctrico es importante no 
 El estado de reposo varía según la presencia de actividades espontáneas propias de la fisiología de cada participante, de interferencia o ruidos propios del ambiente de trabajo y posibles errores en la medición, ya sea por desgaste del gel de los electrodos o por la falta de adherencia en la piel. [2]
 Por otro lado, la contracción voluntaria máxima que se produce al realizar la flexión del brazo para vencer una fuerza de agarre, esta se verá afectada por las interferencias, pero a su vez por el estímulo del participantes, pues la diferencia de potencial puede variar según el esfuerzo y anatomía del participante. [3]
 
-### Archivos <a name="arch"></a>
+### **Archivos** <a name="arch"></a>
 
 - [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/Documentos)
-- [Código para plotear señales en Python] ()
+- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/C%C3%B3digo)
 
-### Ploteo de la señal en Python <a name="plote"></a>
+### **Ploteo de la señal en Python** <a name="plote"></a>
 
 Señal EMG Carlos
 | ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Se%C3%B1al_Carlos.JPG?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/FFT_Carlos.JPG?raw=true) | ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_03/Segmentos_Carlos.JPG?raw=true)|
