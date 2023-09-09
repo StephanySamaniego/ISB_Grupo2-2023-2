@@ -87,7 +87,7 @@ Habiendo descrito la problemática en la que nuestros usuarios son los médicos,
 
 - Realizar un estudio del estado del arte respecto a un dispositivo de monitorización continua de signos vitales no invasivo en el proceso perioperatorio para niños de 1 a 2 años. 
 
-- Implementar un prototipo de baja resolución del diseño conceptual seleccionado.
+- Implementar un prototipo de baja resolución del diseño conceptual seleccionado
 
 ## Referencias
 [1] M. de S. del Perú, “DIAGNOSTICOS DE EGRESO DE NIÑOS MENORES DE 5 AÑOS POR ESPECIALIDAD MEDICA - AÑO 2020”, Ministerio de Salud del Perú, sep. 2020.
