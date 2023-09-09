@@ -20,7 +20,7 @@
 
 ## Materiales y equipos <a name="mat"></a>
 
-
+<div align="center">
 | Modelo | Descripción | Cantidad |
 |:-------------:|:-------------:|:-------------:|
 | (R)evolution | Kit Bitalino | 1 |
@@ -28,8 +28,7 @@
 | - | Cable EMG de 3 derivaciones | 1 |
 | - | Electrodos | 3 |
 | - | Software OpenSignals | 1 |
-
-
+</div>
 
 ## Resultados <a name="resul"></a>
 
@@ -84,7 +83,8 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 
 ### Archivos <a name="arch"></a>
 
-- [Documentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/Documentos)
+- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/Documentos)
+- [Código para plotear señales en Python] ()
 
 ### Ploteo de la señal en Python <a name="plote"></a>
 
