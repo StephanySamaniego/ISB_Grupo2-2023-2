@@ -45,7 +45,7 @@ Se procedió a tomar señales de cada miembro del equipo siguiendo el protocolo 
 <p align="justify">
 Para iniciar el experimento es necesario conectar el sensor a la placa y, a continuación, identificar el canal al que está conectado el sensor y asegurarse de que está seleccionado para la adquisición en el software, en la parte posterior del núcleo ensamblado BITalino (r)evolution Assembled Core encontrará la caja etiquetada como AX (X=1, ..., 6) donde X corresponde al número de canal. A continuación se puede realizar el siguiente procedimiento.
 
-**Explicación del protocolo seguido**
+**EXPLICACIÓN DEL PROTOCOLO SEGUIDO**
 
 1. Conectar su BITalino (r)evolution Core BT
 2. Prueba de la configuración
@@ -56,5 +56,9 @@ Para iniciar el experimento es necesario conectar el sensor a la placa y, a cont
 7. Repetir un ciclo de Contracción-Liberación-Descanso cinco veces, manteniendo la contracción dos segundos y descansando dos segundos, intenta comenzar con una contracción de baja intensidad y aumente gradualmente el nivel en cada repetición, de tal forma que la última corresponda a tu máxima capacidad de contracción voluntaria.
 8. Detener  la grabación y guardar los datos [1].
 
-**Conexiones en cada integrante**
+**CONEXIONES**
+
+| ![Imagen 1](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Carlos.jpg?raw=true) | ![Imagen 2](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Marcelo.jpg?raw=true) |
+|--------------------------|--------------------------|
+| ![Imagen 3](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Sara.jpg?raw=true) | ![Imagen 4](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Conexion_Steph.jpg?raw=true) |
 
