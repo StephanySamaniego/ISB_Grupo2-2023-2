@@ -18,12 +18,16 @@
 Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel mundial y se calcula que cobran 17,9 millones de vidas cada año. Las ECV son un grupo de trastornos del corazón y los vasos sanguíneos e incluyen enfermedades coronarias, enfermedades cerebrovasculares, enfermedades cardíacas reumáticas y otras afecciones. Más de cuatro de cada cinco muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. Las enfermedades cardiovasculares afectan en mucha mayor medida a los países de ingresos bajos y medianos: más del 80% de las defunciones por esta causa se producen en esos países. [1] Según MINSA, en el Perú, mueren más de 4 mil personas al año por infarto al miocardio y el principal factor de riesgo se encuentra en individuos mayores de 30, especialmente en hipertensos. Lima como región presenta más decesos por infarto, con más de dos mil casos por año. (3) Esencialmente el ECG se indica para confirmar o descartar la sospecha de una enfermedad cardíaca. sea esta una cardiopatía coronaría o principalmente arritmias. En algunos casos el ECG, es el primer indicador de enfermedades cardíacas cuando dentro de los exámenes de rutina, preventiva, inicio de actividad física programada u otro, se pesquisa de anomalía. (4)
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/caa51a04-b9cb-4601-8867-50f76c7e409d"  width="200" height="200"> </p>
+  <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
 
 ## **Marco teórico** <a name="obj"></a>
 ---
 **Señal ECG**
 <p align="justify"> La señal del electrocardiograma (ECG) refleja la actividad eléctrica del corazón observada desde los puntos estratégicos del cuerpo humano. Estas señales se caracterizan por cinco puntos destacados llamados puntos fiduciales: P, Q, R, S y T . El complejo QRS representa la despolarización de los ventrículos cardíacos derecho e izquierdo y se utiliza como referencia clave para el análisis de las señales. La onda P se origina en la despolarización de las aurículas, mientras que los ventrículos causan el resto de los picos. El diagnóstico de la señal se basa en la forma de estas ondas, así como en la duración de cada pico y los segmentos que los componen. En consecuencia, la identificación precisa de cada parte de la señal del ECG es fundamental para los profesionales de la salud en la detección, diagnóstico y seguimiento de diversas enfermedades cardíacas (4). </p>
+
+<p align="center">
+  <img src="https://fisiologia.facmed.unam.mx/wp-content/uploads/2021/11/UTII-2B-img-Elementos-del-electro.jpg"  width="300" height="200"> </p>
+<em><p align="center">Interpretación del ECG </p></em> 
 
 **Derivaciones**
 
@@ -31,6 +35,9 @@ Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel
 
 <p align="justify"> En la derivación I, el electrodo positivo se coloca en el brazo izquierdo y se encuentra opuesto al electrodo negativo en el brazo derecho en términos de la dirección del flujo de energía eléctrica. El vector promedio se desplaza desde la parte superior derecha hacia la parte inferior izquierda, lo que resulta en un flujo de energía hacia el electrodo positivo de la derivación I, generando así un complejo QRS con una forma ascendente. Sin embargo, debido a que el vector promedio no se dirige directamente hacia la derivación I, sino que se acerca a ella con un cierto ángulo, la altura del complejo QRS es moderada (5). </p>
 
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/derivaciones.png?raw=true"  width="350" height="200"> </p>
+  <em><p align="center">Derivaciones de Einthoven y los ángulos </p></em> 
 
 ## **Objetivos** <a name="obj"></a>
 ---
