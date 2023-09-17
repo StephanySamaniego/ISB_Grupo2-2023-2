@@ -14,8 +14,9 @@
 6. [Referencias](#ref)
 
 ## **Contexto** <a name="context"></a>
+---
 
-Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel mundial y se calcula que cobran 17,9 millones de vidas cada año. Las ECV son un grupo de trastornos del corazón y los vasos sanguíneos e incluyen enfermedades coronarias, enfermedades cerebrovasculares, enfermedades cardíacas reumáticas y otras afecciones. Más de cuatro de cada cinco muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. Las enfermedades cardiovasculares afectan en mucha mayor medida a los países de ingresos bajos y medianos: más del 80% de las defunciones por esta causa se producen en esos países. [1] Según MINSA, en el Perú, mueren más de 4 mil personas al año por infarto al miocardio y el principal factor de riesgo se encuentra en individuos mayores de 30, especialmente en hipertensos. Lima como región presenta más decesos por infarto, con más de dos mil casos por año. (3) Esencialmente el ECG se indica para confirmar o descartar la sospecha de una enfermedad cardíaca. sea esta una cardiopatía coronaría o principalmente arritmias. En algunos casos el ECG, es el primer indicador de enfermedades cardíacas cuando dentro de los exámenes de rutina, preventiva, inicio de actividad física programada u otro, se pesquisa de anomalía. (4)
+<p align="justify">Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel mundial y se calcula que cobran 17,9 millones de vidas cada año. Las ECV son un grupo de trastornos del corazón y los vasos sanguíneos e incluyen enfermedades coronarias, enfermedades cerebrovasculares, enfermedades cardíacas reumáticas y otras afecciones. Más de cuatro de cada cinco muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. Las enfermedades cardiovasculares afectan en mucha mayor medida a los países de ingresos bajos y medianos: más del 80% de las defunciones por esta causa se producen en esos países. [1] Según MINSA, en el Perú, mueren más de 4 mil personas al año por infarto al miocardio y el principal factor de riesgo se encuentra en individuos mayores de 30, especialmente en hipertensos. Lima como región presenta más decesos por infarto, con más de dos mil casos por año. (3) Esencialmente el ECG se indica para confirmar o descartar la sospecha de una enfermedad cardíaca. sea esta una cardiopatía coronaría o principalmente arritmias. En algunos casos el ECG, es el primer indicador de enfermedades cardíacas cuando dentro de los exámenes de rutina, preventiva, inicio de actividad física programada u otro, se pesquisa de anomalía. (4) </p>
 
 <p align="center">
   <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
@@ -132,3 +133,16 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 | Fase 5 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" width="50%" height="50%"> | 
 | Fase 6 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro6.png?raw=true" width="50%" height="50%"> | 
 | Fase 7 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro7.png?raw=true" width="50%" height="50%"> | 
+
+## **Referencias** <a name="context"></a>
+---
+<p align="justify">
+[1] World, “Cardiovascular diseases,” Who.int, Jun. 11, 2019. Available: https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1. [Accessed: Sep. 14, 2023]
+‌<p align="justify">
+[2] “Al año más de 4 mil personas mueren por infarto en el Perú,” Www.gob.pe, 2023. Available: https://www.gob.pe/institucion/minsa/noticias/34838-al-ano-mas-de-4-mil-personas-mueren-por-infarto-en-el-peru. [Accessed: Sep. 14, 2023]
+<p align="justify">
+[3] J. Carlos and R. Beatriz, “Nivel de conocimiento y práctica en la toma del electrocardiograma que realizan los profesionales de enfermería de una Clínica Privada de Miraflores, 2017,” Concytec.gob.pe, 2017. Available: https://alicia.concytec.gob.pe/vufind/Record/UEPU_369add237b65a478cd45d4664220d7d0/Details. [Accessed: Sep. 14, 2023]
+<p align="justify">
+‌	[4] J. Aspuru et al., “Segmentation of the ECG signal by means of a linear regression algorithm,” Sensors, vol. 19, no. 4, p. 775, 2019. doi:10.3390/s19040775 
+<p align="justify">
+[5] G. Goldich, “El Electrocardiograma de 12 Derivaciones: Parte I: Reconocimiento de los hallazgos normales,” Nursing (Ed. española), vol. 32, no. 2, pp. 28–34, 2015. doi:10.1016/j.nursi.2015.03.010 
