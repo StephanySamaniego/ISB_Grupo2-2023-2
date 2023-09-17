@@ -61,14 +61,11 @@ Se procedió a tomar señales de dos miembros del equipo siguiendo el protocolo 
 
 ### **Explicación del protocolo seguido**
 
-| **Pasos** | **Imagen** |
-|:-------------:|:-------------:|
-| <p align="justify"> 1. Conectar el BITalino (r)evolution Core BT </p> <p align="justify">2. Prueba de la configuración </p> | <div align="center"> <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%"> | 
-|<p align="justify">3. Conectar el Sensor de ECG ensamblado a uno de los canales analógicos disponibles. </p> <p align="justify">4. Colocar los Electrodos con Gel en los broches de los tres sensores de ECG. </p>  <p align="justify">5. Colocar los electrodos en ambas muñecas y el maléolo lateral. </p> | <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%">  |
-|<p align="justify"> 3. Colocar los dos electrodos (positivo y negativo) en el músculo bíceps braquial izquierdo separados aproximadamente 2cm | |
-|<p align="justify"> 4. Colocar el tercer electrodo, el de referencia, en una zona de baja actividad muscular, en este caso, en el codo.| |
-|<p align="justify"> 5. Empezar a registrar una línea de base de señal con poco ruido y sin activación muscular durante 30 segundos. | |
-|<p align="justify"> 6. Comenzar a registrar los datos en OpenSignals (r)evolution | |
-|<p align="justify"> 7. Repetir un ciclo de Contracción-Liberación-Descanso cinco veces, manteniendo la contracción dos segundos y descansando dos segundos, intenta comenzar con una contracción de baja intensidad y aumente gradualmente el nivel en cada repetición, de tal forma que la última corresponda a tu máxima capacidad de contracción voluntaria. | |
-|<p align="justify"> 8. Detener  la grabación y guardar los datos [1].| |
-
+| **Pasos** | **Imagen** | **Referencial** |
+|:-------------:|:-------------:|:-------------:|
+| <p align="justify"> 1. Conectar el BITalino (r)evolution Core BT </p> <p align="justify">2. Prueba de la configuración </p> | <div align="center"> <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%"> | <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%">| 
+|<p align="justify">3. Conectar el Sensor de ECG ensamblado a uno de los canales analógicos disponibles. </p> <p align="justify">4. Colocar los Electrodos con Gel en los broches de los tres sensores de ECG. </p>  <p align="justify">5. Colocar los electrodos en ambas muñecas y el maléolo lateral. </p> | <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%">  | 
+|<p align="justify"> 6. Iniciar la grabación de datos en OpenSignals (r)evolution. <p align="justify"> 7. Grabar una línea de base de señal con bajo ruido y sin movimientos durante 30 segundos.| |
+|<p align="justify"> 8. Retirar los electrodos y realizar actividad física (correr) en la caminadora durante un período de cinco minutos. Se aplica un esfuerzo sostenido que involucra la contracción rítmica de los músculos de las piernas y requiere una adecuada capacidad aeróbica para mantener la actividad a lo largo de la duración especificada.
+| |
+|<p align="justify"> 9. Subir las escaleras trotando durante dos minutos y colocarse los electrodos en las posiciones antes mencionadas. <p align="justify"> 10. Grabar la señal después del ejercicio. <p align="justify"> 11. Detener la grabación y guardar los datos | |
