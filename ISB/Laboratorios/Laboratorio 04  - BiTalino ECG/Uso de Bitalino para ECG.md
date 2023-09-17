@@ -53,7 +53,7 @@ Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel
 
 Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EMG de 3 electrodos.
 
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Posicion%20_electrodos.jpg?raw=true" width="400" height="266"></p>
+<p align="center"><img src="" width="400" height="266"></p>
 </p>
 
 <p align="justify">
