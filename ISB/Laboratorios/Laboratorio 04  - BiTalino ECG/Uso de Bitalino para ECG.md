@@ -6,7 +6,7 @@
 4. [Materiales y equipos](#mat)
 5. [Resultados](#resul)\
      5.1 [Fotos de la conexión usada](#conex)\
-     5.2 [Video de la señal](#senal)\
+     5.2 [Explicación del protocolo seguido](#senal)\
      5.3 [Ploteo de la señal en OpenSignal](#plot)\
      5.4 [Archivos](#arch)\
      5.5 [Ploteo de la señal en Python](#plote)
@@ -51,7 +51,7 @@ Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel
 ---
 ### **Conexión usada** <a name="conex"></a>
 
-Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EMG de 3 electrodos.
+Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Se procedió a tomar señales de dos integrantes del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals. El electrodo positivo (rojo) se coloca en la clavícula izquierda (LA), mientras que el electrodo negativo (negro) se coloca en la clavícula derecha (RA). El electrodo de referencia (REF) en color blanco se coloca en la cresta ilíaca.
 
 <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/imagen.png?raw=true" width="400" height="266"></p>
 </p>
@@ -59,7 +59,7 @@ Para obtener las señales se usó la conexión en la placa BiTalino con un senso
 <p align="justify">
 Se procedió a tomar señales de dos miembros del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals.
 
-### **Explicación del protocolo seguido**
+### **Explicación del protocolo seguido** <a name="senal"></a>
 
 | **Pasos** | **Imagen** | **Imagen** |
 |:-------------:|:-------------:|:-------------:|
@@ -69,5 +69,24 @@ Se procedió a tomar señales de dos miembros del equipo siguiendo el protocolo 
 |<p align="justify"> 8. Retirar los electrodos y realizar actividad física (correr) en la caminadora durante un período de cinco minutos. Se aplica un esfuerzo sostenido que involucra la contracción rítmica de los músculos de las piernas y requiere una adecuada capacidad aeróbica para mantener la actividad a lo largo de la duración especificada.|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/efaca9ab-db45-4a67-80a3-b966748e00dc" width="50%" height="50%"></video> | |
 |<p align="justify"> 9. Subir las escaleras trotando durante dos minutos y colocarse los electrodos en las posiciones antes mencionadas. <p align="justify"> 10. Grabar la señal después del ejercicio. <p align="justify"> 11. Detener la grabación y guardar los datos | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/193f9b68-3f72-411b-b94d-aa701767bca1" width="50%" height="50%"></video> Sujeto masculino | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/193f9b68-3f72-411b-b94d-aa701767bca1" width="50%" height="50%"></video> Sujeto femenino| 
 
+### Ploteo de la señal en OpenSignal <a name="plot"></a>
+Para empezar a tomar la señal en reposo o silencio eléctrico es importante no tener objetos metálicos como aretes, anillos, cadenas, etc; ya que generan interferencias.
 
+<div align="center">
 
+| **Etapa** | **Sujeto masculino** | **Sujeto femenino** |
+|:-------------:|:-------------:|:-------------:|
+| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_stephany.jpg?raw=true" width="50%" height="50%"> |
+| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agirtado_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agitado_stephany.jpg?raw=true" width="50%" height="50%"> |
+
+</div>
+
+### Comentarios sobre las señales obtenidas
+
+El estado de reposo varía según la presencia de actividades espontáneas propias de la fisiología de cada participante, de interferencia o ruidos propios del ambiente de trabajo y posibles errores en la medición, ya sea por desgaste del gel de los electrodos o por la falta de adherencia en la piel. [2]
+Por otro lado, la contracción voluntaria máxima que se produce al realizar la flexión del brazo para vencer una fuerza de agarre, esta se verá afectada por las interferencias, pero a su vez por el estímulo del participantes, pues la diferencia de potencial puede variar según el esfuerzo y anatomía del participante. [3]
+
+### **Archivos** <a name="arch"></a>
+
+- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/Documentos)
+- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/C%C3%B3digo)
