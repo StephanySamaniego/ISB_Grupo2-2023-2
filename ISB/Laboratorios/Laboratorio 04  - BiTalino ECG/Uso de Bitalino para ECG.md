@@ -9,7 +9,8 @@
      5.2 [Explicación del protocolo seguido](#senal)\
      5.3 [Ploteo de la señal en OpenSignal](#plot)\
      5.4 [Archivos](#arch)\
-     5.5 [Ploteo de la señal en Python](#plote)
+     5.5 [Ploteo de la señal en Python](#plote)\
+     5.3 [Señal en Prosim4](#prosim)
 6. [Referencias](#ref)
 
 ## **Contexto** <a name="context"></a>
@@ -81,12 +82,22 @@ Para empezar a tomar la señal en reposo o silencio eléctrico es importante no 
 
 </div>
 
-### Comentarios sobre las señales obtenidas
-
+### Discusión
 El estado de reposo varía según la presencia de actividades espontáneas propias de la fisiología de cada participante, de interferencia o ruidos propios del ambiente de trabajo y posibles errores en la medición, ya sea por desgaste del gel de los electrodos o por la falta de adherencia en la piel. [2]
 Por otro lado, la contracción voluntaria máxima que se produce al realizar la flexión del brazo para vencer una fuerza de agarre, esta se verá afectada por las interferencias, pero a su vez por el estímulo del participantes, pues la diferencia de potencial puede variar según el esfuerzo y anatomía del participante. [3]
 
 ### **Archivos** <a name="arch"></a>
 
-- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/Documentos)
-- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/Documentacion/Laboratorio%2003%20-%20BiTalino/C%C3%B3digo)
+- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2004%20%20-%20BiTalino%20ECG/Documentaci%C3%B3n/Archivos_txt)
+- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2004%20%20-%20BiTalino%20ECG/Documentaci%C3%B3n/C%C3%B3digos)
+
+### **Ploteo de la señal en Python** <a name="plote"></a>
+
+<div align="center">
+
+| **Etapa** | **Sujeto masculino** | **Sujeto femenino** |
+|:-------------:|:-------------:|:-------------:|
+| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_stephany.jpg?raw=true" width="50%" height="50%"> |
+| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agirtado_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agitado_stephany.jpg?raw=true" width="50%" height="50%"> |
+
+</div>
