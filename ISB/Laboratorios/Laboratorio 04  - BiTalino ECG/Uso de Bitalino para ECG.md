@@ -42,7 +42,7 @@
 
 ## **Objetivos** <a name="obj"></a>
 ---
-● Adquirir señales biomédicas de EMG y ECG.
+● Adquirir señales biomédicas de ECG.
 
 ● Hacer una correcta configuración de BiTalino.
 
@@ -69,7 +69,7 @@
 ---
 ### **Conexión usada** <a name="conex"></a>
 
-Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Se procedió a tomar señales de dos integrantes del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals. El electrodo positivo (rojo) se coloca en la clavícula izquierda (LA), mientras que el electrodo negativo (negro) se coloca en la clavícula derecha (RA). El electrodo de referencia (REF) en color blanco se coloca en la cresta ilíaca.
+Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Se procedió a tomar señales de dos integrantes del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals. El electrodo positivo (rojo) se coloca en la muñeca izquierda (LA), mientras que el electrodo negativo (negro) se coloca en la muñeca derecha (RA). El electrodo de referencia (REF) en color blanco se coloca en el maléolo lateral.
 
 <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/imagen.png?raw=true" width="400" height="266"></p>
 </p>
