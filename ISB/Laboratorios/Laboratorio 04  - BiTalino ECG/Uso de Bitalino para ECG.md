@@ -22,6 +22,14 @@ Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel
 
 ## **Marco teórico** <a name="obj"></a>
 ---
+**Señal ECG**
+<p align="justify"> La señal del electrocardiograma (ECG) refleja la actividad eléctrica del corazón observada desde los puntos estratégicos del cuerpo humano. Estas señales se caracterizan por cinco puntos destacados llamados puntos fiduciales: P, Q, R, S y T . El complejo QRS representa la despolarización de los ventrículos cardíacos derecho e izquierdo y se utiliza como referencia clave para el análisis de las señales. La onda P se origina en la despolarización de las aurículas, mientras que los ventrículos causan el resto de los picos. El diagnóstico de la señal se basa en la forma de estas ondas, así como en la duración de cada pico y los segmentos que los componen. En consecuencia, la identificación precisa de cada parte de la señal del ECG es fundamental para los profesionales de la salud en la detección, diagnóstico y seguimiento de diversas enfermedades cardíacas (4). </p>
+
+**Derivaciones**
+
+<p align="justify"> Las primeras seis derivaciones del electrocardiograma (ECG) de 12 derivaciones se originan de cuatro electrodos ubicados en los brazos y las piernas del paciente, siendo el electrodo de la pierna derecha el de referencia. Debido a que utilizan electrodos positivos y negativos separados, se las conoce como derivaciones bipolares o estándar.
+
+<p align="justify"> En la derivación I, el electrodo positivo se coloca en el brazo izquierdo y se encuentra opuesto al electrodo negativo en el brazo derecho en términos de la dirección del flujo de energía eléctrica. El vector promedio se desplaza desde la parte superior derecha hacia la parte inferior izquierda, lo que resulta en un flujo de energía hacia el electrodo positivo de la derivación I, generando así un complejo QRS con una forma ascendente. Sin embargo, debido a que el vector promedio no se dirige directamente hacia la derivación I, sino que se acerca a ella con un cierto ángulo, la altura del complejo QRS es moderada (5). </p>
 
 
 ## **Objetivos** <a name="obj"></a>
@@ -45,6 +53,7 @@ Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel
 | - |<p align="justify"> **Software OpenSignals:** Software e diseñado para la adquisición, procesamiento y análisis de datos biomédicos, incluyendo señales fisiológicas y de movimiento.</p>  | <div align="center"> <img src="https://cdn.shopify.com/s/files/1/0595/1068/5887/t/6/assets/ezgif5b55a161ca2-1-1-1649945010655.png?v=1649945012" width="50%" height="50%">  |
 | - | <p align="justify">**Laptop o PC:** Descargar el software en una Laptop para procesar las señales.</p> | <div align="center"> <img src="https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5" width="50%" height="50%">  |
 | HP Multifuncional | <p align="justify">**Caminadora eléctrica:** Se requiere para inducir el ejercicio físico en los participantes y medir su actividad cardíaca después del ejercicio.</p> | <div align="center"> <img src="https://promart.vteximg.com.br/arquivos/ids/5722154-1000-1000/image-460be51623694433a913cef6360e24c2.jpg?v=637872973108530000" width="50%" height="50%">  |
+| Fluke | <p align="justify">**Prosim4:** Diseñado para comprobar y verificar el funcionamiento básico de sistemas utilizados para vigilar varios parámetros fisiológicos de un paciente, entre los que se encuentran el ECG, la respiración, la presión arterial invasiva y la presión arterial no invasiva. </p> | <div align="center"> <img src="https://www.flukebiomedical.com/sites/default/files/styles/slideshow_image/public/prosim4front_0.png" width="50%" height="50%">  |
 
 </div>
 
@@ -100,3 +109,19 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 | Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculino.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemenino.png?raw=true" width="50%" height="50%"> |
 | Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculinoAgitado.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemeninoAgitado.png?raw=true" width="50%" height="50%"> |
 </div>
+
+### **Señal en Prosim4** <a name="prosim"></a>
+
+### Paro cardiaco
+
+<div align="center">
+
+| **Etapa** | **Señal** |
+|:-------------:|:-------------:|
+| Fase 1 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro1.png?raw=true" width="50%" height="50%"> | 
+| Fase 2 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro2.png?raw=true" width="50%" height="50%"> | 
+| Fase 3 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro3.png?raw=true" width="50%" height="50%"> | 
+| Fase 4 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro4.png?raw=true" width="50%" height="50%"> | 
+| Fase 5 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" width="50%" height="50%"> | 
+| Fase 6 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro6.png?raw=true" width="50%" height="50%"> | 
+| Fase 7 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro7.png?raw=true" width="50%" height="50%"> | 
