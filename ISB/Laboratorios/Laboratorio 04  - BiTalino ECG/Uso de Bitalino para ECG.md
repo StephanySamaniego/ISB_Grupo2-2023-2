@@ -97,7 +97,6 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 
 | **Etapa** | **Sujeto masculino** | **Sujeto femenino** |
 |:-------------:|:-------------:|:-------------:|
-| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_stephany.jpg?raw=true" width="50%" height="50%"> |
-| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agirtado_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agitado_stephany.jpg?raw=true" width="50%" height="50%"> |
-
+| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculino.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemenino.png?raw=true" width="50%" height="50%"> |
+| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculinoAgitado.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemeninoAgitado.png?raw=true" width="50%" height="50%"> |
 </div>
