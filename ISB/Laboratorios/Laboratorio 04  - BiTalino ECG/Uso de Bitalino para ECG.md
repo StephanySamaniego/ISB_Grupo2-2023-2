@@ -133,6 +133,7 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 | Fase 5 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" width="50%" height="50%"> | 
 | Fase 6 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro6.png?raw=true" width="50%" height="50%"> | 
 | Fase 7 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro7.png?raw=true" width="50%" height="50%"> | 
+</div>
 
 ## **Referencias** <a name="context"></a>
 ---
