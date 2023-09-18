@@ -142,12 +142,12 @@ Se les realizó una pequeña entrevista a los sujetos involucrados para poder re
 
 | **Preguntas**| **Sujeto Femenino** | **Sujeto Masculino** | 
 |:-------------:|:-------------:|:-------------:|
-|<p align="justify">1. ¿Has padecido o padeces de alguna enfermedad cardíaca?|No| |
-|<p align="justify">2. ¿Cuál es tu actividad principal en la mañana y cuál en la tarde?| En la mañana a veces voy a la universidad caminando y en las tardes usualmente no hago actividad física.||
-|<p align="justify">3. ¿Cuántos litros de agua sueles tomar al día?|2 litros de agua mínimo | |
-|<p align="justify">4. ¿Consumes algún tipo de medicamento actualmente?|No| | 
-|<p align="justify">5. ¿Cuánto tiempo de caminata diaria sueles hacer|20 minutos| | 
-|<p align="justify">6. ¿Sueles hacer ejercicio durante la semana| Podría decirse que nunca pero sí suelo caminar mucho| |
+|<p align="justify">1. ¿Has padecido o padeces de alguna enfermedad cardíaca?|No|No |
+|<p align="justify">2. ¿Cuál es tu actividad principal en la mañana y cuál en la tarde?| En la mañana a veces voy a la universidad caminando y en las tardes usualmente no hago actividad física.|Gimnasio y caminar|
+|<p align="justify">3. ¿Cuántos litros de agua sueles tomar al día?|2 litros de agua mínimo |3 litros de agua|
+|<p align="justify">4. ¿Consumes algún tipo de medicamento actualmente?|No|No | 
+|<p align="justify">5. ¿Cuánto tiempo de caminata diaria sueles hacer|30 minutos|2 horas | 
+|<p align="justify">6. ¿Sueles hacer ejercicio durante la semana| Podría decirse que nunca pero sí suelo caminar mucho|Siempre |
 
 
 </div>
