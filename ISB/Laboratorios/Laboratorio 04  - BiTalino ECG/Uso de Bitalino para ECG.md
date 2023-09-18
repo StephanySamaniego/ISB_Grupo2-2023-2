@@ -17,7 +17,7 @@
 ## **Contexto** <a name="context"></a>
 ---
 
-<p align="justify">Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel mundial y se calcula que cobran 17,9 millones de vidas cada año. Las ECV son un grupo de trastornos del corazón y los vasos sanguíneos e incluyen enfermedades coronarias, enfermedades cerebrovasculares, enfermedades cardíacas reumáticas y otras afecciones. Más de cuatro de cada cinco muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. Las enfermedades cardiovasculares afectan en mucha mayor medida a los países de ingresos bajos y medianos: más del 80% de las defunciones por esta causa se producen en esos países. [1] Según MINSA, en el Perú, mueren más de 4 mil personas al año por infarto al miocardio y el principal factor de riesgo se encuentra en individuos mayores de 30, especialmente en hipertensos. Lima como región presenta más decesos por infarto, con más de dos mil casos por año. (3) Esencialmente el ECG se indica para confirmar o descartar la sospecha de una enfermedad cardíaca. sea esta una cardiopatía coronaría o principalmente arritmias. En algunos casos el ECG, es el primer indicador de enfermedades cardíacas cuando dentro de los exámenes de rutina, preventiva, inicio de actividad física programada u otro, se pesquisa de anomalía. (4) </p>
+<p align="justify">Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel mundial y se calcula que cobran 17,9 millones de vidas cada año. Las ECV son un grupo de trastornos del corazón y los vasos sanguíneos e incluyen enfermedades coronarias, enfermedades cerebrovasculares, enfermedades cardíacas reumáticas y otras afecciones. Más de cuatro de cada cinco muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. Las enfermedades cardiovasculares afectan en mucha mayor medida a los países de ingresos bajos y medianos: más del 80% de las defunciones por esta causa se producen en esos países. [1] Según MINSA, en el Perú, mueren más de 4 mil personas al año por infarto al miocardio y el principal factor de riesgo se encuentra en individuos mayores de 30, especialmente en hipertensos[2]. Lima como región presenta más decesos por infarto, con más de dos mil casos por año. [3] Esencialmente el ECG se indica para confirmar o descartar la sospecha de una enfermedad cardíaca. sea esta una cardiopatía coronaría o principalmente arritmias. En algunos casos el ECG, es el primer indicador de enfermedades cardíacas cuando dentro de los exámenes de rutina, preventiva, inicio de actividad física programada u otro, se pesquisa de anomalía[4]. </p>
 
 <p align="center">
   <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
@@ -25,21 +25,21 @@
 ## **Marco teórico** <a name="obj"></a>
 ---
 **Señal ECG**
-<p align="justify"> La señal del electrocardiograma (ECG) refleja la actividad eléctrica del corazón observada desde los puntos estratégicos del cuerpo humano. Estas señales se caracterizan por cinco puntos destacados llamados puntos fiduciales: P, Q, R, S y T . El complejo QRS representa la despolarización de los ventrículos cardíacos derecho e izquierdo y se utiliza como referencia clave para el análisis de las señales. La onda P se origina en la despolarización de las aurículas, mientras que los ventrículos causan el resto de los picos. El diagnóstico de la señal se basa en la forma de estas ondas, así como en la duración de cada pico y los segmentos que los componen. En consecuencia, la identificación precisa de cada parte de la señal del ECG es fundamental para los profesionales de la salud en la detección, diagnóstico y seguimiento de diversas enfermedades cardíacas (4). </p>
+<p align="justify"> La señal del electrocardiograma (ECG) refleja la actividad eléctrica del corazón observada desde los puntos estratégicos del cuerpo humano. Estas señales se caracterizan por cinco puntos destacados llamados puntos fiduciales: P, Q, R, S y T . El complejo QRS representa la despolarización de los ventrículos cardíacos derecho e izquierdo y se utiliza como referencia clave para el análisis de las señales. La onda P se origina en la despolarización de las aurículas, mientras que los ventrículos causan el resto de los picos. El diagnóstico de la señal se basa en la forma de estas ondas, así como en la duración de cada pico y los segmentos que los componen. En consecuencia, la identificación precisa de cada parte de la señal del ECG es fundamental para los profesionales de la salud en la detección, diagnóstico y seguimiento de diversas enfermedades cardíacas [4]. </p>
 
 <p align="center">
   <img src="https://fisiologia.facmed.unam.mx/wp-content/uploads/2021/11/UTII-2B-img-Elementos-del-electro.jpg"  width="300" height="200"> </p>
-<em><p align="center">Interpretación del ECG </p></em> 
+<em><p align="center">Interpretación del ECG [5]</p></em> 
 
 **Derivaciones**
 
 <p align="justify"> Las primeras seis derivaciones del electrocardiograma (ECG) de 12 derivaciones se originan de cuatro electrodos ubicados en los brazos y las piernas del paciente, siendo el electrodo de la pierna derecha el de referencia. Debido a que utilizan electrodos positivos y negativos separados, se las conoce como derivaciones bipolares o estándar.
 
-<p align="justify"> En la derivación I, el electrodo positivo se coloca en el brazo izquierdo y se encuentra opuesto al electrodo negativo en el brazo derecho en términos de la dirección del flujo de energía eléctrica. El vector promedio se desplaza desde la parte superior derecha hacia la parte inferior izquierda, lo que resulta en un flujo de energía hacia el electrodo positivo de la derivación I, generando así un complejo QRS con una forma ascendente. Sin embargo, debido a que el vector promedio no se dirige directamente hacia la derivación I, sino que se acerca a ella con un cierto ángulo, la altura del complejo QRS es moderada (5). </p>
+<p align="justify"> En la derivación I, el electrodo positivo se coloca en el brazo izquierdo y se encuentra opuesto al electrodo negativo en el brazo derecho en términos de la dirección del flujo de energía eléctrica. El vector promedio se desplaza desde la parte superior derecha hacia la parte inferior izquierda, lo que resulta en un flujo de energía hacia el electrodo positivo de la derivación I, generando así un complejo QRS con una forma ascendente. Sin embargo, debido a que el vector promedio no se dirige directamente hacia la derivación I, sino que se acerca a ella con un cierto ángulo, la altura del complejo QRS es moderada [6]. </p>
 
 <p align="center">
   <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/derivaciones.png?raw=true"  width="350" height="200"> </p>
-  <em><p align="center">Derivaciones de Einthoven y los ángulos </p></em> 
+  <em><p align="center">Derivaciones de Einthoven y los ángulos [7]</p></em> 
 
 ## **Objetivos** <a name="obj"></a>
 ---
@@ -70,9 +70,9 @@
 ---
 ### **Conexión usada** <a name="conex"></a>
 
-Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Para obtener la señal ECG, se ubicaron los electrodos positivo y negativo en la muñeca, en la arteria radial, para medir el pulso radial, se eligió esta ubicación, ya que es el más fiable. La zona del cuello palpando la carótida también es muy fiable, pero según en qué personas puede afectar a la disminución de la frecuencia cardíaca [b]. 
+Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Para obtener la señal ECG, se ubicaron los electrodos positivo y negativo en la muñeca, en la arteria radial, para medir el pulso radial, se eligió esta ubicación, ya que es el más fiable. La zona del cuello palpando la carótida también es muy fiable, pero según en qué personas puede afectar a la disminución de la frecuencia cardíaca [8]. 
 
-En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [a].
+En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [9].
 
 
 
@@ -107,7 +107,7 @@ Para empezar a tomar la señal en reposo o silencio eléctrico es importante no 
 ### Discusión
 1. **Frecuencia Cardíaca:**
 <p align="justify">
-Es la medida del número de contracciones por minuto que ejecuta el corazón para bombear sangre, permitiendo el flujo de esta por el sistema circulatorio. Es una de las variables más estudiadas en el ejercicio, observando su relación con la reducción o el aumento de la frecuencia cardiaca en reposo y en diferentes intensidades del ejercicio. Esta variable puede indicar el grado de adaptación de una persona al entrenamiento, así como su condición física y la monitorización de la intensidad del ejercicio, entre otros. Para evaluar la frecuencia cardiaca existen diferentes factores que la afectan tanto en reposo como durante la actividad física, siendo estas [c]:
+Es la medida del número de contracciones por minuto que ejecuta el corazón para bombear sangre, permitiendo el flujo de esta por el sistema circulatorio. Es una de las variables más estudiadas en el ejercicio, observando su relación con la reducción o el aumento de la frecuencia cardiaca en reposo y en diferentes intensidades del ejercicio. Esta variable puede indicar el grado de adaptación de una persona al entrenamiento, así como su condición física y la monitorización de la intensidad del ejercicio, entre otros. Para evaluar la frecuencia cardiaca existen diferentes factores que la afectan tanto en reposo como durante la actividad física, siendo estas [10]:
 
 - Variaciones diarias: la frecuencia cardiaca presenta variaciones día a día, observando variaciones alrededor de dos o cuatro latidos por minuto al medir la frecuencia en condiciones controladas en una persona, durante días sucesivos.
 - Hora del día: la frecuencia presenta variaciones durante el día, siendo menor por la mañana y mayor por la tarde.
@@ -120,7 +120,7 @@ Hidratación: cuando una persona está deshidratada presenta una frecuencia card
 
 2. **Número de latidos calculado:**
 <p align="justify">
-En cuanto al número de latidos del corazón en 2 segundos puede variar ampliamente de una persona a otra debido a factores como la frecuencia cardíaca en reposo, la edad y la salud en general. Sin embargo, para obtener una estimación aproximada, puedes considerar la frecuencia cardíaca promedio en reposo, que suele estar entre 60 y 100 latidos por minuto en adultos sanos [d].
+En cuanto al número de latidos del corazón en 2 segundos puede variar ampliamente de una persona a otra debido a factores como la frecuencia cardíaca en reposo, la edad y la salud en general. Sin embargo, para obtener una estimación aproximada, puedes considerar la frecuencia cardíaca promedio en reposo, que suele estar entre 60 y 100 latidos por minuto en adultos sanos [11].
 Análisis
 Si asumimos una frecuencia cardíaca en reposo de alrededor de 70 latidos por minuto (lo que es una estimación promedio), puedes calcular el número de latidos en 2 segundos de la siguiente manera:
 <p align="justify">
@@ -130,12 +130,12 @@ Por lo tanto, en promedio, podría haber alrededor de 2 a 3 latidos del corazón
 
 3. **Variabilidad de la frecuencia cardíaca:**
 <p align="justify">
-La variabilidad de la frecuencia cardíaca se refiere a la variación en intervalos de tiempo entre los latidos del corazón, es decir, al número de latidos en un momento preciso o espacio de tiempo previamente determinado, por lo general esta medida se basa en el cálculo de la diferencia de tiempo entre cada una de las ondas R, que serían los intervalos RR, en un trazo del electrocardiograma en determinados periodos. Si hay una amplia variación en intervalos de tiempo se nota un equilibrio saludable entre el insumo simpático y parasimpático del miocardio, mientras qué poca variación entonces refleja un insumo autónomo disfuncional. La baja variabilidad de la frecuencia cardíaca se relaciona con el riesgo incrementado de insuficiencia cardíaca, infarto al 26 miocardio y muerte súbita cardiaca, mientras que la actividad física regular promueve un incremento de la variabilidad de la frecuencia cardíaca [e]
+La variabilidad de la frecuencia cardíaca se refiere a la variación en intervalos de tiempo entre los latidos del corazón, es decir, al número de latidos en un momento preciso o espacio de tiempo previamente determinado, por lo general esta medida se basa en el cálculo de la diferencia de tiempo entre cada una de las ondas R, que serían los intervalos RR, en un trazo del electrocardiograma en determinados periodos. Si hay una amplia variación en intervalos de tiempo se nota un equilibrio saludable entre el insumo simpático y parasimpático del miocardio, mientras qué poca variación entonces refleja un insumo autónomo disfuncional. La baja variabilidad de la frecuencia cardíaca se relaciona con el riesgo incrementado de insuficiencia cardíaca, infarto al 26 miocardio y muerte súbita cardiaca, mientras que la actividad física regular promueve un incremento de la variabilidad de la frecuencia cardíaca [12]
 
 4. **Diferencia de género:** 
 
 <p align="justify">
-Se ha demostrado que existen diferencias de género en la frecuencia cardíaca, la duración del intervalo QT y en la relación entre la repolarización ventricular y la duración del ciclo cardíaco. Las mujeres, en comparación con los hombres, tienen una frecuencia cardíaca más alta y un intervalo QT más largo corregido por la frecuencia cardíaca. Se ha demostrado una mayor prolongación del intervalo QT en ciclos de larga duración y un efecto más significativo de los fármacos que prolongan el QTc en mujeres, en comparación con los hombres. También se ha demostrado una mayor alteración de la duración de la repolarización ventricular en las mujeres en comparación con sus homólogos masculinos en respuesta a cambios importantes en el plasma y los electrolitos intracelulares, como durante la hemodiálisis [f]
+Se ha demostrado que existen diferencias de género en la frecuencia cardíaca, la duración del intervalo QT y en la relación entre la repolarización ventricular y la duración del ciclo cardíaco. Las mujeres, en comparación con los hombres, tienen una frecuencia cardíaca más alta y un intervalo QT más largo corregido por la frecuencia cardíaca. Se ha demostrado una mayor prolongación del intervalo QT en ciclos de larga duración y un efecto más significativo de los fármacos que prolongan el QTc en mujeres, en comparación con los hombres. También se ha demostrado una mayor alteración de la duración de la repolarización ventricular en las mujeres en comparación con sus homólogos masculinos en respuesta a cambios importantes en el plasma y los electrolitos intracelulares, como durante la hemodiálisis [13]
 
 5. **Comparación entre sujetos**
 
@@ -195,7 +195,12 @@ Se consideraron los siguientes parámetros:
 
 ## **Conclusiones** <a name="conclu"></a>
 - El ruido proveniente de la respiración y contracción muscular puede afectar a la adquisición del ECG, por lo tanto, también afectaría a la eficiencia del algoritmo. Adicionar filtros digitales podría servir para reducir el ruido bajo severas condiciones, sin embargo, esto podría no remover por completo el ruido.
-- La sujeto femenino en reposo tuvo un latido más durante los 2 segundos tomados a comparación del sujeto masculino
+- Se lograron encontrar diferencias entre ambos sujetos y compararlos exitosamente.
+- La sujeto femenino posee una variabilidad de frecuencia cardíaca menor que el del sujeto masculino, lo cual evidenciaría las diferencias entre ambos en los aspectos de su vida cotidiana.
+- Ninguno de ellos posee una gráfica de reposo ni de agitación parecida al de alguna enfermedad cardíaca, por lo que se descarta ello.
+- Se logró con éxito plotear las señales en Python y así lograr un análisis de estas.
+- Se cumplió con la protección de la identidad de ambos sujetos, ya que es vital en este tipo de pruebas, por lo que se tuvo extremado cuidado en proteger el rostro y datos personales.
+
 
 
 ## **Referencias** <a name="context"></a>
@@ -210,3 +215,17 @@ Se consideraron los siguientes parámetros:
 ‌	[4] J. Aspuru et al., “Segmentation of the ECG signal by means of a linear regression algorithm,” Sensors, vol. 19, no. 4, p. 775, 2019. doi:10.3390/s19040775 
 <p align="justify">
 [5] G. Goldich, “El Electrocardiograma de 12 Derivaciones: Parte I: Reconocimiento de los hallazgos normales,” Nursing (Ed. española), vol. 32, no. 2, pp. 28–34, 2015. doi:10.1016/j.nursi.2015.03.010 
+<p align="justify">
+[6] JavierFelipe, “Frecuencia cardíaca, todo lo que necesitas saber,” Mundo Entrenamiento, Jul. 24, 2014. https://mundoentrenamiento.com/frecuencia-cardiaca/?= (accessed Sep. 18, 2023).
+<p align="justify">
+[7] “Ley N.° 29733,” Www.gob.pe, 2023. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733 (accessed Sep. 18, 2023).
+<p align="justify">
+[8] Memoria, A. Autor, U. Rojas, M. Paula, and G. Román, “Análisis Electrocardiográfico y del Ritmo Cardíaco durante la Competencia de Maratón de Barcelona 2017.” Accessed: Sep. 18, 2023. [Online]. Available: https://upcommons.upc.edu/bitstream/handle/2117/349759/TFG%20MariaPaulaUsecheRojas.pdf?sequence=1&isAllowed=y
+<p align="justify">
+‌[9] “Dos maneras fáciles y precisas de medir tu frecuencia cardíaca,” Mayo Clinic, 2022. https://www.mayoclinic.org/es/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 (accessed Sep. 18, 2023).
+<p align="justify">
+[10] Suntaxi Suntaxi, T.M. (2019) Repositorio Digital: Variabilidad de la Frecuencia cardiaca (HRV) ) como parámetro para valorar el sobreentrenamiento. Available at: http://www.dspace.uce.edu.ec/handle/25000/18206 (Accessed: 18 September 2023).
+<p align="justify">
+[11] S. Genovesi, D. Zaccaria, E. Rossi, Maria Grazia Valsecchi, A. Stella, and M. Stramba-Badiale, “Effects of exercise training on heart rate and QT interval in healthy young individuals: are there gender differences?,” Europace, vol. 9, no. 1, pp. 55–60, Jan. 2007, doi: https://doi.org/10.1093/europace/eul145.
+<p align="justify">
+‌[12] R. Rojas Jiménez, A. Diosdado, and J. Zamora, “Detector de picos de ECG y algoritmo de análisis de forma de onda.” Available: https://www.esfm.ipn.mx/assets/files/esfm/docs/RNAFM/articulos-2020/XXVRNAFM076.pdf
