@@ -168,6 +168,19 @@ Se les realizó una pequeña entrevista a los sujetos involucrados para poder re
 | Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculinoAgitado.png?raw=true" width="50%" height="50%"><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemeninoAgitado.png?raw=true" width="50%" height="50%"> <p align="justify">Según la gráfica, se muestra en la imagen del sujeto femenino agitada un total de 3 latidos en los 2 segundos, contando el primer complejo QRS como el número 0, lo cual nos indica que no hay una variación destacable. No se puede notar un aumento notorio de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 270 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.57 segundos (0.76 - 0.19) aproximadamente entre cada latido, el cual es solo un poco menor al obtenido en el gráfico de reposo, lo cual indicaría que la persona se encuentra en un estado de agitación, pero no tanta. El intervalo QT es de aproximadamente 0.20 segundos.|
 </div>
 
+### **Comparación gráfica del sujeto masculino agitado VS el sujeto femenino agitado**
+
+Existe una diferencia notoria entre ambos gráficos.
+1. El número de latidos es mayor en el sujeto masculino en la duración de 2 segundos, lo cual podría deberse a su estilo de vida más físico.
+2. Los picos máximos y mínimos son muy similares por lo que probablemente experimenten una amplitud semejante en milivoltios.
+3. La variabilidad de la frecuencia cardíaca es mayor en el sujeto masculino, lo cual también se debería a la condición física de este.
+4. El intervalo QT es más prolongado en el sujeto femenino, lo cual va acorde a la literatura.
+
+### **Imágenes de ECGs con indicios de alguna enfermedad**
+
+
+
+
 ### **Señal en Prosim4** <a name="prosim"></a>
 
 ### Parada cardiaca
