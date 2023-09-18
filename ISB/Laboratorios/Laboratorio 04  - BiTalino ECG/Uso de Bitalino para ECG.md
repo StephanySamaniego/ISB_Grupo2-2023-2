@@ -11,7 +11,8 @@
      5.4 [Archivos](#arch)\
      5.5 [Ploteo de la señal en Python](#plote)\
      5.3 [Señal en Prosim4](#prosim)
-6. [Referencias](#ref)
+6. [Conclusiones](#conclu)
+7. [Referencias](#ref)
 
 ## **Contexto** <a name="context"></a>
 ---
@@ -164,7 +165,7 @@ Se les realizó una pequeña entrevista a los sujetos involucrados para poder re
 | **Etapa** | **Sujeto masculino** | **Sujeto femenino** |
 |:-------------:|:-------------:|:-------------:|
 | Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculino.png?raw=true" width="50%" height="50%"> <p align="justify">Según la gráfica, se muestra en la imagen del sujeto masculino en reposo un promedio de 2 latidos en los 2 segundos, lo cual tiene sentido según la bibliografía consultada. Además, se tiene un pico máximo del complejo QRS de algo más de 800 en amplitud, y un pico mínimo de aproximadamente 320 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.75 segundos (0.85 - 0.10) aproximadamente entre cada latido, lo cual indica que la persona se encuentra en un estado de reposo. El intervalo QT es de aproximadamente 0.18 segundos.| <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemenino.png?raw=true" width="50%" height="50%"> |
-| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculinoAgitado.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemeninoAgitado.png?raw=true" width="50%" height="50%"> |
+| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculinoAgitado.png?raw=true" width="50%" height="50%"><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemeninoAgitado.png?raw=true" width="50%" height="50%"> |
 </div>
 
 ### **Señal en Prosim4** <a name="prosim"></a>
@@ -191,6 +192,11 @@ Se consideraron los siguientes parámetros:
 | Fase 5 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_5.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" > | 
 
 </div>
+
+## **Conclusiones** <a name="conclu"></a>
+- El ruido proveniente de la respiración y contracción muscular puede afectar a la adquisición del ECG, por lo tanto, también afectaría a la eficiencia del algoritmo. Adicionar filtros digitales podría servir para reducir el ruido bajo severas condiciones, sin embargo, esto podría no remover por completo el ruido.
+- La sujeto femenino en reposo tuvo un latido más durante los 2 segundos tomados a comparación del sujeto masculino
+
 
 ## **Referencias** <a name="context"></a>
 ---
