@@ -104,8 +104,53 @@ Para empezar a tomar la señal en reposo o silencio eléctrico es importante no 
 </div>
 
 ### Discusión
-El estado de reposo varía según la presencia de actividades espontáneas propias de la fisiología de cada participante, de interferencia o ruidos propios del ambiente de trabajo y posibles errores en la medición, ya sea por desgaste del gel de los electrodos o por la falta de adherencia en la piel. [2]
-Por otro lado, la contracción voluntaria máxima que se produce al realizar la flexión del brazo para vencer una fuerza de agarre, esta se verá afectada por las interferencias, pero a su vez por el estímulo del participantes, pues la diferencia de potencial puede variar según el esfuerzo y anatomía del participante. [3]
+1. **Frecuencia Cardíaca:**
+<p align="justify">
+Es la medida del número de contracciones por minuto que ejecuta el corazón para bombear sangre, permitiendo el flujo de esta por el sistema circulatorio. Es una de las variables más estudiadas en el ejercicio, observando su relación con la reducción o el aumento de la frecuencia cardiaca en reposo y en diferentes intensidades del ejercicio. Esta variable puede indicar el grado de adaptación de una persona al entrenamiento, así como su condición física y la monitorización de la intensidad del ejercicio, entre otros. Para evaluar la frecuencia cardiaca existen diferentes factores que la afectan tanto en reposo como durante la actividad física, siendo estas [c]:
+
+- Variaciones diarias: la frecuencia cardiaca presenta variaciones día a día, observando variaciones alrededor de dos o cuatro latidos por minuto al medir la frecuencia en condiciones controladas en una persona, durante días sucesivos.
+- Hora del día: la frecuencia presenta variaciones durante el día, siendo menor por la mañana y mayor por la tarde.
+Hidratación: cuando una persona está deshidratada presenta una frecuencia cardiaca más alta, el incremento de la frecuencia está relacionado positivamente con el nivel de deshidratación.
+- Altitud: la frecuencia cardiaca incrementa cuando se realiza ejercicio en altura.
+- Medicación: las variaciones de la frecuencia dependen del tipo de medicamento y la dosis suministrada
+- Ejercicio continuo
+- Caminatas
+
+
+2. **Número de latidos calculado:**
+<p align="justify">
+En cuanto al número de latidos del corazón en 2 segundos puede variar ampliamente de una persona a otra debido a factores como la frecuencia cardíaca en reposo, la edad y la salud en general. Sin embargo, para obtener una estimación aproximada, puedes considerar la frecuencia cardíaca promedio en reposo, que suele estar entre 60 y 100 latidos por minuto en adultos sanos [d].
+Análisis
+Si asumimos una frecuencia cardíaca en reposo de alrededor de 70 latidos por minuto (lo que es una estimación promedio), puedes calcular el número de latidos en 2 segundos de la siguiente manera:
+<p align="justify">
+Si tenemos 70 latidos por minuto / 60 segundos = 1.17 latidos por segundo. Entonces, 1.17 latidos por segundo x 2 segundos ≈ 2.34 latidos en 2 segundos
+<p align="justify">
+Por lo tanto, en promedio, podría haber alrededor de 2 a 3 latidos del corazón en 2 segundos en una persona con una frecuencia cardíaca en reposo de alrededor de 70 latidos por minuto.
+
+3. **Variabilidad de la frecuencia cardíaca:**
+<p align="justify">
+La variabilidad de la frecuencia cardíaca se refiere a la variación en intervalos de tiempo entre los latidos del corazón, es decir, al número de latidos en un momento preciso o espacio de tiempo previamente determinado, por lo general esta medida se basa en el cálculo de la diferencia de tiempo entre cada una de las ondas R, que serían los intervalos RR, en un trazo del electrocardiograma en determinados periodos. Si hay una amplia variación en intervalos de tiempo se nota un equilibrio saludable entre el insumo simpático y parasimpático del miocardio, mientras qué poca variación entonces refleja un insumo autónomo disfuncional. La baja variabilidad de la frecuencia cardíaca se relaciona con el riesgo incrementado de insuficiencia cardíaca, infarto al 26 miocardio y muerte súbita cardiaca, mientras que la actividad física regular promueve un incremento de la variabilidad de la frecuencia cardíaca [e]
+
+4. **Diferencia de género:** 
+
+<p align="justify">
+Se ha demostrado que existen diferencias de género en la frecuencia cardíaca, la duración del intervalo QT y en la relación entre la repolarización ventricular y la duración del ciclo cardíaco. Las mujeres, en comparación con los hombres, tienen una frecuencia cardíaca más alta y un intervalo QT más largo corregido por la frecuencia cardíaca. Se ha demostrado una mayor prolongación del intervalo QT en ciclos de larga duración y un efecto más significativo de los fármacos que prolongan el QTc en mujeres, en comparación con los hombres. También se ha demostrado una mayor alteración de la duración de la repolarización ventricular en las mujeres en comparación con sus homólogos masculinos en respuesta a cambios importantes en el plasma y los electrolitos intracelulares, como durante la hemodiálisis [f]
+
+5. **Comparación entre sujetos**
+
+Se les realizó una pequeña entrevista a los sujetos involucrados para poder rescatar datos importantes que pueden influenciar en la toma de un ECG.
+
+| **Preguntas**| **Sujeto Femenino** | **Sujeto Masculino** | 
+|:-------------:|:-------------:|:-------------:|
+|<p align="justify">1. ¿Has padecido o padeces de alguna enfermedad cardíaca?|No| |
+|<p align="justify">2. ¿Cuál es tu actividad principal en la mañana y cuál en la tarde?| En la mañana a veces voy a la universidad caminando y en las tardes usualmente no hago actividad física.||
+|<p align="justify">3. ¿Cuántos litros de agua sueles tomar al día?|2 litros de agua mínimo | |
+|<p align="justify">4. ¿Consumes algún tipo de medicamento actualmente?|No| | 
+|<p align="justify">5. ¿Cuánto tiempo de caminata diaria sueles hacer|20 minutos| | 
+|<p align="justify">6. ¿Sueles hacer ejercicio durante la semana| Podría decirse que nunca pero sí suelo caminar mucho| |
+
+
+</div>
 
 ### **Archivos** <a name="arch"></a>
 
@@ -118,7 +163,7 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 
 | **Etapa** | **Sujeto masculino** | **Sujeto femenino** |
 |:-------------:|:-------------:|:-------------:|
-| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculino.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemenino.png?raw=true" width="50%" height="50%"> |
+| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculino.png?raw=true" width="50%" height="50%"> <p align="justify">Según la gráfica, se muestra en la imagen del sujeto masculino en reposo un promedio de 2 latidos en los 2 segundos, lo cual tiene sentido según la bibliografía consultada. Además, se tiene un pico máximo del complejo QRS de algo más de 800 en amplitud, y un pico mínimo de aproximadamente 320 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.75 segundos (0.85 - 0.10) aproximadamente entre cada latido, lo cual indica que la persona se encuentra en un estado de reposo. El intervalo QT es de aproximadamente 0.18 segundos.| <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemenino.png?raw=true" width="50%" height="50%"> |
 | Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgMasculinoAgitado.png?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgFemeninoAgitado.png?raw=true" width="50%" height="50%"> |
 </div>
 
@@ -139,11 +184,11 @@ Se consideraron los siguientes parámetros:
 
 | **Etapa** | **Prosim** | **Señal** |
 |:-------------:|:-------------:|:-------------:|
-| Fase 1 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_1.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro1.png?raw=true" width="50%" height="50%"> | 
-| Fase 2 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_2.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro2.png?raw=true" width="50%" height="50%"> | 
-| Fase 3 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_3.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro3.png?raw=true" width="50%" height="50%"> | 
-| Fase 4 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_4.jpg?raw=true" width="50%" height="50%"> |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro4.png?raw=true" width="50%" height="50%"> | 
-| Fase 5 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_5.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" width="50%" height="50%"> | 
+| Fase 1 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_1.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro1.png?raw=true" > | 
+| Fase 2 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_2.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro2.png?raw=true" > | 
+| Fase 3 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_3.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro3.png?raw=true" > | 
+| Fase 4 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_4.jpg?raw=true" width="50%" height="50%"> |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro4.png?raw=true" > | 
+| Fase 5 |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/prosim_paro_5.jpg?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" > | 
 
 </div>
 
