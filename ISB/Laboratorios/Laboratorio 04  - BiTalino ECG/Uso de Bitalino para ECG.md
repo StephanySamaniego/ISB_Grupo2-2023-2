@@ -69,7 +69,11 @@
 ---
 ### **Conexión usada** <a name="conex"></a>
 
-Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Se procedió a tomar señales de dos integrantes del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals. El electrodo positivo (rojo) se coloca en la muñeca izquierda (LA), mientras que el electrodo negativo (negro) se coloca en la muñeca derecha (RA). El electrodo de referencia (REF) en color blanco se coloca en el maléolo lateral.
+Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Para obtener la señal ECG, se ubicaron los electrodos positivo y negativo en la muñeca, en la arteria radial, para medir el pulso radial, se eligió esta ubicación, ya que es el más fiable. La zona del cuello palpando la carótida también es muy fiable, pero según en qué personas puede afectar a la disminución de la frecuencia cardíaca [b]. 
+
+En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [a].
+
+
 
 <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/imagen.png?raw=true" width="400" height="266"></p>
 </p>
@@ -120,19 +124,27 @@ Por otro lado, la contracción voluntaria máxima que se produce al realizar la 
 
 ### **Señal en Prosim4** <a name="prosim"></a>
 
-### Paro cardiaco
+### Parada cardiaca
+
+Se consideraron los siguientes parámetros:
+- ECG 80lpm: 45s
+- CVP(VI): 30s
+- Taq. vent. 160 lpm: 30s
+- Fib. vent severa: 30s
+- Asistolia: 30s
+- Stop
+
 
 <div align="center">
 
-| **Etapa** | **Señal** |
-|:-------------:|:-------------:|
-| Fase 1 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro1.png?raw=true" width="50%" height="50%"> | 
+| **Etapa** | **Prosim** | **Señal** |
+|:-------------:|:-------------:|:-------------:|
+| Fase 1 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro1.png?raw=true" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro1.png?raw=true" width="50%" height="50%"> | 
 | Fase 2 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro2.png?raw=true" width="50%" height="50%"> | 
 | Fase 3 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro3.png?raw=true" width="50%" height="50%"> | 
 | Fase 4 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro4.png?raw=true" width="50%" height="50%"> | 
 | Fase 5 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro5.png?raw=true" width="50%" height="50%"> | 
-| Fase 6 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro6.png?raw=true" width="50%" height="50%"> | 
-| Fase 7 | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/ecgProSim4Paro7.png?raw=true" width="50%" height="50%"> | 
+
 </div>
 
 ## **Referencias** <a name="context"></a>
