@@ -179,7 +179,20 @@ Existe una diferencia notoria entre ambos gráficos.
 ### **Imágenes de ECGs con indicios de alguna enfermedad**
 
 
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_1.png?raw=true"  width="300" height="200"> </p> 
+<em><p align="center">Trazo de ECG con 1000 muestras por segundo. Presenta la onda T invertida, indicador de isquemia miocárdica. Extraído de [14]
+</p></em> 
 
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_2.png?raw=true"  width="300" height="200"> </p> 
+<em><p align="center">Trazo de ECG con 1000 muestras por segundo. Se observa una elevación en el segmento ST, indicador de un ataque al corazón. Extraído de [14]
+</p></em> 
+
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_3.png?raw=true"  width="300" height="200"> </p> 
+<em><p align="center">Trazo de ECG con 1000 muestras por segundo donde se observa una
+desincronización en el complejo QRS, esto implica una arritmia. Extraído de [14]</p></em> 
+
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_3.png?raw=true"  width="300" height="200"> </p> 
+<em><p align="center">Trazo de ECG con 1000 muestras por segundo y el segmento ST faltante, infarto agudo al miocardio. Extraído de [14]</p></em> 
 
 ### **Señal en Prosim4** <a name="prosim"></a>
 
