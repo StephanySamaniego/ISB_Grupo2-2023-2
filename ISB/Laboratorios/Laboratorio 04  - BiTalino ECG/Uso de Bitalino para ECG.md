@@ -220,6 +220,7 @@ Se consideraron los siguientes parámetros:
 </div>
 
 ## **Conclusiones** <a name="conclu"></a>
+---
 - El ruido proveniente de la respiración y contracción muscular puede afectar a la adquisición del ECG, por lo tanto, también afectaría a la eficiencia del algoritmo. Adicionar filtros digitales podría servir para reducir el ruido bajo severas condiciones, sin embargo, esto podría no remover por completo el ruido.
 - Se lograron encontrar diferencias entre ambos sujetos y compararlos exitosamente.
 - La sujeto femenino posee una variabilidad de frecuencia cardíaca menor que el del sujeto masculino, lo cual evidenciaría las diferencias entre ambos en los aspectos de su vida cotidiana.
