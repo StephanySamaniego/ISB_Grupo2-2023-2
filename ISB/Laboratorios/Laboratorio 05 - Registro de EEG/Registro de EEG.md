@@ -21,6 +21,24 @@
 <p align="center">
   <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
 
+<style>
+        /* Estilos para las columnas */
+        .column {
+            float: left; /* Hace que las columnas se coloquen una al lado de la otra */
+            width: 50%;   /* Divide el espacio horizontal en dos columnas iguales */
+        }
+</style>
+
+<div class="column">
+    <p align="justify">La electroencefalografía ha desempeñado un papel fundamental en el estudio de la actividad cerebral. Los orígenes de esta técnica se remontan a la década de 1920, cuando el médico alemán Hans Berger registró señales que mostraban ritmos marcados cuando los sujetos tenían los ojos cerrados, pero que se volvían menos rítmicas y con amplitudes generalmente menores cuando los ojos estaban abiertos[a].
+    Diversas enfermedades cerebrales, trastornos cerebrales y lesiones cerebrales pueden ser diagnosticadas mediante el análisis de la información obtenida de las señales del EEG. La aplicación del EEG en el campo de la ciencia proporciona una visión general del estado actual y las perspectivas futuras de la tecnología EEG en los campos de la neurociencia y la neuroingeniería. También, tiene aplicaciones en el diagnóstico y estudio de trastornos cerebrales significativos, como la enfermedad de Parkinson, la epilepsia, la enfermedad de Alzheimer, los tumores cerebrales y los accidentes cerebrovasculares[b].</p>
+</div>
+
+<div class="column">
+    <p align="center">
+    <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
+</div>
+
 ## **Marco teórico** <a name="obj"></a>
 ---
 **Señal ECG**
@@ -259,3 +277,4 @@ Se consideraron los siguientes parámetros:
 [13] S. Genovesi, D. Zaccaria, E. Rossi, Maria Grazia Valsecchi, A. Stella, and M. Stramba-Badiale, “Effects of exercise training on heart rate and QT interval in healthy young individuals: are there gender differences?,” Europace, vol. 9, no. 1, pp. 55–60, Jan. 2007, doi: https://doi.org/10.1093/europace/eul145.
 <p align="justify">
 ‌[14] R. Rojas Jiménez, A. Diosdado, and J. Zamora, “Detector de picos de ECG y algoritmo de análisis de forma de onda.” Available: https://www.esfm.ipn.mx/assets/files/esfm/docs/RNAFM/articulos-2020/XXVRNAFM076.pdf
+
