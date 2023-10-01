@@ -16,47 +16,44 @@
 ## **Contexto** <a name="context"></a>
 ---
 
-<p align="justify">Las enfermedades cardiovasculares (ECV) son la principal causa de muerte a nivel mundial y se calcula que cobran 17,9 millones de vidas cada año. Las ECV son un grupo de trastornos del corazón y los vasos sanguíneos e incluyen enfermedades coronarias, enfermedades cerebrovasculares, enfermedades cardíacas reumáticas y otras afecciones. Más de cuatro de cada cinco muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. Las enfermedades cardiovasculares afectan en mucha mayor medida a los países de ingresos bajos y medianos: más del 80% de las defunciones por esta causa se producen en esos países. [1] Según MINSA, en el Perú, mueren más de 4 mil personas al año por infarto al miocardio y el principal factor de riesgo se encuentra en individuos mayores de 30, especialmente en hipertensos[2]. Lima como región presenta más decesos por infarto, con más de dos mil casos por año. [3] Esencialmente el ECG se indica para confirmar o descartar la sospecha de una enfermedad cardíaca. sea esta una cardiopatía coronaría o principalmente arritmias. En algunos casos el ECG, es el primer indicador de enfermedades cardíacas cuando dentro de los exámenes de rutina, preventiva, inicio de actividad física programada u otro, se pesquisa de anomalía[4]. </p>
+<p align="justify">La electroencefalografía ha desempeñado un papel fundamental en el estudio de la actividad cerebral. Los orígenes de esta técnica se remontan a la década de 1920, cuando el médico alemán Hans Berger registró señales que mostraban ritmos marcados cuando los sujetos tenían los ojos cerrados, pero que se volvían menos rítmicas y con amplitudes generalmente menores cuando los ojos estaban abiertos[1].</p>
+
+<p align="justify">Diversas enfermedades cerebrales, trastornos cerebrales y lesiones cerebrales pueden ser diagnosticadas mediante el análisis de la información obtenida de las señales del EEG. La aplicación del EEG en el campo de la ciencia proporciona una visión general del estado actual y las perspectivas futuras de la tecnología EEG en los campos de la neurociencia y la neuroingeniería. También, tiene aplicaciones en el diagnóstico y estudio de trastornos cerebrales significativos, como la enfermedad de Parkinson, la epilepsia, la enfermedad de Alzheimer, los tumores cerebrales y los accidentes cerebrovasculares[2].</p>
 
 <p align="center">
-  <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
+  <img src="https://www.centrohelguera.com.ar/wp-content/uploads/2016/07/electro.jpg"  width="300" height="200"> </p>
+<em><p align="center">Señales del EEG [3]</p></em> 
 
-<style>
-        /* Estilos para las columnas */
-        .column {
-            float: left; /* Hace que las columnas se coloquen una al lado de la otra */
-            width: 50%;   /* Divide el espacio horizontal en dos columnas iguales */
-        }
-</style>
-
-<div class="column">
-    <p align="justify">La electroencefalografía ha desempeñado un papel fundamental en el estudio de la actividad cerebral. Los orígenes de esta técnica se remontan a la década de 1920, cuando el médico alemán Hans Berger registró señales que mostraban ritmos marcados cuando los sujetos tenían los ojos cerrados, pero que se volvían menos rítmicas y con amplitudes generalmente menores cuando los ojos estaban abiertos[a].
-    Diversas enfermedades cerebrales, trastornos cerebrales y lesiones cerebrales pueden ser diagnosticadas mediante el análisis de la información obtenida de las señales del EEG. La aplicación del EEG en el campo de la ciencia proporciona una visión general del estado actual y las perspectivas futuras de la tecnología EEG en los campos de la neurociencia y la neuroingeniería. También, tiene aplicaciones en el diagnóstico y estudio de trastornos cerebrales significativos, como la enfermedad de Parkinson, la epilepsia, la enfermedad de Alzheimer, los tumores cerebrales y los accidentes cerebrovasculares[b].</p>
-</div>
-
-<div class="column">
-    <p align="center">
-    <img src="https://img.freepik.com/vector-premium/cardiologia-cardiologo-examina-corazon-humano-medico-trata-enfermedad-cardiaca-verifica-latidos-cardiacos-pulso-paciente-cardiograma-diagnostico-accidente-cerebrovascular_284092-2682.jpg?w=2000"  width="300" height="200"> </p>
-</div>
 
 ## **Marco teórico** <a name="obj"></a>
 ---
-**Señal ECG**
-<p align="justify"> La señal del electrocardiograma (ECG) refleja la actividad eléctrica del corazón observada desde los puntos estratégicos del cuerpo humano. Estas señales se caracterizan por cinco puntos destacados llamados puntos fiduciales: P, Q, R, S y T . El complejo QRS representa la despolarización de los ventrículos cardíacos derecho e izquierdo y se utiliza como referencia clave para el análisis de las señales. La onda P se origina en la despolarización de las aurículas, mientras que los ventrículos causan el resto de los picos. El diagnóstico de la señal se basa en la forma de estas ondas, así como en la duración de cada pico y los segmentos que los componen. En consecuencia, la identificación precisa de cada parte de la señal del ECG es fundamental para los profesionales de la salud en la detección, diagnóstico y seguimiento de diversas enfermedades cardíacas [4]. </p>
+**¿Qué es el EEG?**
+<p align="justify"> La actividad eléctrica de las neuronas en el cerebro produce corrientes que llegan a la superficie del cuero cabelludo [4]. El EEG, o electroencefalografía, representa una técnica no invasiva que mide los campos eléctricos del cerebro. Al posicionar electrodos en el cuero cabelludo, se logra el registro de potenciales de voltaje generados por el flujo de corriente circulante en y alrededor de las neuronas.  Cada electrodo  registra la actividad eléctrica a gran escala, midiendo corrientes eléctricas (o potenciales) generadas en el tejido cortical que contiene aproximadamente de 30 millones a 500 millones de neuronas. Las oscilaciones del voltaje cuentan una parte limitada pero importante de la historia del funcionamiento del cerebro. Por ejemplo, estados de sueño profundo, coma o anestesia están en su mayoría asociados con oscilaciones muy lentas del EEG y amplitudes más grandes [5].  </p>
 
 <p align="center">
-  <img src="https://fisiologia.facmed.unam.mx/wp-content/uploads/2021/11/UTII-2B-img-Elementos-del-electro.jpg"  width="400" height="200"> </p>
-<em><p align="center">Interpretación del ECG [5]</p></em> 
+  <img src="https://ineurocienciaslima.com.pe/img/electroencefalografia.jpg"  width="400" height="200"> </p>
+<em><p align="center">Registro electroencefalográfico (EEG) [6]</p></em> 
 
-**Derivaciones**
+**Activación neural**
 
-<p align="justify"> Las primeras seis derivaciones del electrocardiograma (ECG) de 12 derivaciones se originan de cuatro electrodos ubicados en los brazos y las piernas del paciente, siendo el electrodo de la pierna derecha el de referencia. Debido a que utilizan electrodos positivos y negativos separados, se las conoce como derivaciones bipolares o estándar.
+<p align="justify"> Las señales de EEG son generadas por las corrientes iónicas transmembrana en las neuronas piramidales ya que se puede medir desde el exterior. Las células piramidales se encuentran en todas las áreas de la corteza cerebral, como la occipital, temporal, parietal y frontal, y siempre están orientadas perpendicularmente a la superficie cortical, es decir, el cuerpo celular de estas células se dirige hacia el interior del cerebro y sus dendritas apuntan hacia la superficie cortical. En lla siguiente imagen se observa elipsoides negros que simbolizan la conducción de volumen de las corrientes de retorno en el tejido entre el generador (flecha roja) y el electrodo de EEG de grabación (taza que contiene pasta conductora) en el cuero cabelludo [7].
 
-<p align="justify"> En la derivación I, el electrodo positivo se coloca en el brazo izquierdo y se encuentra opuesto al electrodo negativo en el brazo derecho en términos de la dirección del flujo de energía eléctrica. El vector promedio se desplaza desde la parte superior derecha hacia la parte inferior izquierda, lo que resulta en un flujo de energía hacia el electrodo positivo de la derivación I, generando así un complejo QRS con una forma ascendente. Sin embargo, debido a que el vector promedio no se dirige directamente hacia la derivación I, sino que se acerca a ella con un cierto ángulo, la altura del complejo QRS es moderada [6]. </p>
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/derivaciones.png?raw=true"  width="400" height="200"> </p>
-  <em><p align="center">Derivaciones de Einthoven y los ángulos [7]</p></em> 
+  <img src="https://onlinelibrary.wiley.com/cms/asset/5db40ba5-96df-4d5d-98e4-92c830614e82/epd212341-fig-0001-m.jpg  width="400" height="200"> </p>
+  <em><p align="center">Origen de la señal EEG [7]</p></em> 
+
+**Activación neural**
+<p align="justify"> La señal es siempre una mezcla de varias frecuencias base subyacentes que se consideran reflejo de ciertos estados cognitivos, afectivos o de atención. Estas frecuencias varían ligeramente según factores individuales, propiedades de los estímulos y estados internos, y se clasifican en bandas de frecuencia específicas:
+
+| Tipo de Banda        | Frecuencia (Hz) | Descripción                                                                                                     |
+|----------------------|------------------|-----------------------------------------------------------------------------------------------------------------|
+| Banda delta          | 1-4 Hz           | Estas oscilaciones son las más lentas y tienen una amplitud más alta. Solo están presentes durante el sueño profundo de ondas lentas y juegan un papel en la consolidación de la memoria y el aprendizaje. |
+| Banda theta          | 4-8 Hz           | Se asocian con la atención y el procesamiento de la memoria de trabajo. Aumentan con la dificultad de las tareas mentales. |
+| Banda alfa           | 8-12 Hz          | Descubierta por Hans Berger, la banda alfa se relaciona con la relajación y la inhibición sensorial. Aumenta cuando la persona está relajada y con los ojos cerrados, pero disminuye cuando está activa y con los ojos abiertos. |
+| Banda beta           | 12-25 Hz         | Están asociadas con el pensamiento activo, la concentración y la planificación de movimientos. También se activan al observar los movimientos de otras personas. |
+| Banda gamma          | > 25 Hz          | Su papel aún no está claro, pero se sugiere que pueden estar involucradas en la unificación de impresiones sensoriales y la atención. |
+
 
 ## **Objetivos** <a name="obj"></a>
 ---
