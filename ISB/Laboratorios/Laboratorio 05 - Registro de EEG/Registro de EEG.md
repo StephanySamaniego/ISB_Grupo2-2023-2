@@ -211,32 +211,21 @@ desincronización en el complejo QRS, esto implica una arritmia. Extraído de [1
 
 ## **Referencias** <a name="ref"></a>
 ---
-<p align="justify">
-[1] World, “Cardiovascular diseases,” Who.int, Jun. 11, 2019. Available: https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1. [Accessed: Sep. 14, 2023]
-‌<p align="justify">
-[2] “Al año más de 4 mil personas mueren por infarto en el Perú,” Www.gob.pe, 2023. Available: https://www.gob.pe/institucion/minsa/noticias/34838-al-ano-mas-de-4-mil-personas-mueren-por-infarto-en-el-peru. [Accessed: Sep. 14, 2023]
-<p align="justify">
-[3] J. Carlos and R. Beatriz, “Nivel de conocimiento y práctica en la toma del electrocardiograma que realizan los profesionales de enfermería de una Clínica Privada de Miraflores, 2017,” Concytec.gob.pe, 2017. Available: https://alicia.concytec.gob.pe/vufind/Record/UEPU_369add237b65a478cd45d4664220d7d0/Details. [Accessed: Sep. 14, 2023]
-<p align="justify">
-‌	[4] J. Aspuru et al., “Segmentation of the ECG signal by means of a linear regression algorithm,” Sensors, vol. 19, no. 4, p. 775, 2019. doi:10.3390/s19040775 
-<p align="justify">
-[5] “Taller de interpretación del electrocardiograma.: Fisiología,” FISIOLOGA, https://fisiologia.facmed.unam.mx/index.php/taller-de-interpretacion-del-electrocardiograma/
-<p align="justify">
-[6] G. Goldich, “El Electrocardiograma de 12 Derivaciones: Parte I: Reconocimiento de los hallazgos normales,” Nursing (Ed. española), vol. 32, no. 2, pp. 28–34, 2015. doi:10.1016/j.nursi.2015.03.010 
-<p align="justify">
-[7]Electrocardiography (ECG) Sensor User Manual - Plux Biosignals, https://support.pluxbiosignals.com/wp-content/uploads/2021/10/biosignalsplux-Electrocardiography-ECG-User-Manual.pdf . 
-<p align="justify">
-[8] JavierFelipe, “Frecuencia cardíaca, todo lo que necesitas saber,” Mundo Entrenamiento, Jul. 24, 2014. https://mundoentrenamiento.com/frecuencia-cardiaca/?= (accessed Sep. 18, 2023).
-<p align="justify">
-[9] “Ley N.° 29733,” Www.gob.pe, 2023. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733 (accessed Sep. 18, 2023).
-<p align="justify">
-[10] Memoria, A. Autor, U. Rojas, M. Paula, and G. Román, “Análisis Electrocardiográfico y del Ritmo Cardíaco durante la Competencia de Maratón de Barcelona 2017.” Accessed: Sep. 18, 2023. [Online]. Available: https://upcommons.upc.edu/bitstream/handle/2117/349759/TFG%20MariaPaulaUsecheRojas.pdf?sequence=1&isAllowed=y
-<p align="justify">
-‌[11] “Dos maneras fáciles y precisas de medir tu frecuencia cardíaca,” Mayo Clinic, 2022. https://www.mayoclinic.org/es/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979 (accessed Sep. 18, 2023).
-<p align="justify">
-[12] Suntaxi Suntaxi, T.M. (2019) Repositorio Digital: Variabilidad de la Frecuencia cardiaca (HRV) ) como parámetro para valorar el sobreentrenamiento. Available at: http://www.dspace.uce.edu.ec/handle/25000/18206 (Accessed: 18 September 2023).
-<p align="justify">
-[13] S. Genovesi, D. Zaccaria, E. Rossi, Maria Grazia Valsecchi, A. Stella, and M. Stramba-Badiale, “Effects of exercise training on heart rate and QT interval in healthy young individuals: are there gender differences?,” Europace, vol. 9, no. 1, pp. 55–60, Jan. 2007, doi: https://doi.org/10.1093/europace/eul145.
-<p align="justify">
-‌[14] R. Rojas Jiménez, A. Diosdado, and J. Zamora, “Detector de picos de ECG y algoritmo de análisis de forma de onda.” Available: https://www.esfm.ipn.mx/assets/files/esfm/docs/RNAFM/articulos-2020/XXVRNAFM076.pdf
+<[1] A. Biasiucci, B. Franceschiello, and M. M. Murray, "Electroencephalography," *Current Biology*, vol. 29, no. 3, pp. R80–R85, Feb. 2019, doi: [10.1016/J.CUB.2018.11.052](https://doi.org/10.1016/J.CUB.2018.11.052).
+
+[2] T. K. Bera, "A Review on the Medical Applications of Electroencephalography (EEG)," *Proceedings of 2021 IEEE 7th International Conference on Bio Signals, Images and Instrumentation, ICBSII 2021*, Mar. 2021, doi: [10.1109/ICBSII51839.2021.9445153](https://doi.org/10.1109/ICBSII51839.2021.9445153).
+
+[3] "Electroencefalograma," *Centro Medico Helguera*, Jul. 18, 2016. Available: [https://www.centrohelguera.com.ar/el-centro-medico-helguera/especialidades/neurologia/electroencefalograma/](https://www.centrohelguera.com.ar/el-centro-medico-helguera/especialidades/neurologia/electroencefalograma/). [Accessed: Oct. 02, 2023]
+
+[4] T. Thompson, T. Steffert, T. Ros, J. Leach, and J. Gruzelier, "EEG applications for sport and performance," *Methods*, vol. 45, no. 4, pp. 279–288, Aug. 2008, doi: [10.1016/J.YMETH.2008.07.006](https://doi.org/10.1016/J.YMETH.2008.07.006).
+
+[5] B. Giesbrecht and J. Garrett, "Electroencephalography," *Reference Module in Neuroscience and Biobehavioral Psychology*, Jan. 2024, doi: [10.1016/B978-0-12-820480-1.00007-3](https://doi.org/10.1016/B978-0-12-820480-1.00007-3).
+
+[6] "Electroencefalografía - Instituto de Neurociencias de Lima," *Instituto Neurociencias de Lima*. Accessed: Sep. 30, 2023. [Online]. Available: [https://ineurocienciaslima.com.pe/electroencefalografia](https://ineurocienciaslima.com.pe/electroencefalografia)
+
+[7] S. Beniczky and D. L. Schomer, "Electroencephalography: basic biophysical and technological aspects important for clinical applications," *Epileptic Disorders*, vol. 22, no. 6, pp. 697–715, Dec. 2020, doi: [10.1684/EPD.2020.1217](https://doi.org/10.1684/EPD.2020.1217).
+
+[8] "BITalino (r)evolution Lab Guide," 2020, Accessed: Sep. 30, 2023. [Online]. Available: [http://BITalino.com/](http://BITalino.com/)
+
+[9] R. Srinivasan and P. L. Nunez, "Electroencephalography," *Encyclopedia of Human Behavior: Second Edition*, pp. 15–23, Jan. 2012, doi: [10.1016/B978-0-12-375000-6.00395-5](https://doi.org/10.1016/B978-0-12-375000-6.00395-5).
 
