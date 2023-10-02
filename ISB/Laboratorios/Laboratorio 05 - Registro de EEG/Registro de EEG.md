@@ -142,13 +142,15 @@ Para evitar interferencias es importante no tener objetos metálicos como aretes
 ### Discusión
 **Apertura y cierre de ojos**
 
-En adultos despiertos, el EEG revela principalmente la presencia de ondas alfa y beta, como se muestra en la imagen del paper [13].
+En adultos despiertos, el EEG revela principalmente la presencia de ondas alfa y beta, como se muestra en la Imagen 11 del paper [13].
 
-![Imagen 11](enlace_a_la_imagen_11)
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen1.png?raw=true"  width="400" height="200"> </p> 
+<em><p align="center">Imagen 11: Detección de ondas alfa a partir de una señal EEG registrada [13]</p></em> 
 
 La Imagen 12 muestra las diferencias entre un participante con los ojos abiertos (parte superior) y un participante con los ojos cerrados (parte inferior) [14].
 
-![Imagen 12](enlace_a_la_imagen_12)
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen3.png?raw=true"  width="400" height="200"> </p> 
+<em><p align="center">Imagen 12. Gráfica superior, participante con ojos abiertos. Gráfica inferior, participante con ojos cerrados. [14]</p></em> 
 
 **Complejidad de problemas matemáticos**
 
@@ -156,10 +158,15 @@ En problemas matemáticos de alta complejidad, se registra una mayor actividad e
 
 La siguiente imagen ilustra la interacción entre las áreas cerebrales encargadas de almacenar y manipular la información visual, destacando las oscilaciones en las bandas de frecuencia theta y alfa2[15].
 
-![Imagen](enlace_a_la_imagen)
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen4.png?raw=true"  width="400" height="200"> </p> 
+<em><p align="center">Interacción entre áreas cerebrales [15]
+</p></em> 
 
-En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como las señales de EEG mostraron un aumento durante la tarea mental, pero el inicio, el período y la cantidad de ese aumento dependieron de las características de cada modalidad [16].
+En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como las señales de EEG mostraron un aumento durante la tarea mental, pero el inicio, el período y la cantidad de ese aumento depende de las características de cada modalidad [16].
 
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen5.png?raw=true"  width="400" height="200"> </p> 
+<em><p align="center">Comparación de señales [16]
+</p></em> 
 
 ### **Archivos** <a name="arch"></a>
 
@@ -173,10 +180,10 @@ En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como l
 
 | **Etapa** | **Señal Bitalino** |  
 |:-------------:|:-------------:|
-| **Reposo (30 segundos)**| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg1.png?raw=true"  width="50%" height="50%"> <p align="justify">Según la gráfica, se muestra en la imagen del sujeto masculino en reposo un promedio de 2 latidos en los 2 segundos, lo cual tiene sentido según la bibliografía consultada. Además, se tiene un pico máximo del complejo QRS de algo más de 800 en amplitud, y un pico mínimo de aproximadamente 320 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.75 segundos (0.85 - 0.10) aproximadamente entre cada latido, lo cual indica que la persona se encuentra en un estado de reposo. El intervalo QT es de aproximadamente 0.18 segundos.| 
-| **Abrir y cerrar ojos** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg2.png?raw=true"  width="50%" height="50%"><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
-| **Reposo** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg3.png?raw=true"  width="50%" height="50%"><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
-| **Preguntas matemáticas** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg4.png?raw=true"  width="50%" height="50%" ><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
+| **Reposo (30 segundos)**| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg1.png?raw=true"  width="50%" height="50%"> <p align="justify">| 
+| **Abrir y cerrar ojos** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg2.png?raw=true"  width="50%" height="50%"><p align="justify"> | 
+| **Reposo** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg3.png?raw=true"  width="50%" height="50%"><p align="justify"> | 
+| **Preguntas matemáticas** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg4.png?raw=true"  width="50%" height="50%" ><p align="justify"> | 
 </div>
 
 **SEÑAL OBTENIDA CON EL ULTRACORTEX**
@@ -192,12 +199,10 @@ En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como l
 
 ## **Conclusiones** <a name="conclu"></a>
 ---
-- El ruido proveniente de la respiración y contracción muscular puede afectar a la adquisición del ECG, por lo tanto, también afectaría a la eficiencia del algoritmo. Adicionar filtros digitales podría servir para reducir el ruido bajo severas condiciones, sin embargo, esto podría no remover por completo el ruido.
-- Se lograron encontrar diferencias entre ambos sujetos y compararlos exitosamente.
-- La sujeto femenino posee una variabilidad de frecuencia cardíaca menor que el del sujeto masculino, lo cual evidenciaría las diferencias entre ambos en los aspectos de su vida cotidiana.
-- Ninguno de ellos posee una gráfica de reposo ni de agitación parecida al de alguna enfermedad cardíaca, por lo que se descarta ello.
-- Se logró con éxito plotear las señales en Python y así lograr un análisis de estas.
-- Se cumplió con la protección de la identidad de ambos sujetos, ya que es vital en este tipo de pruebas, por lo que se tuvo extremado cuidado en proteger el rostro y datos personales.
+- Se pudo observar variaciones en las mediciones de las gráficas de ojos cerrados y abiertos, Se observa el aumento de amplitud sobre los 10 Hz y la aparición de las ondas alfa en los electrodos occipitales O1 y O2. Sin embargo, el ruido generado puede deberse a la mala posición de los electrodos.
+- El cerebro realiza mayor esfuerzo cuando el sujeto se encuentra bajo presión procesando las preguntas matemáticas.
+- Se pudieron comparar entre las señales del ultracortex y el bitalino, que el primero posee una mejor muestra de las señales ya que no adquiere tanto ruido a diferencia del bitalino, esto se puede deber al nivel de filtrado que posee cada uno y la calidad de sus componentes.
+- La presencia de artefactos cerca del sujeto y que este esté conectado eléctricamente a otros dispositivos pueden generar altas impedancias en los electrodos de EEG y alterar los rangos normales.
 
 
 
@@ -226,3 +231,11 @@ En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como l
 [11] J. Molina del Río, M. A. Guevara, M. Hernández González, R. M. Hidalgo Aguirre, and M. A. Cruz Aguilar, "EEG correlation during the solving of simple and complex logical–mathematical problems," *Cognitive, Affective, & Behavioral Neuroscience*, vol. 19, no. 4, pp. 1036–1046, 2019. doi: [10.3758/s13415-019-00703-5](https://doi.org/10.3758/s13415-019-00703-5).
 
 [12] V. Peterson, C. Galván, H. Hernández, and R. Spies, "A feasibility study of a complete low-cost consumer-grade brain-computer interface system," *Heliyon*, vol. 6, p. 3425, 2020, doi: [10.1016/j.heliyon.2020.e03425](https://doi.org/10.1016/j.heliyon.2020.e03425).
+
+[13] T. Uktveris and Vacius Jusas, "Development of a Modular Board for EEG Signal Acquisition," *Sensors*, vol. 18, no. 7, pp. 2140–2140, Jul. 2018, doi: [10.3390/s18072140](https://doi.org/10.3390/s18072140). Available: [https://www.mdpi.com/1424-8220/18/7/2140](https://www.mdpi.com/1424-8220/18/7/2140). [Accessed: Oct. 02, 2023]
+
+[14] R. Álvarez Encinoso, "Montaje, prueba y calibración de sistemas de encefalografía EEG OPEN-BCI," 2020, Accessed: Oct. 01, 2023. [Online]. Available: [https://riull.ull.es/xmlui/handle/915/19811](https://riull.ull.es/xmlui/handle/915/19811)
+
+[15] S. I. Dimitriadis, Y. Sun, N. V. Thakor, and A. Bezerianos, "Causal interactions between Frontalθ – parieto-occipitalα2 predict performance on a mental arithmetic task," *Frontiers in Human Neuroscience*, vol. 10, 2016. doi: [10.3389/fnhum.2016.00454](https://doi.org/10.3389/fnhum.2016.00454)
+
+[16] R. K. Almajidy, K. S. Le, and U. G. Hofmann, "Novel near infrared sensors for hybrid BCI applications," *SPIE Proceedings*, 2015. doi: [10.1117/12.2182066](https://doi.org/10.1117/12.2182066)
