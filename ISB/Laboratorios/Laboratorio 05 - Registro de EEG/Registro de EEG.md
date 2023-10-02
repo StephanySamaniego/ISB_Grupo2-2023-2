@@ -140,24 +140,31 @@ Para evitar interferencias es importante no tener objetos metálicos como aretes
 
 
 ### Discusión
-1. **Frecuencia Cardíaca:**
-<p align="justify">
-Es la medida del número de contracciones por minuto que ejecuta el corazón para bombear sangre, permitiendo el flujo de esta por el sistema circulatorio. Es una de las variables más estudiadas en el ejercicio, observando su relación con la reducción o el aumento de la frecuencia cardiaca en reposo y en diferentes intensidades del ejercicio. Esta variable puede indicar el grado de adaptación de una persona al entrenamiento, así como su condición física y la monitorización de la intensidad del ejercicio, entre otros. Para evaluar la frecuencia cardiaca existen diferentes factores que la afectan tanto en reposo como durante la actividad física, siendo estas [10]:
+**Apertura y cierre de ojos**
 
-- Variaciones diarias: la frecuencia cardiaca presenta variaciones día a día, observando variaciones alrededor de dos o cuatro latidos por minuto al medir la frecuencia en condiciones controladas en una persona, durante días sucesivos.
-- Hora del día: la frecuencia presenta variaciones durante el día, siendo menor por la mañana y mayor por la tarde.
-Hidratación: cuando una persona está deshidratada presenta una frecuencia cardiaca más alta, el incremento de la frecuencia está relacionado positivamente con el nivel de deshidratación.
-- Altitud: la frecuencia cardiaca incrementa cuando se realiza ejercicio en altura.
-- Medicación: las variaciones de la frecuencia dependen del tipo de medicamento y la dosis suministrada
-- Ejercicio continuo
-- Caminatas
+En adultos despiertos, el EEG revela principalmente la presencia de ondas alfa y beta, como se muestra en la imagen del paper [13].
 
-</div>
+![Imagen 11](enlace_a_la_imagen_11)
+
+La Imagen 12 muestra las diferencias entre un participante con los ojos abiertos (parte superior) y un participante con los ojos cerrados (parte inferior) [14].
+
+![Imagen 12](enlace_a_la_imagen_12)
+
+**Complejidad de problemas matemáticos**
+
+En problemas matemáticos de alta complejidad, se registra una mayor actividad en las bandas de frecuencia theta y alfa en las áreas frontales y parietales izquierdas, que están vinculadas al razonamiento matemático y el cálculo. Estos resultados respaldan investigaciones previas que indican una mayor activación de estas áreas cerebrales en situaciones de mayor dificultad. Además, se ha notado una disminución en la actividad de las regiones temporales durante la resolución de estos problemas[15].
+
+La siguiente imagen ilustra la interacción entre las áreas cerebrales encargadas de almacenar y manipular la información visual, destacando las oscilaciones en las bandas de frecuencia theta y alfa2[15].
+
+![Imagen](enlace_a_la_imagen)
+
+En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como las señales de EEG mostraron un aumento durante la tarea mental, pero el inicio, el período y la cantidad de ese aumento dependieron de las características de cada modalidad [16].
+
 
 ### **Archivos** <a name="arch"></a>
 
-- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2004%20%20-%20BiTalino%20ECG/Documentaci%C3%B3n/Archivos_txt)
-- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2004%20%20-%20BiTalino%20ECG/Documentaci%C3%B3n/C%C3%B3digos)
+- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/972ce8758b55bbeff94d1fea3cc9e4206d2c9f3b/ISB/Laboratorios/Laboratorio%2005%20-%20Registro%20de%20EEG/Documentaci%C3%B3n/Archivos%20.txt)
+- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/972ce8758b55bbeff94d1fea3cc9e4206d2c9f3b/ISB/Laboratorios/Laboratorio%2005%20-%20Registro%20de%20EEG/Documentaci%C3%B3n/C%C3%B3digos)
 
 ### **Ploteo de la señal en Python** <a name="plote"></a>
 
@@ -181,31 +188,6 @@ Hidratación: cuando una persona está deshidratada presenta una frecuencia card
 <em><p align="center">PSD para FFT de la señal</p></em> 
 
 
-### **Comparación gráfica del sujeto masculino agitado VS el sujeto femenino agitado**
-
-Existe una diferencia notoria entre ambos gráficos.
-1. El número de latidos es mayor en el sujeto masculino en la duración de 2 segundos, lo cual podría deberse a su estilo de vida más físico.
-2. Los picos máximos y mínimos son muy similares por lo que probablemente experimenten una amplitud semejante en milivoltios.
-3. La variabilidad de la frecuencia cardíaca es mayor en el sujeto masculino, lo cual también se debería a la condición física de este.
-4. El intervalo QT es más prolongado en el sujeto femenino, lo cual va acorde a la literatura.
-
-### **Imágenes de ECGs con indicios de alguna enfermedad**
-
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_1.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Trazo de ECG con 1000 muestras por segundo. Presenta la onda T invertida, indicador de isquemia miocárdica. Extraído de [14]
-</p></em> 
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_2.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Trazo de ECG con 1000 muestras por segundo. Se observa una elevación en el segmento ST, indicador de un ataque al corazón. Extraído de [14]
-</p></em> 
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_3.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Trazo de ECG con 1000 muestras por segundo donde se observa una
-desincronización en el complejo QRS, esto implica una arritmia. Extraído de [14]</p></em> 
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/enfermedad_3.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Trazo de ECG con 1000 muestras por segundo y el segmento ST faltante, infarto agudo al miocardio. Extraído de [14]</p></em> 
 
 
 ## **Conclusiones** <a name="conclu"></a>
