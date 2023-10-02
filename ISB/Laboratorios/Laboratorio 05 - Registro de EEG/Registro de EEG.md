@@ -43,8 +43,8 @@
   <img src="https://onlinelibrary.wiley.com/cms/asset/5db40ba5-96df-4d5d-98e4-92c830614e82/epd212341-fig-0001-m.jpg  width="400" height="200"> </p>
   <em><p align="center">Origen de la señal EEG [7]</p></em> 
 
-**Activación neural**
-<p align="justify"> La señal es siempre una mezcla de varias frecuencias base subyacentes que se consideran reflejo de ciertos estados cognitivos, afectivos o de atención. Estas frecuencias varían ligeramente según factores individuales, propiedades de los estímulos y estados internos, y se clasifican en bandas de frecuencia específicas:
+**Oscilaciones del EEG**
+<p align="justify"> La señal es siempre una mezcla de varias frecuencias base subyacentes que se consideran reflejo de ciertos estados cognitivos, afectivos o de atención. Estas frecuencias varían ligeramente según factores individuales, propiedades de los estímulos y estados internos, y se clasifican en bandas de frecuencia específicas [8]:
 
 | Tipo de Banda        | Frecuencia (Hz) | Descripción                                                                                                     |
 |----------------------|------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,15 +53,18 @@
 | Banda alfa           | 8-12 Hz          | Descubierta por Hans Berger, la banda alfa se relaciona con la relajación y la inhibición sensorial. Aumenta cuando la persona está relajada y con los ojos cerrados, pero disminuye cuando está activa y con los ojos abiertos. |
 | Banda beta           | 12-25 Hz         | Están asociadas con el pensamiento activo, la concentración y la planificación de movimientos. También se activan al observar los movimientos de otras personas. |
 | Banda gamma          | > 25 Hz          | Su papel aún no está claro, pero se sugiere que pueden estar involucradas en la unificación de impresiones sensoriales y la atención. |
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/oscilaciones.png?raw=true"400" height="200"> </p>
+<em><p align="center"> Ondas del EEG [8]</p></em> 
 
+**Artefactos**
+<p align="justify"> Las señales registradas en el cuero cabelludo se originan en fuentes cerebrales, ruido ambiental y ruido del sistema, así como en artefactos biológicos que pueden deberse a movimientos corporales, el ritmo cardíaco, la actividad muscular, los movimientos oculares y el parpadeo. La eliminación de los artefactos con frecuencias superiores a 20 Hz es desafiante ya que el artefacto eléctrico generado se registra junto con el EEG [9].</p>
 
 ## **Objetivos** <a name="obj"></a>
 ---
-● Adquirir señales biomédicas de ECG.
-
-● Hacer una correcta configuración de BiTalino.
-
-● Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution
+- Adquirir señales biomédicas de EEG.
+- Hacer una correcta configuración de BiTalino y Ultracortex Mark IV.
+- Extraer la información de las señales EEG del software OpenBCI GUI y Open Signal
 
 
 ## **Materiales y equipos** <a name="mat"></a>
@@ -71,12 +74,12 @@
 | **Modelo** | **Descripción** | **Imagen Referencial** |
 |:-------------:|:-------------:|:-------------:|
 | (R)evolution | <p align="justify">**Kit BITalino:** Plataforma de adquisición de bioseñales viene con diferentes sensores, como EMG ,ECG o EEG. Envía como una placa todo en uno, con todos los bloques electrónicos necesarios para la adquisición de bioseñales preconectados.</p> | <div align="center"> <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%"> |
-| - |<p align="justify"> **Cable EMG de 3 derivaciones :** Registra la actividad eléctrica del corazón desde tres ubicaciones diferentes en el cuerpo del paciente. </p>  |<div align="center"> <img src="https://cdn.cloudbf.com/thumb/format/mini_xsize/files/47/img/2022/06/27/202206270945000152799.jpg.webp" width="50%" height="50%"> |
-| - |<p align="justify">**Electrodos:** Los electrodos registran la actividad eléctrica de los músculos durante la contracción y el relajamiento muscular</p> | <div align="center"> <img src="https://beurer.pe/assets/sources/ELECTRODOS%20X8%201.jpg" width="50%" height="50%">  |
+| - | <p align="justify">**Ultracortex Mark IV EEG:** Casco EEG de código abierto, imprimible en 3D, diseñado para trabajar con cualquier placa OpenBCI. El Ultracortex Mark IV, la última versión, puede muestrear hasta 16 canales de EEG desde 35 ubicaciones diferentes según el sistema 10-20.  </p> | <div align="center"> <img src="https://shop.openbci.com/cdn/shop/products/DSC02861.jpg?v=1652731236&width=900" width="50%" height="50%">  |
+| - |<p align="justify"> **Cable de 3 derivaciones :** Registra la actividad eléctrica del cerebro desde tres ubicaciones diferentes (frente y punto de referencia) en el cuerpo del paciente. </p>  |<div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/electrodos.jpg?raw=true" width="50%" height="50%"> |
+| - |<p align="justify">**Electrodos:** Los electrodos son utilizados para capturar la actividad eléctrica del cerebro al registrar la diferencia de potencial.</p> | <div align="center"> <img src="https://beurer.pe/assets/sources/ELECTRODOS%20X8%201.jpg" width="50%" height="50%">  |
 | - |<p align="justify"> **Software OpenSignals:** Software e diseñado para la adquisición, procesamiento y análisis de datos biomédicos, incluyendo señales fisiológicas y de movimiento.</p>  | <div align="center"> <img src="https://cdn.shopify.com/s/files/1/0595/1068/5887/t/6/assets/ezgif5b55a161ca2-1-1-1649945010655.png?v=1649945012" width="50%" height="50%">  |
-| - | <p align="justify">**Laptop o PC:** Descargar el software en una Laptop para procesar las señales.</p> | <div align="center"> <img src="https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5" width="50%" height="50%">  |
-| HP Multifuncional | <p align="justify">**Caminadora eléctrica:** Se requiere para inducir el ejercicio físico en los participantes y medir su actividad cardíaca después del ejercicio.</p> | <div align="center"> <img src="https://promart.vteximg.com.br/arquivos/ids/5722154-1000-1000/image-460be51623694433a913cef6360e24c2.jpg?v=637872973108530000" width="50%" height="50%">  |
-| Fluke | <p align="justify">**Prosim4:** Diseñado para comprobar y verificar el funcionamiento básico de sistemas utilizados para vigilar varios parámetros fisiológicos de un paciente, entre los que se encuentran el ECG, la respiración, la presión arterial invasiva y la presión arterial no invasiva. </p> | <div align="center"> <img src="https://www.flukebiomedical.com/sites/default/files/styles/slideshow_image/public/prosim4front_0.png" width="50%" height="50%">  |
+| - |<p align="justify"> **Software OpenBCI GUI:** Herramienta de software de OpenBCI para visualizar, grabar y transmitir datos desde las placas OpenBCI. Los datos pueden mostrarse en tiempo real, reproducirse, guardarse en la computadora en formato .txt</p>  | <div align="center"> <img src="https://docs.openbci.com/assets/images/GUI-V4-Screenshot-6d16898fb8d30a8f48e2f748ff0c2d51.jpg" width="50%" height="50%">  |
+| - | <p align="justify">**Laptop o PC:** Descargar las plataformas mencionadas en una Laptop para observar y procesar las señales.</p> | <div align="center"> <img src="https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5" width="50%" height="50%">  |
 
 </div>
 
