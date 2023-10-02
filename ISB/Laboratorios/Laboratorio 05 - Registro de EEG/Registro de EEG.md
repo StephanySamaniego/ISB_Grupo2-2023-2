@@ -7,7 +7,8 @@
 5. [Resultados](#resul)\
      5.1 [Fotos de la conexión usada](#conex)\
      5.2 [Explicación del protocolo seguido](#senal)\
-     5.3 [Ploteo de la señal en OpenBCI GUI](#plot)\
+     5.3 [Ploteo de la señal en Open Signals](#plot)\
+     5.4 [Ploteo de la señal en OpenBCI GUI](#plot2)\
      5.4 [Archivos](#arch)\
      5.5 [Ploteo de la señal en Python](#plote)\
 6. [Conclusiones](#conclu)
@@ -45,6 +46,7 @@
 
 **Oscilaciones del EEG**
 <p align="justify"> La señal es siempre una mezcla de varias frecuencias base subyacentes que se consideran reflejo de ciertos estados cognitivos, afectivos o de atención. Estas frecuencias varían ligeramente según factores individuales, propiedades de los estímulos y estados internos, y se clasifican en bandas de frecuencia específicas [8]:
+
 
 | Tipo de Banda        | Frecuencia (Hz) | Descripción                                                                                                     |
 |----------------------|------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -87,37 +89,36 @@
 ---
 ### **Conexión usada** <a name="conex"></a>
 
-Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de ECG de 3 electrodos. Para obtener la señal ECG, se ubicaron los electrodos positivo y negativo en la muñeca, en la arteria radial, para medir el pulso radial, se eligió esta ubicación, ya que es el más fiable. La zona del cuello palpando la carótida también es muy fiable, pero según en qué personas puede afectar a la disminución de la frecuencia cardíaca [8]. 
+<p align="justify">Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EEG de 3 electrodos. En la configuración bipolar, se utilizan dos electrodos de medición (IN+/-) que se colocan sobre la posición del electrodo. El electrodo negro se coloca en la región derecha de la frente, mientras que el electrodo rojo se coloca en la región izquierda de la frente. El electrodo de referencia (blanco) se coloca en una región neutral, el hueso detrás de la oreja [10]. 
 
-En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [9].
+<p align="justify">En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [11].
 
+| | |
+|:-------------:|:-------------:|
+|<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_carlos.png?raw=true" width="400" height="300"></p>|
 
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/imagen.png?raw=true" width="400" height="266"></p>
-</p>
 
 <p align="justify">
-Se procedió a tomar señales de dos miembros del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals.
+Se procedió a tomar señales de un miembro del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals.
 
 ### **Explicación del protocolo seguido** <a name="senal"></a>
 
-| **Pasos** | **Imagen** | **Imagen** |
-|:-------------:|:-------------:|:-------------:|
-|<p align="justify"> 1. Conectar el BITalino (r)evolution Core BT </p> <p align="justify">2. Prueba de la configuración </p> | <div align="center"> <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%"> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/conexion.png?raw=true" width="50%" height="50%">| 
-|<p align="justify">3. Conectar el Sensor de ECG ensamblado a uno de los canales analógicos disponibles. </p> <p align="justify">4. Colocar los Electrodos con Gel en los broches de los tres sensores de ECG. </p>  <p align="justify">5. Colocar los electrodos en ambas muñecas y el maléolo lateral. </p> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/conexion_masc.jpg?raw=true" width="50%" height="50%">  <p align="center"> Sujeto masculino </p> |  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/conexiones_fem.jpg?raw=true" width="50%" height="50%">  <p align="center">Sujeto femenino</p> | 
-|<p align="justify"> 6. Iniciar la grabación de datos en OpenSignals (r)evolution. <p align="justify"> 7. Grabar una línea de base de señal con bajo ruido y sin movimientos durante 30 segundos.| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/1c565ffe-4944-45c2-b2cc-0b917930bd23" width="50%" height="50%"></video> Sujeto masculino | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/9f5b285e-bee0-4c66-b8b4-50fe8cf17ca8" width="50%" height="50%"></video> Sujeto femenino| 
-|<p align="justify"> 8. Retirar los electrodos y realizar actividad física (correr) en la caminadora durante un período de cinco minutos. Se aplica un esfuerzo sostenido que involucra la contracción rítmica de los músculos de las piernas y requiere una adecuada capacidad aeróbica para mantener la actividad a lo largo de la duración especificada.|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/efaca9ab-db45-4a67-80a3-b966748e00dc" width="50%" height="50%"></video> | |
-|<p align="justify"> 9. Subir las escaleras trotando durante dos minutos y colocarse los electrodos en las posiciones antes mencionadas. <p align="justify"> 10. Grabar la señal después del ejercicio. <p align="justify"> 11. Detener la grabación y guardar los datos [7]| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/193f9b68-3f72-411b-b94d-aa701767bca1" width="50%" height="50%"></video> Sujeto masculino | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/193f9b68-3f72-411b-b94d-aa701767bca1" width="50%" height="50%"></video> Sujeto femenino| 
+| **Pasos** | **Bitalino** | 
+|:-------------:|:-------------:|
+|<p align="justify"> 1. Conectar el BITalino (r)evolution Core BT </p> <p align="justify">2. Prueba de la configuración </p> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="50%" height="50%"> | 
+|<p align="justify">3. Luego de colocar los electrodos en las ubicaciones mencionadas, registrar una línea base de señal con poco ruido y sin movimientos (respiración normal, sin movimientos oculares/ojos cerrados) durante 30 segundos. </p> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/conexion_masc.jpg?raw=true" width="50%" height="50%">  <p align="center">  </p> | 
+|<p align="justify"> 4. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos. <p align="justify"> 5. Registre otra fase de referencia de 30 segundos (paso 3)| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/1c565ffe-4944-45c2-b2cc-0b917930bd23" width="50%" height="50%"></video>  | 
+|<p align="justify"> 6. Leer en voz alta una serie de ejercicios matemáticos (verindicaciones abajo) y el participante deberá resolverlos cada uno de ellos mentalmente enfocando tu mirada en unpunto específico (llavero) para evitar artefactos. <p align="justify"> 7. Detener la grabación y guardar los datos.|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/efaca9ab-db45-4a67-80a3-b966748e00dc" width="50%" height="50%"></video> | 
 
-### Ploteo de la señal en OpenSignal <a name="plot"></a>
-Para empezar a tomar la señal en reposo o silencio eléctrico es importante no tener objetos metálicos como aretes, anillos, cadenas, etc; ya que generan interferencias.
+### Ploteo de la señal en OpenBCI GUI <a name="plot"></a>
+Para evitar interferencias es importante no tener objetos metálicos como aretes, anillos, cadenas, etc.
 
 <div align="center">
 
-| **Etapa** | **Sujeto masculino** | **Sujeto femenino** |
-|:-------------:|:-------------:|:-------------:|
-| Reposo| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_stephany.jpg?raw=true" width="50%" height="50%"> |
-| Agitado |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agirtado_carlos.jpg?raw=true" width="50%" height="50%"> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agitado_stephany.jpg?raw=true" width="50%" height="50%"> |
+| **Etapa** | **OpenBCI GUI** | 
+|:-------------:|:-------------:|
+| Inicial (30 segundos)| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_carlos.jpg?raw=true" width="50%" height="50%"> | 
+| Abrir y cerrar ojos |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/se%C3%B1al_agirtado_carlos.jpg?raw=true" width="50%" height="50%"> | 
 
 </div>
 
