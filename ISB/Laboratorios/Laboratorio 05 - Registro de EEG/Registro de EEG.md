@@ -55,7 +55,7 @@
 | Banda beta           | 12-25 Hz         | Están asociadas con el pensamiento activo, la concentración y la planificación de movimientos. También se activan al observar los movimientos de otras personas. |
 | Banda gamma          | > 25 Hz          | Su papel aún no está claro, pero se sugiere que pueden estar involucradas en la unificación de impresiones sensoriales y la atención. |
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/oscilaciones.png?raw=true"400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/oscilacionesss.png?raw=true"400" height="200"> </p>
 <em><p align="center"> Ondas del EEG [8]</p></em> 
 
 **Artefactos**
@@ -88,9 +88,9 @@
 ---
 ### **Conexión usada** <a name="conex"></a>
 
-<p align="justify">Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EEG de 3 electrodos. En la configuración bipolar, se utilizan dos electrodos de medición (IN+/-) que se colocan sobre la posición del electrodo. El electrodo negro se coloca en la región derecha de la frente, mientras que el electrodo rojo se coloca en la región izquierda de la frente. El electrodo de referencia (blanco) se coloca en una región neutral, el hueso detrás de la oreja [10]. 
+<p align="justify">Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EEG de 3 electrodos. En la configuración bipolar, se utilizan dos electrodos de medición (IN+/-) que se colocan sobre la posición del electrodo. El electrodo negro se coloca en la región derecha de la frente, mientras que el electrodo rojo se coloca en la región izquierda de la frente. El electrodo de referencia (blanco) se coloca en una región neutral, el hueso detrás de la oreja [8]. 
 
-<p align="justify">En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [11].
+<p align="justify">En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [10].
      
 <div align="center">
      
@@ -109,7 +109,17 @@ Se procedió a tomar señales de un miembro del equipo siguiendo el protocolo de
 |<p align="justify"> **1. Conectar el BITalino (r)evolution Core BT** </p> <p align="justify">**2. Prueba de la configuración** </p> <p align="justify">**3. Conectar el sensor de EEG de 3 electrodos al participante:** Como se menciona en la guía. Además, se procuró que el participante no cuente con objetos metálicos ni electrónicos cerca, para evitar el ruido producido por estos; y, de igual manera, se procuró que el participante se mantenga sentado en una silla en un estado de reposo y calma. Posterior a esto se inició la grabación de la toma de datos. | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="50%" height="50%"> | 
 |<p align="justify">**4. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal).** Para esto se le solicitó al participante que se mantenga en calma por 10 segundos para establecer la línea base, la cual será el punto de partida para la toma de datos. <p align="justify">**5.Sin movimientos oculares/ojos cerrados durante 30 segundos.** Una vez pasados los 10 segundos, se le solicitó al paciente que cierre los ojos durante 30 segundos mientras se mantenía en una posición de calma</p> | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/b49b3a1a-012c-4920-a10f-29f06f2c0569" width="50%" height="50%"></video>| 
 |<p align="justify">**6. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces** Culminados los 30 segundos, se le solicitó al participante realizar un ciclo de abrir y cerrar los ojos con un intervalo de tiempo de 5 seg, y repetir este ciclo 5 veces, mientras mantenía la misma posición y miraba un punto fijo.<p align="justify"> **7. Registre otra fase de referencia de 30 segundos (paso 5)** Finalizadas las 5 repeticiones de apertura y cierre de ojos, se le solicitó al paciente volver a cerrar los ojos por 30 segundos mientras se mantenía en un estado de calma.| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/7d3688bc-70c6-4dd7-a6d3-b16b7c402c21" width="50%" height="50%"></video> | 
-|<p align="justify"> **6. Leer en voz alta una serie de ejercicios matemáticos** Finalizados los 30 segundos, otro participante leyó en voz alta una serie de ejercicios matemáticos, los cuales fueron resolvidos por el participante mientras fijaba su mirada en un punto específico; no se asignó un tiempo límite para cada pregunta. <p align="justify">**7. Detener la grabación y guardar los datos.**|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/cb2f8bb4-ba15-4911-b9cd-6b597a817790" width="50%" height="50%"></video> | 
+|<p align="justify"> **6. Leer en voz alta una serie de ejercicios matemáticos** Finalizados los 30 segundos, otro participante leyó en voz alta una serie de ejercicios matemáticos (*), los cuales fueron resolvidos por el participante mientras fijaba su mirada en un punto específico; no se asignó un tiempo límite para cada pregunta. <p align="justify">**7. Detener la grabación y guardar los datos.**|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/cb2f8bb4-ba15-4911-b9cd-6b597a817790" width="50%" height="50%"></video> | 
+
+**(*)Preguntas utilizadas [11]**
+| Categoría           | Ejemplo                                                                                                                                                       |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ejemplo Sencillo    | - Hay 3 pájaros en un árbol; Llegan 7 más. ¿Cuántas aves hay ahora?                                                                                           |
+|                     | - Jonas tiene 5 manzanas y Mary tiene 4. ¿Cuántas manzanas tienen en total?                                                                                   |
+|                     | - Hanna tiene 9 dólares pero gastó 4. ¿Cuántos dólares le quedan?                                                                                              |
+| Ejemplo Complejo    | - John anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos obtuvieron en total?              |
+|                     | - El Grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 estudiantes más que los grupos A y B combinados. ¿Cuál es el número total de estudiantes? |
+|                     | - Una tienda vendía 21 refrescos por la mañana y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?               |
 
 ### Ploteo de la señal en OpenBCI GUI <a name="plot"></a>
 Para evitar interferencias es importante no tener objetos metálicos como aretes, anillos, cadenas, etc.
@@ -211,7 +221,7 @@ desincronización en el complejo QRS, esto implica una arritmia. Extraído de [1
 
 ## **Referencias** <a name="ref"></a>
 ---
-<[1] A. Biasiucci, B. Franceschiello, and M. M. Murray, "Electroencephalography," *Current Biology*, vol. 29, no. 3, pp. R80–R85, Feb. 2019, doi: [10.1016/J.CUB.2018.11.052](https://doi.org/10.1016/J.CUB.2018.11.052).
+[1] A. Biasiucci, B. Franceschiello, and M. M. Murray, "Electroencephalography," *Current Biology*, vol. 29, no. 3, pp. R80–R85, Feb. 2019, doi: [10.1016/J.CUB.2018.11.052](https://doi.org/10.1016/J.CUB.2018.11.052).
 
 [2] T. K. Bera, "A Review on the Medical Applications of Electroencephalography (EEG)," *Proceedings of 2021 IEEE 7th International Conference on Bio Signals, Images and Instrumentation, ICBSII 2021*, Mar. 2021, doi: [10.1109/ICBSII51839.2021.9445153](https://doi.org/10.1109/ICBSII51839.2021.9445153).
 
@@ -229,3 +239,8 @@ desincronización en el complejo QRS, esto implica una arritmia. Extraído de [1
 
 [9] R. Srinivasan and P. L. Nunez, "Electroencephalography," *Encyclopedia of Human Behavior: Second Edition*, pp. 15–23, Jan. 2012, doi: [10.1016/B978-0-12-375000-6.00395-5](https://doi.org/10.1016/B978-0-12-375000-6.00395-5).
 
+[10] "Ley N.° 29733," *Www.gob.pe*, 2023. [https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733](https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733).
+
+[11] J. Molina del Río, M. A. Guevara, M. Hernández González, R. M. Hidalgo Aguirre, and M. A. Cruz Aguilar, "EEG correlation during the solving of simple and complex logical–mathematical problems," *Cognitive, Affective, & Behavioral Neuroscience*, vol. 19, no. 4, pp. 1036–1046, 2019. doi: [10.3758/s13415-019-00703-5](https://doi.org/10.3758/s13415-019-00703-5).
+
+[12] V. Peterson, C. Galván, H. Hernández, and R. Spies, "A feasibility study of a complete low-cost consumer-grade brain-computer interface system," *Heliyon*, vol. 6, p. 3425, 2020, doi: [10.1016/j.heliyon.2020.e03425](https://doi.org/10.1016/j.heliyon.2020.e03425).
