@@ -41,7 +41,7 @@
 
 
 <p align="center">
-  <img src="https://onlinelibrary.wiley.com/cms/asset/5db40ba5-96df-4d5d-98e4-92c830614e82/epd212341-fig-0001-m.jpg  width="400" height="200"> </p>
+  <img src="https://onlinelibrary.wiley.com/cms/asset/5db40ba5-96df-4d5d-98e4-92c830614e82/epd212341-fig-0001-m.jpg"  width="400" height="200"> </p>
   <em><p align="center">Origen de la señal EEG [7]</p></em> 
 
 **Oscilaciones del EEG**
