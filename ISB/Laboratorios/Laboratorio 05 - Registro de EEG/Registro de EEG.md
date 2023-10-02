@@ -1,4 +1,4 @@
-# Laboratorio 4: Procediemietno de registro EEG
+# Laboratorio 4: Procedimiento de registro EEG
 
 1. [Contexto](#context)
 2. [Marco teórico](#marco)
@@ -7,10 +7,9 @@
 5. [Resultados](#resul)\
      5.1 [Fotos de la conexión usada](#conex)\
      5.2 [Explicación del protocolo seguido](#senal)\
-     5.3 [Ploteo de la señal en Open Signals](#plot)\
-     5.4 [Ploteo de la señal en OpenBCI GUI](#plot2)\
+     5.3 [Ploteo de la señal en OpenBCI GUI](#plot)\
      5.4 [Archivos](#arch)\
-     5.5 [Ploteo de la señal en Python](#plote)\
+     5.5 [Ploteo de la señal en Python](#plote)
 6. [Conclusiones](#conclu)
 7. [Referencias](#ref)
 
@@ -26,7 +25,7 @@
 <em><p align="center">Señales del EEG [3]</p></em> 
 
 
-## **Marco teórico** <a name="obj"></a>
+## **Marco teórico** <a name="marco"></a>
 ---
 **¿Qué es el EEG?**
 <p align="justify"> La actividad eléctrica de las neuronas en el cerebro produce corrientes que llegan a la superficie del cuero cabelludo [4]. El EEG, o electroencefalografía, representa una técnica no invasiva que mide los campos eléctricos del cerebro. Al posicionar electrodos en el cuero cabelludo, se logra el registro de potenciales de voltaje generados por el flujo de corriente circulante en y alrededor de las neuronas.  Cada electrodo  registra la actividad eléctrica a gran escala, midiendo corrientes eléctricas (o potenciales) generadas en el tejido cortical que contiene aproximadamente de 30 millones a 500 millones de neuronas. Las oscilaciones del voltaje cuentan una parte limitada pero importante de la historia del funcionamiento del cerebro. Por ejemplo, estados de sueño profundo, coma o anestesia están en su mayoría asociados con oscilaciones muy lentas del EEG y amplitudes más grandes [5].  </p>
@@ -41,7 +40,7 @@
 
 
 <p align="center">
-  <img src="https://onlinelibrary.wiley.com/cms/asset/5db40ba5-96df-4d5d-98e4-92c830614e82/epd212341-fig-0001-m.jpg"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
   <em><p align="center">Origen de la señal EEG [7]</p></em> 
 
 **Oscilaciones del EEG**
@@ -92,11 +91,13 @@
 <p align="justify">Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EEG de 3 electrodos. En la configuración bipolar, se utilizan dos electrodos de medición (IN+/-) que se colocan sobre la posición del electrodo. El electrodo negro se coloca en la región derecha de la frente, mientras que el electrodo rojo se coloca en la región izquierda de la frente. El electrodo de referencia (blanco) se coloca en una región neutral, el hueso detrás de la oreja [10]. 
 
 <p align="justify">En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [11].
-
-| | |
-|:-------------:|:-------------:|
-|<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_carlos.png?raw=true" width="400" height="300"></p>|
-
+     
+<div align="center">
+     
+| | | |
+|:-------------:|:-------------:|:-------------:|
+|<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_carlos.png?raw=true" width="400" height="300"></p>| <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/colocacion_ultracortex.jpg?raw=true" width="400" height="300"></p>|
+</div>
 
 <p align="justify">
 Se procedió a tomar señales de un miembro del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals.
@@ -106,9 +107,9 @@ Se procedió a tomar señales de un miembro del equipo siguiendo el protocolo de
 | **Pasos** | **Bitalino** | 
 |:-------------:|:-------------:|
 |<p align="justify"> 1. Conectar el BITalino (r)evolution Core BT </p> <p align="justify">2. Prueba de la configuración </p> | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="50%" height="50%"> | 
-|<p align="justify">3. Luego de colocar los electrodos en las ubicaciones mencionadas, registrar una línea base de señal con poco ruido y sin movimientos (respiración normal, sin movimientos oculares/ojos cerrados) durante 30 segundos. </p> | <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_04/conexion_masc.jpg?raw=true" width="50%" height="50%">  <p align="center">  </p> | 
-|<p align="justify"> 4. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos. <p align="justify"> 5. Registre otra fase de referencia de 30 segundos (paso 3)| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/1c565ffe-4944-45c2-b2cc-0b917930bd23" width="50%" height="50%"></video>  | 
-|<p align="justify"> 6. Leer en voz alta una serie de ejercicios matemáticos (verindicaciones abajo) y el participante deberá resolverlos cada uno de ellos mentalmente enfocando tu mirada en unpunto específico (llavero) para evitar artefactos. <p align="justify"> 7. Detener la grabación y guardar los datos.|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/efaca9ab-db45-4a67-80a3-b966748e00dc" width="50%" height="50%"></video> | 
+|<p align="justify">3. Luego de colocar los electrodos en las ubicaciones mencionadas, registrar una línea base de señal con poco ruido y sin movimientos (respiración normal, sin movimientos oculares/ojos cerrados) durante 30 segundos. </p> | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/b49b3a1a-012c-4920-a10f-29f06f2c0569" width="50%" height="50%"></video>| 
+|<p align="justify"> 4. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas fases durante cinco segundos. <p align="justify"> 5. Registre otra fase de referencia de 30 segundos (paso 3)| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/7d3688bc-70c6-4dd7-a6d3-b16b7c402c21" width="50%" height="50%"></video> | 
+|<p align="justify"> 6. Leer en voz alta una serie de ejercicios matemáticos (verindicaciones abajo) y el participante deberá resolverlos cada uno de ellos mentalmente enfocando tu mirada en unpunto específico (llavero) para evitar artefactos. <p align="justify"> 7. Detener la grabación y guardar los datos.|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/cb2f8bb4-ba15-4911-b9cd-6b597a817790" width="50%" height="50%"></video> | 
 
 ### Ploteo de la señal en OpenBCI GUI <a name="plot"></a>
 Para evitar interferencias es importante no tener objetos metálicos como aretes, anillos, cadenas, etc.
@@ -121,9 +122,10 @@ Para evitar interferencias es importante no tener objetos metálicos como aretes
 | Abrir y cerrar ojos |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/uc_30secon.png?raw=true" width="50%" height="50%">| 
 ---
 
-<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/efaca9ab-db45-4a67-80a3-b966748e00dc" width="50%" height="50%"></video> 
+<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/1d2203f7-a0ef-4a80-94b1-e483379ad579" width="50%" height="50%"></video> 
 <em><p align="center"> Visualización de la señal EEG </p></em> 
 </div>
+
 
 ### Discusión
 1. **Frecuencia Cardíaca:**
@@ -152,10 +154,10 @@ Hidratación: cuando una persona está deshidratada presenta una frecuencia card
 
 | **Etapa** | **Señal Bitalino** |  
 |:-------------:|:-------------:|
-| **Reposo (30 segundos)**| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg1.png?raw=true" > <p align="justify">Según la gráfica, se muestra en la imagen del sujeto masculino en reposo un promedio de 2 latidos en los 2 segundos, lo cual tiene sentido según la bibliografía consultada. Además, se tiene un pico máximo del complejo QRS de algo más de 800 en amplitud, y un pico mínimo de aproximadamente 320 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.75 segundos (0.85 - 0.10) aproximadamente entre cada latido, lo cual indica que la persona se encuentra en un estado de reposo. El intervalo QT es de aproximadamente 0.18 segundos.| 
-| **Abrir y cerrar ojos** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg2.png?raw=true" ><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
-| **Reposo** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg3.png?raw=true" ><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
-| **Preguntas matemáticas** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg4.png?raw=true" ><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
+| **Reposo (30 segundos)**| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg1.png?raw=true"  width="50%" height="50%"> <p align="justify">Según la gráfica, se muestra en la imagen del sujeto masculino en reposo un promedio de 2 latidos en los 2 segundos, lo cual tiene sentido según la bibliografía consultada. Además, se tiene un pico máximo del complejo QRS de algo más de 800 en amplitud, y un pico mínimo de aproximadamente 320 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.75 segundos (0.85 - 0.10) aproximadamente entre cada latido, lo cual indica que la persona se encuentra en un estado de reposo. El intervalo QT es de aproximadamente 0.18 segundos.| 
+| **Abrir y cerrar ojos** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg2.png?raw=true"  width="50%" height="50%"><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
+| **Reposo** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg3.png?raw=true"  width="50%" height="50%"><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
+| **Preguntas matemáticas** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg4.png?raw=true"  width="50%" height="50%" ><p align="justify"> Según la gráfica, se muestra en la imagen del sujeto masculino agitado un total de 4 latidos en los 2 segundos,contando el primer complejo QRS como el número 0. Se puede notar un aumento de la frecuencia cardíaca a comparación del gráfico en reposo. A comparación de la gráfica en reposo, se tiene un pico máximo del complejo QRS de un poco más de 700 en amplitud, y un pico mínimo de aproximadamente 290 de amplitud. Existe una variabilidad de la frecuencia cardíaca de 0.45 segundos (0.70 - 0.25) aproximadamente entre cada latido, lo cual es menor al obtenido en el gráfico de reposo, lo cual indicaría que efectivamente la persona se encuentra en un estado de agitación. El intervalo QT es de aproximadamente 0.15 segundos.| 
 </div>
 
 **SEÑAL OBTENIDA CON EL ULTRACORTEX**
@@ -205,7 +207,7 @@ desincronización en el complejo QRS, esto implica una arritmia. Extraído de [1
 
 
 
-## **Referencias** <a name="context"></a>
+## **Referencias** <a name="ref"></a>
 ---
 <p align="justify">
 [1] World, “Cardiovascular diseases,” Who.int, Jun. 11, 2019. Available: https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1. [Accessed: Sep. 14, 2023]
