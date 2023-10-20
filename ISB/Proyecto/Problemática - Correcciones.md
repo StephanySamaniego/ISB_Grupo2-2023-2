@@ -85,7 +85,7 @@ Habiendo descrito la problemática en la que nuestros usuarios son los médicos,
 - Implementar un prototipo de baja resolución del diseño conceptual seleccionado
 ## **Archivos** <a name="arch"></a>
 
-- [Presentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/972ce8758b55bbeff94d1fea3cc9e4206d2c9f3b/ISB/Laboratorios/Laboratorio%2005%20-%20Registro%20de%20EEG/Documentaci%C3%B3n/Archivos%20.txt)
+- [Presentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/43528c222d389e230508135e5f7d8d0409accf48/ISB/Proyecto/Documentos/Diapositivas_Dise%C3%B1o%20de%20un%20monitor%20de%20signos%20vitales.pdf)
 ## Referencias
 [1] B. L. Hill et al., "Imputation of the continuous arterial line blood pressure waveform from non-invasive measurements using deep learning," *Scientific Reports*, vol. 11, no. 1, 2021. [doi:10.1038/s41598-021-94913-y](https://doi.org/10.1038/s41598-021-94913-y)
 
