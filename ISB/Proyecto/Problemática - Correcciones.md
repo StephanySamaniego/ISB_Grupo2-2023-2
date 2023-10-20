@@ -4,6 +4,8 @@
 
 <p align="justify">En el 90% de los pacientes quirúrgicos, la presión arterial (PAB) se controla de forma no invasiva pero de forma intermitente mediante un manguito de presión arterial, sin embargo en pacientes de alto riesgo se aplica la monitorización hemodinámica invasiva mediante un catéter arterial que suele colocarse en la arteria radial, braquial o femoral. Sin embargo, la canulación de una arteria puede llevar mucho tiempo, debe ser realizada por un operador capacitado y las estimaciones de la tasa total de complicaciones oscilan entre le 15% y el 40%, en la siguiente tabla se menciona algunas complicaciones. [2][3] 
 
+<p align="center">
+
 |                          |                                |
 |--------------------------|--------------------------------|
 | **Todos los sitios**        | **Arteria radial**                  |
@@ -16,6 +18,7 @@
 | Perdida de sangre diagnóstica | **Arteria braquial**         |
 | Fistula arteriovenosa    | Daño al nervio mediano         |
 
+</p>
 <p align="justify">Por otro lado,  la monitorización no invasiva sule ser inexacta y discontinua ya que solo permite monitorear la presión en un rango de tiempo, Además, la precisión del dispositivo puede deteriorarse en pacientes con una fuerte vasoconstricción, enfermedad vascular periférica o dedos deformados debido a la artritis. Entonces, la monitorización ideal de la presión arterial debe ser no invasiva y continua. [2] 
 
 
