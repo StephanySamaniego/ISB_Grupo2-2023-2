@@ -16,7 +16,7 @@
 | Perdida de sangre diagnóstica | **Arteria braquial**         |
 | Fistula arteriovenosa    | Daño al nervio mediano         |
 
-<p align="justify">Por otro lado,  la monitorización no invasiva sule ser inexacta y discontinua ya que solo permite monitorear la presión en un rango de tiempo, Además, la precisión del dispositivo puede deteriorarse en pacientes con una fuerte vasoconstricción, enfermedad vascular periférica o dedos deformados debido a la artritis. Entonces, la monitorización ideal de la PAB debe ser no invasiva y continua. [2] 
+<p align="justify">Por otro lado,  la monitorización no invasiva sule ser inexacta y discontinua ya que solo permite monitorear la presión en un rango de tiempo, Además, la precisión del dispositivo puede deteriorarse en pacientes con una fuerte vasoconstricción, enfermedad vascular periférica o dedos deformados debido a la artritis. Entonces, la monitorización ideal de la presión arterial debe ser no invasiva y continua. [2] 
 
 
 ## Análisis de impactos y efectos
