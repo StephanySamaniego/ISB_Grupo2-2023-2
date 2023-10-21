@@ -9,83 +9,47 @@
 7. [Referencias](#ref)
 
 
-## **Filtros digitales** <a name="marco"></a>
+## **Marco Teórico** <a name="marco"></a>
 ---
+**Filtros Digitales**
+
+<p align="justify">Los filtros tienen como propósito mejorar la relación señal-ruido (SNR), separar componentes de frecuencia y extraer información relevante de señales utilizadas en el procesamiento de señales biomédicas. El diseño de filtros digitales es el proceso de derivar la función de transferencia del filtro H(z) que cumple con las especificaciones dadas. Los filtros selectivos de frecuencia lineales e invariantes en el tiempo se pueden clasificar en dos categorías: filtros de respuesta al impulso infinito (IIR) y filtros de respuesta al impulso finito (FIR), a su vez los filtros pueden ser de varios tipos, como filtros pasa bajos, filtros pasa altos, filtros pasa banda y filtros rechaza banda [1].
 
 **Filtros FIR**
 
-<p align="justify"> Las señales de EEG son generadas por las corrientes iónicas transmembrana en las neuronas piramidales ya que se puede medir desde el exterior. Las células piramidales se encuentran en todas las áreas de la corteza cerebral, como la occipital, temporal, parietal y frontal, y siempre están orientadas perpendicularmente a la superficie cortical, es decir, el cuerpo celular de estas células se dirige hacia el interior del cerebro y sus dendritas apuntan hacia la superficie cortical. En lla siguiente imagen se observa elipsoides negros que simbolizan la conducción de volumen de las corrientes de retorno en el tejido entre el generador (flecha roja) y el electrodo de EEG de grabación (taza que contiene pasta conductora) en el cuero cabelludo [7].
+<p align="justify"> Dado su sencillo diseño, los filtros FIR de fase lineal encuentran una amplia variedad de aplicaciones en los campos de procesamiento de señales de voz y biomédicas. Esto se debe a su estabilidad asegurada, una distorsión de fase mínima y una baja sensibilidad a los coeficientes. Dependiendo de si el número de coeficientes (N) es par o impar y de si la respuesta al impulso h(n) es simétrica o asimétrica, los filtros FIR de fase lineal pueden clasificarse en cuatro tipos, todos con la característica de tener una fase lineal. Diversos métodos están disponibles para derivar h(n), incluyendo los filtros de fase lineal que emplean el método de la ventana, los que se basan en el muestreo de frecuencia (FSM) y la ampliamente utilizada técnica de filtro FIR óptimo [1].
 
 
 <p align="center">
   <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
-  <em><p align="center">Origen de la señal EEG [7]</p></em> 
+  <em><p align="center">Comparación de tipos de filtros en el dominio de tiempo y frecuencia [1]</p></em> 
 
 **Filtros IIR**
-<p align="justify"> Son sistemas cuya salida depende además de salidas anteriores y que, estando en reposo, 
-al ser estimulados con una entrada impulsional su salida no vuelve al reposo, de ahí el 
-calificativo de filtros de respuesta impulsional infinita (IIR). Comparado con un FIR, un filtro IIR requiere un orden mucho menor para cumplir las 
-especificaciones de diseño, sin embargo estos últimos no pueden diseñarse para tener fase 
-lineal. Existen técnicas de compensación de fase mediante la utilización de filtros pasa todo, 
-sin embargo esto aumenta la longitud total del filtro. </p>
+<p align="justify"> El filtro digital IIR es un filtro importante. Puede lograr una selectividad de frecuencia precisa con un orden inferior. Por lo general, para diseñar un filtro digital IIR es necesario diseñar primero el filtro analógico y luego transformarlo en un filtro digital. Este método tiene desventajas como el costo de la banda de transición amplia, por lo que el rendimiento del filtro no es lo suficientemente ideal. Algunos académicos también han aplicado algoritmos de enjambre de partículas al diseño de filtros IIR, pero estos algoritmos pueden tener deficiencias de convergencia óptima o lenta local [2] </p>
 
 <p align="center">
   <img src="https://ineurocienciaslima.com.pe/img/electroencefalografia.jpg"  width="400" height="200"> </p>
-<em><p align="center">Registro electroencefalográfico (EEG) [6]</p></em> 
+<em><p align="center">Respuesta en frecuencia de los filtros IIR [3]</p></em> 
 
-**Activación neural**
+**Wavelet**
 
-<p align="justify"> Las señales de EEG son generadas por las corrientes iónicas transmembrana en las neuronas piramidales ya que se puede medir desde el exterior. Las células piramidales se encuentran en todas las áreas de la corteza cerebral, como la occipital, temporal, parietal y frontal, y siempre están orientadas perpendicularmente a la superficie cortical, es decir, el cuerpo celular de estas células se dirige hacia el interior del cerebro y sus dendritas apuntan hacia la superficie cortical. En lla siguiente imagen se observa elipsoides negros que simbolizan la conducción de volumen de las corrientes de retorno en el tejido entre el generador (flecha roja) y el electrodo de EEG de grabación (taza que contiene pasta conductora) en el cuero cabelludo [7].
+<p align="justify"> La técnica más común y exitosa para eliminar ruido de señales con señales no estacionarias, como el electroencefalograma (EEG) y el electrocardiograma (ECG), es la transformada wavelet (WT). El éxito de WT depende de la configuración óptima de sus parámetros de control, que a menudo se establecen experimentalmente [4]. Es difícil detectar diferencias sutiles y vitales en las señales del electroencefalograma (EEG) simplemente mediante inspección visual. Se ha descubierto que el rendimiento de las bases wavelet es eficaz para analizar el comportamiento transitorio y abrupto de las señales de EEG [8]. Los resultados preliminares de varios proyectos muestran que las wavelet se pueden utilizar como herramientas de detección automática de artefactos y potenciales relacionados con eventos y en aplicaciones que requieren procesamiento en tiempo real de señales EEG. El mayor beneficio de la transformada wavelet es que se localiza tanto en tiempo como en frecuencia. La transformada wavelet se utiliza para convertir la señal EEG en una serie de wavelet que son una versión desplazada y escalada de la wavelet madre. Por lo tanto, Wavelet puede ser adecuado con eventos ocultos que pueden ayudar a detectar la frecuencia exacta y la ubicación del evento en una escala de tiempo.
 
 
 <p align="center">
   <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
-  <em><p align="center">Origen de la señal EEG [7]</p></em> 
+  <em><p align="center">Transformada de Wavelet [5]></em> 
 
-**Oscilaciones del EEG**
-<p align="justify"> La señal es siempre una mezcla de varias frecuencias base subyacentes que se consideran reflejo de ciertos estados cognitivos, afectivos o de atención. Estas frecuencias varían ligeramente según factores individuales, propiedades de los estímulos y estados internos, y se clasifican en bandas de frecuencia específicas [8]:
-
-
-| Tipo de Banda        | Frecuencia (Hz) | Descripción                                                                                                     |
-|----------------------|------------------|-----------------------------------------------------------------------------------------------------------------|
-| Banda delta          | 1-4 Hz           | Estas oscilaciones son las más lentas y tienen una amplitud más alta. Solo están presentes durante el sueño profundo de ondas lentas y juegan un papel en la consolidación de la memoria y el aprendizaje. |
-| Banda theta          | 4-8 Hz           | Se asocian con la atención y el procesamiento de la memoria de trabajo. Aumentan con la dificultad de las tareas mentales. |
-| Banda alfa           | 8-12 Hz          | Descubierta por Hans Berger, la banda alfa se relaciona con la relajación y la inhibición sensorial. Aumenta cuando la persona está relajada y con los ojos cerrados, pero disminuye cuando está activa y con los ojos abiertos. |
-| Banda beta           | 12-25 Hz         | Están asociadas con el pensamiento activo, la concentración y la planificación de movimientos. También se activan al observar los movimientos de otras personas. |
-| Banda gamma          | > 25 Hz          | Su papel aún no está claro, pero se sugiere que pueden estar involucradas en la unificación de impresiones sensoriales y la atención. |
-<p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/oscilacionesss.png?raw=true"400" height="200"> </p>
-<em><p align="center"> Ondas del EEG [8]</p></em> 
-
-**Artefactos**
-<p align="justify"> Las señales registradas en el cuero cabelludo se originan en fuentes cerebrales, ruido ambiental y ruido del sistema, así como en artefactos biológicos que pueden deberse a movimientos corporales, el ritmo cardíaco, la actividad muscular, los movimientos oculares y el parpadeo. La eliminación de los artefactos con frecuencias superiores a 20 Hz es desafiante ya que el artefacto eléctrico generado se registra junto con el EEG [9].</p>
 
 ## **Objetivos** <a name="obj"></a>
 ---
-- Adquirir señales biomédicas de EEG.
-- Hacer una correcta configuración de BiTalino y Ultracortex Mark IV.
-- Extraer la información de las señales EEG del software OpenBCI GUI y Open Signal
-
-
-## **Materiales y equipos** <a name="mat"></a>
----
-<div align="center">
-
-| **Modelo** | **Descripción** | **Imagen Referencial** |
-|:-------------:|:-------------:|:-------------:|
-| (R)evolution | <p align="justify">**Kit BITalino:** Plataforma de adquisición de bioseñales viene con diferentes sensores, como EMG ,ECG o EEG. Envía como una placa todo en uno, con todos los bloques electrónicos necesarios para la adquisición de bioseñales preconectados.</p> | <div align="center"> <img src="https://cdn.sparkfun.com//assets/parts/1/1/8/2/8/14022-01a.jpg" width="50%" height="50%"> |
-| - | <p align="justify">**Ultracortex Mark IV EEG:** Casco EEG de código abierto, imprimible en 3D, diseñado para trabajar con cualquier placa OpenBCI. El Ultracortex Mark IV, la última versión, puede muestrear hasta 16 canales de EEG desde 35 ubicaciones diferentes según el sistema 10-20.  </p> | <div align="center"> <img src="https://shop.openbci.com/cdn/shop/products/DSC02861.jpg?v=1652731236&width=900" width="50%" height="50%">  |
-| - |<p align="justify"> **Cable de 3 derivaciones :** Registra la actividad eléctrica del cerebro desde tres ubicaciones diferentes (frente y punto de referencia) en el cuerpo del paciente. </p>  |<div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/electrodos.jpg?raw=true" width="50%" height="50%"> |
-| - |<p align="justify">**Electrodos:** Los electrodos son utilizados para capturar la actividad eléctrica del cerebro al registrar la diferencia de potencial.</p> | <div align="center"> <img src="https://beurer.pe/assets/sources/ELECTRODOS%20X8%201.jpg" width="50%" height="50%">  |
-| - |<p align="justify"> **Software OpenSignals:** Software e diseñado para la adquisición, procesamiento y análisis de datos biomédicos, incluyendo señales fisiológicas y de movimiento.</p>  | <div align="center"> <img src="https://cdn.shopify.com/s/files/1/0595/1068/5887/t/6/assets/ezgif5b55a161ca2-1-1-1649945010655.png?v=1649945012" width="50%" height="50%">  |
-| - |<p align="justify"> **Software OpenBCI GUI:** Herramienta de software de OpenBCI para visualizar, grabar y transmitir datos desde las placas OpenBCI. Los datos pueden mostrarse en tiempo real, reproducirse, guardarse en la computadora en formato .txt</p>  | <div align="center"> <img src="https://docs.openbci.com/assets/images/GUI-V4-Screenshot-6d16898fb8d30a8f48e2f748ff0c2d51.jpg" width="50%" height="50%">  |
-| - | <p align="justify">**Laptop o PC:** Descargar las plataformas mencionadas en una Laptop para observar y procesar las señales.</p> | <div align="center"> <img src="https://www.lenovo.com/medias/lenovo-laptops-thinkbook-16-gen-4-intel-hero.png?context=bWFzdGVyfHJvb3R8MzQ1OTM2fGltYWdlL3BuZ3xoMjEvaGZkLzEzMjU1MTI1OTkxNDU0LnBuZ3xlMGJjMDAyZjIzYzczYmY0YTY3NTlmODcwMDJjZTBhMzg5M2VlMjFlNTNlZWJkZDMyNDA3MTdlNjc3NjhhZWY5" width="50%" height="50%">  |
-
-</div>
+- Diseñar 1 filtro IIR (elegir entre  Bessel, Butterworth, Chebyshev o Eliptico)
+- Diseñar 1 filtro FIR, elegir 2 métodos de ventana pueden ser: Hanning, Hamming,Bartlett, rectangular o Blackman
+- Diseñar un filtro Wavelet
 
 ## **Resultados** <a name="resul"></a>
 ---
-### **Conexión usada** <a name="conex"></a>
+### **Señal EEG** <a name="conex"></a>
 
 <p align="justify">Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EEG de 3 electrodos. En la configuración bipolar, se utilizan dos electrodos de medición (IN+/-) que se colocan sobre la posición del electrodo. El electrodo negro se coloca en la región derecha de la frente, mientras que el electrodo rojo se coloca en la región izquierda de la frente. El electrodo de referencia (blanco) se coloca en una región neutral, el hueso detrás de la oreja [8]. 
 
