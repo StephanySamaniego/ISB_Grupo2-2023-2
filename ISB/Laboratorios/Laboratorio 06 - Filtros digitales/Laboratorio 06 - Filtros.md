@@ -21,14 +21,14 @@
 
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/83f4b9d0e8a2c9e6bcfd0cb304cf57cb379155ef/Dise%C3%B1o/Laboratorio_07/fir_filtros.png"  width="400" height="200"> </p>
   <em><p align="center">Comparación de tipos de filtros en el dominio de tiempo y frecuencia [1]</p></em> 
 
 **Filtros IIR**
 <p align="justify"> El filtro digital IIR es un filtro importante. Puede lograr una selectividad de frecuencia precisa con un orden inferior. Por lo general, para diseñar un filtro digital IIR es necesario diseñar primero el filtro analógico y luego transformarlo en un filtro digital. Este método tiene desventajas como el costo de la banda de transición amplia, por lo que el rendimiento del filtro no es lo suficientemente ideal. Algunos académicos también han aplicado algoritmos de enjambre de partículas al diseño de filtros IIR, pero estos algoritmos pueden tener deficiencias de convergencia óptima o lenta local [2] </p>
 
 <p align="center">
-  <img src="https://ineurocienciaslima.com.pe/img/electroencefalografia.jpg"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/83f4b9d0e8a2c9e6bcfd0cb304cf57cb379155ef/Dise%C3%B1o/Laboratorio_07/IIR%20filters.png"  width="400" height="200"> </p>
 <em><p align="center">Respuesta en frecuencia de los filtros IIR [3]</p></em> 
 
 **Wavelet**
