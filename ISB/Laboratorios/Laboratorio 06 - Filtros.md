@@ -33,12 +33,12 @@
 
 **Wavelet**
 
-<p align="justify"> La técnica más común y exitosa para eliminar ruido de señales con señales no estacionarias, como el electroencefalograma (EEG) y el electrocardiograma (ECG), es la transformada wavelet (WT). El éxito de WT depende de la configuración óptima de sus parámetros de control, que a menudo se establecen experimentalmente [4]. Es difícil detectar diferencias sutiles y vitales en las señales del electroencefalograma (EEG) simplemente mediante inspección visual. Se ha descubierto que el rendimiento de las bases wavelet es eficaz para analizar el comportamiento transitorio y abrupto de las señales de EEG [8]. Los resultados preliminares de varios proyectos muestran que las wavelet se pueden utilizar como herramientas de detección automática de artefactos y potenciales relacionados con eventos y en aplicaciones que requieren procesamiento en tiempo real de señales EEG. El mayor beneficio de la transformada wavelet es que se localiza tanto en tiempo como en frecuencia. La transformada wavelet se utiliza para convertir la señal EEG en una serie de wavelet que son una versión desplazada y escalada de la wavelet madre. Por lo tanto, Wavelet puede ser adecuado con eventos ocultos que pueden ayudar a detectar la frecuencia exacta y la ubicación del evento en una escala de tiempo.
+<p align="justify"> La técnica más común y exitosa para eliminar ruido de señales con señales no estacionarias, como el electroencefalograma (EEG) y el electrocardiograma (ECG), es la transformada wavelet (WT). El éxito de WT depende de la configuración óptima de sus parámetros de control, que a menudo se establecen experimentalmente [4]. Es difícil detectar diferencias sutiles y vitales en las señales del electroencefalograma (EEG) simplemente mediante inspección visual. Se ha descubierto que el rendimiento de las bases wavelet es eficaz para analizar el comportamiento transitorio y abrupto de las señales de EEG [8]. Los resultados preliminares de varios proyectos muestran que las wavelet se pueden utilizar como herramientas de detección automática de artefactos y potenciales relacionados con eventos y en aplicaciones que requieren procesamiento en tiempo real de señales EEG. El mayor beneficio de la transformada wavelet es que se localiza tanto en tiempo como en frecuencia [5].
 
 
 <p align="center">
   <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
-  <em><p align="center">Transformada de Wavelet [5]></em> 
+  <em><p align="center">Transformada de Wavelet [5]</em> 
 
 
 ## **Objetivos** <a name="obj"></a>
@@ -51,55 +51,50 @@
 ---
 ### **Señal EEG** <a name="conex"></a>
 
-<p align="justify">Para obtener las señales se usó la conexión en la placa BiTalino con un sensor de EEG de 3 electrodos. En la configuración bipolar, se utilizan dos electrodos de medición (IN+/-) que se colocan sobre la posición del electrodo. El electrodo negro se coloca en la región derecha de la frente, mientras que el electrodo rojo se coloca en la región izquierda de la frente. El electrodo de referencia (blanco) se coloca en una región neutral, el hueso detrás de la oreja [8]. 
+<p align="justify">El electroencefalograma (EEG) es un método no invasivo para recopilar señales cerebrales del cuero cabelludo humano. Las señales de EEG se encuentran en un rango de frecuencia baja y relativamente pequeñas. La amplitud de estas señales es de aproximadamente 50 μ V y la amplitud máxima es de aproximadamente 100 μ V. Por lo tanto, hay varias fuentes, como la línea eléctrica, el EOG o el ECG, que pueden interferir extremadamente con las señales de EEG. La detección y eliminación de artefactos juega un papel importante para adquirir señales EEG limpias para analizar y detectar actividades cerebrales [5]. El análisis de las señales del electroencefalograma (EEG) es fundamental porque es un método eficaz para diagnosticar trastornos neurológicos cerebrales [6].
 
-<p align="justify">En este informe se mantiene la identidad anónima y datos personales de las personas involucradas en los experimentos siguiendo así la Ley N.° 29733:Ley de Protección de Datos Personales, la presente Ley tiene el objeto de garantizar el derecho fundamental a la protección de los datos personales, previsto en el artículo 2 numeral 6 de la Constitución Política del Perú, a través de su adecuado tratamiento, en un marco de respeto de los demás derechos fundamentales que en ella se reconocen [10].
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
+  <em><p align="center">Señal cruda</em> 
+
+
+
      
 <div align="center">
-     
-| | | |
-|:-------------:|:-------------:|:-------------:|
-|<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_carlos.png?raw=true" width="400" height="300"></p>| <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/colocacion_ultracortex.jpg?raw=true" width="400" height="300"></p>|
+
+|  | Filtro FIR | Filtro IIR | Wavelet |
+|--------------|--------------|--------------|--------------|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p>|
+| Descripción    | <p align="justify">En este análisis se pretende estructurar un filtro FIR avanzado basado en Field Programmable Gate Array (FPGA) para obtener señales biomédicas más rápidas, especialmente señales EEG. A este respecto, se introduce un filtro FIR simple y rentable para hacer que la señal de EEG esté libre de ruido, sea menos costosa, consuma menos energía y sea simple. Requiere menos espacio para la implementación del chip que otros filtros digitales y evita la mezcla de otras señales biomédicas [4] | <p align="justify">Usamos un filtro butterworth un método de filtrado de prototipos analógicos en el que se utilizan los polos y ceros de un prototipo de filtro paso bajo clásico en el dominio continuo (Laplace), obtenga un filtro digital mediante transformación de frecuencia y discretización del filtro [6] | <p align="justify">La transformada wavelet se utiliza para convertir la señal EEG en una serie de wavelet que son una versión desplazada y escalada de la wavelet madre. Por lo tanto, Wavelet puede ser adecuado con eventos ocultos que pueden ayudar a detectar la frecuencia exacta y la ubicación del evento en una escala de tiempo. La transformada Wavelet utiliza diferentes tamaños de ventana para cada rango de frecuencias. Ventana más larga para el rango de frecuencias más bajas y ventana más corta para el rango de frecuencias más altas [2].|
+| Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 0.5 Hz <p align="justify">- Frecuencia de corte 2: 50 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 2<p align="justify">- Frecuencia de muestreo: 1 Hz   | <p align="justify">-	Frecuencia de muestreo: 1000 Hz<p align="justify">-	Frecuencia de corte inferior: 0.5 Hz<p align="justify">-	Frecuencia de corte inferior: 50 Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 4| <p align="justify">-	Nivel: 8 <p align="justify">-	Familia: Symlet (sym) 3<p align="justify">-	Coeficientes de aproximación: se eliminan de la tabla D1, D8 y A8 (ruidos)|
+
 </div>
+
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
+  <em><p align="center">Descomposición y adquisición de señales EEG después de la SWT nivel 8 de la Transformada de Wavelet</em> 
 
 <p align="justify">
-Se procedió a tomar señales de un miembro del equipo siguiendo el protocolo de BITalino ®evolution Lab Guide, experimental guides to meet & learn your biosignals.
+Para eliminar los componentes de parpadeo, implementamos Stationary Wavelet Transform (SWT) de 8 niveles de transformada wavelet discreta no diezmada. Se propone utilizar Wavelet Sym3 que tiene una alta correlación con los artefactos de parpadeo para el algoritmo de cancelación de ruido. Los coeficientes de detalle D1, D8 y A8 son componentes de artefactos que luego se eliminan de las señales [2].
+Las wavelets de la familia de los symlets se conocen por symN (N es el orden). Estas wavelets son casi simétricas, ortogonales y biortogonales, Daubechies también las sugiere como una modificación de la familia db [9].
 
-### **Explicación del protocolo seguido** <a name="senal"></a>
+### **Señal EMG** <a name="conex"></a>
 
-| **Pasos** | **Bitalino** | 
-|:-------------:|:-------------:|
-|<p align="justify"> **1. Conectar el BITalino (r)evolution Core BT** </p> <p align="justify">**2. Prueba de la configuración** </p> <p align="justify">**3. Conectar el sensor de EEG de 3 electrodos al participante:** Como se menciona en la guía. Además, se procuró que el participante no cuente con objetos metálicos ni electrónicos cerca, para evitar el ruido producido por estos; y, de igual manera, se procuró que el participante se mantenga sentado en una silla en un estado de reposo y calma. Posterior a esto se inició la grabación de la toma de datos. | <div align="center"> <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="50%" height="50%"> | 
-|<p align="justify">**4. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal).** Para esto se le solicitó al participante que se mantenga en calma por 10 segundos para establecer la línea base, la cual será el punto de partida para la toma de datos. <p align="justify">**5.Sin movimientos oculares/ojos cerrados durante 30 segundos.** Una vez pasados los 10 segundos, se le solicitó al paciente que cierre los ojos durante 30 segundos mientras se mantenía en una posición de calma</p> | <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/b49b3a1a-012c-4920-a10f-29f06f2c0569" width="50%" height="50%"></video>| 
-|<p align="justify">**6. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces** Culminados los 30 segundos, se le solicitó al participante realizar un ciclo de abrir y cerrar los ojos con un intervalo de tiempo de 5 seg, y repetir este ciclo 5 veces, mientras mantenía la misma posición y miraba un punto fijo.<p align="justify"> **7. Registre otra fase de referencia de 30 segundos (paso 5)** Finalizadas las 5 repeticiones de apertura y cierre de ojos, se le solicitó al paciente volver a cerrar los ojos por 30 segundos mientras se mantenía en un estado de calma.| <video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/7d3688bc-70c6-4dd7-a6d3-b16b7c402c21" width="50%" height="50%"></video> | 
-|<p align="justify"> **6. Leer en voz alta una serie de ejercicios matemáticos** Finalizados los 30 segundos, otro participante leyó en voz alta una serie de ejercicios matemáticos (*), los cuales fueron resolvidos por el participante mientras fijaba su mirada en un punto específico; no se asignó un tiempo límite para cada pregunta. <p align="justify">**7. Detener la grabación y guardar los datos.**|<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/cb2f8bb4-ba15-4911-b9cd-6b597a817790" width="50%" height="50%"></video> | 
-
-**(*)Preguntas utilizadas [11]**
-| Categoría           | Ejemplo                                                                                                                                                       |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ejemplo Sencillo    | - Hay 3 pájaros en un árbol; Llegan 7 más. ¿Cuántas aves hay ahora?                                                                                           |
-|                     | - Jonas tiene 5 manzanas y Mary tiene 4. ¿Cuántas manzanas tienen en total?                                                                                   |
-|                     | - Hanna tiene 9 dólares pero gastó 4. ¿Cuántos dólares le quedan?                                                                                              |
-| Ejemplo Complejo    | - John anotó 45 puntos para su equipo; 10 más que José. Marie anotó 13 puntos más que John y Joseph juntos. ¿Cuántos puntos obtuvieron en total?              |
-|                     | - El Grupo A tiene 24 estudiantes; 13 menos que el grupo B. El grupo C tiene 12 estudiantes más que los grupos A y B combinados. ¿Cuál es el número total de estudiantes? |
-|                     | - Una tienda vendía 21 refrescos por la mañana y 13 más que por la tarde. Por la noche vendió 10 más que por la mañana y por la tarde juntas. ¿Cuántos refrescos se vendieron en total?               |
-
-### Ploteo de la señal en OpenBCI GUI <a name="plot"></a>
-Para evitar interferencias es importante no tener objetos metálicos como aretes, anillos, cadenas, etc.
-
-**Observación** No se completó la toma de datos durante la ronda de preguntas matemáticas, pues por las disposiciones de tiempo no se puedo llegar a realizar.</p> 
+<p align="justify">Las señales de sEMG se obtienen utilizando electrodos colocados en la piel para capturar las señales eléctricas generadas por la actividad muscular. Estas señales son relativamente débiles, con amplitudes de alrededor de 0.1 a 5.0 mV. Esto significa que se necesita un sistema de medición muy sensible, pero esta sensibilidad puede hacer que las señales sean más susceptibles a interferencias. Aunque la mayor parte de la energía de la señal sEMG se encuentra en un rango de frecuencias de 0 a 1000 Hz, las señales de EMG suelen filtrarse en un rango de 20 a 500 Hz, con atenuación de 40 dB/década, a fin de  eliminar el ruido eléctrico por debajo de 20 Hz y por encima de 500 Hz. La interferencia de la línea de alimentación eléctrica se puede reducir con un filtro notch centrado en 50 o 60 Hz. Se debe tomar en cuenta que cuando se realiza el filtrado es necesario reducir la frecuencia de muestreo de la señal EMG (downsampling) para evitar la distorsión de la señal. 
 
 <div align="center">
 
-| **Etapa** | **OpenBCI GUI** | 
-|:-------------:|:-------------:|
-| Inicial (30 segundos)| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/se%C3%B1al_ultracortex.jpg?raw=true" width="50%" height="50%"> | 
-| Abrir y cerrar ojos |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/uc_30secon.png?raw=true" width="50%" height="50%">| 
----
+|  | Filtro FIR | Filtro IIR | Wavelet |
+|--------------|--------------|--------------|--------------|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p>|
+| Descripción    | <p align="justify">En este análisis se pretende estructurar un filtro FIR avanzado basado en Field Programmable Gate Array (FPGA) para obtener señales biomédicas más rápidas, especialmente señales EEG. A este respecto, se introduce un filtro FIR simple y rentable para hacer que la señal de EEG esté libre de ruido, sea menos costosa, consuma menos energía y sea simple. Requiere menos espacio para la implementación del chip que otros filtros digitales y evita la mezcla de otras señales biomédicas [4] | <p align="justify">Usamos un filtro butterworth un método de filtrado de prototipos analógicos en el que se utilizan los polos y ceros de un prototipo de filtro paso bajo clásico en el dominio continuo (Laplace), obtenga un filtro digital mediante transformación de frecuencia y discretización del filtro [6] | <p align="justify">La transformada wavelet se utiliza para convertir la señal EEG en una serie de wavelet que son una versión desplazada y escalada de la wavelet madre. Por lo tanto, Wavelet puede ser adecuado con eventos ocultos que pueden ayudar a detectar la frecuencia exacta y la ubicación del evento en una escala de tiempo. La transformada Wavelet utiliza diferentes tamaños de ventana para cada rango de frecuencias. Ventana más larga para el rango de frecuencias más bajas y ventana más corta para el rango de frecuencias más altas [2].|
+| Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 0.5 Hz <p align="justify">- Frecuencia de corte 2: 50 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 2<p align="justify">- Frecuencia de muestreo: 1 Hz   | <p align="justify">-	Frecuencia de muestreo: 1000 Hz<p align="justify">-	Frecuencia de corte inferior: 0.5 Hz<p align="justify">-	Frecuencia de corte inferior: 50 Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 4| <p align="justify">-	Nivel: 8 <p align="justify">-	Familia: Symlet (sym) 3<p align="justify">-	Coeficientes de aproximación: se eliminan de la tabla D1, D8 y A8 (ruidos)|
 
-<video src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/1d2203f7-a0ef-4a80-94b1-e483379ad579" width="50%" height="50%"></video> 
-<em><p align="center"> Visualización de la señal EEG </p></em> 
 </div>
+
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
+  <em><p align="center">Señal cruda</em> 
 
 
 ### Discusión
