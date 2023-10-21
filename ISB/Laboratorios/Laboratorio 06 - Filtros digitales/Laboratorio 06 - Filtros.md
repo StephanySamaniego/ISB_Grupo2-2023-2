@@ -3,8 +3,10 @@
 1. [Marco teórico](#marco)
 2. [Objetivos](#obj)
 3. [Resultados](#resul)\
-     3.1 [Archivos](#arch)\
-     3.2 [Ploteo de la señal en Python](#plote)
+     3.1 [Señal EEG](#EEG)\
+     3.1 [Señal EMG](#EMG)\
+     3.1 [Señal ECG](#ECG)\
+     3.2 [Archivos](#arch)\
 6. [Conclusiones](#conclu)
 7. [Referencias](#ref)
 
@@ -49,7 +51,7 @@
 
 ## **Resultados y Discusiones** <a name="resul"></a>
 ---
-### **Señal EEG** <a name="conex"></a>
+### **Señal EEG** <a name="EEG"></a>
 
 <p align="justify">El electroencefalograma (EEG) es un método no invasivo para recopilar señales cerebrales del cuero cabelludo humano. Las señales de EEG se encuentran en un rango de frecuencia baja y relativamente pequeñas. La amplitud de estas señales es de aproximadamente 50 μ V y la amplitud máxima es de aproximadamente 100 μ V. Por lo tanto, hay varias fuentes, como la línea eléctrica, el EOG o el ECG, que pueden interferir extremadamente con las señales de EEG. La detección y eliminación de artefactos juega un papel importante para adquirir señales EEG limpias para analizar y detectar actividades cerebrales [8]. El análisis de las señales del electroencefalograma (EEG) es fundamental porque es un método eficaz para diagnosticar trastornos neurológicos cerebrales [9].
 
@@ -79,7 +81,7 @@
 Para eliminar los componentes de parpadeo, implementamos Stationary Wavelet Transform (SWT) de 8 niveles de transformada wavelet discreta no diezmada. Se propone utilizar Wavelet Sym3 que tiene una alta correlación con los artefactos de parpadeo para el algoritmo de cancelación de ruido. Los coeficientes de detalle D1, D8 y A8 son componentes de artefactos que luego se eliminan de las señales [8].
 Las wavelets de la familia de los symlets se conocen por symN (N es el orden). Estas wavelets son casi simétricas, ortogonales y biortogonales, Daubechies también las sugiere como una modificación de la familia db [12].
 
-### **Señal EMG** <a name="conex"></a>
+### **Señal EMG** <a name="EMG"></a>
 
 <p align="justify">Las señales de sEMG se obtienen utilizando electrodos colocados en la piel para capturar las señales eléctricas generadas por la actividad muscular. Estas señales son relativamente débiles, con amplitudes de alrededor de 0.1 a 5.0 mV. Esto significa que se necesita un sistema de medición muy sensible, pero esta sensibilidad puede hacer que las señales sean más susceptibles a interferencias. Aunque la mayor parte de la energía de la señal sEMG se encuentra en un rango de frecuencias de 0 a 1000 Hz, las señales de EMG suelen filtrarse en un rango de 20 a 500 Hz, con atenuación de 40 dB/década, a fin de  eliminar el ruido eléctrico por debajo de 20 Hz y por encima de 500 Hz. La interferencia de la línea de alimentación eléctrica se puede reducir con un filtro notch centrado en 50 o 60 Hz. Se debe tomar en cuenta que cuando se realiza el filtrado es necesario reducir la frecuencia de muestreo de la señal EMG (downsampling) para evitar la distorsión de la señal [13]. 
 
@@ -104,7 +106,7 @@ Las wavelets de la familia de los symlets se conocen por symN (N es el orden). E
 
 <p align="justify">Dado que la frecuenSSScia de muestreo es de 1 KHz, el coeficiente (0,0) contiene componentes de frecuencia que van desde 0 hasta 500 Hz; el coeficiente (1,0) de 0 a 250 Hz, el coeficiente (1,1) de 250 a 500 Hz y así sucesivamente[15]. 
 
-### **Señal ECG** <a name="conex"></a>
+### **Señal ECG** <a name="ECG"></a>
 
 <p align="justify">Una señal ECG es una serie temporal cuasiperiódica no lineal y no estacionaria, que representa la función cardiaca, tanto musculares como eléctricas. Es una bioseñal variable en el tiempo que refleja el flujo de corriente iónica, que provoca contracciones y posteriores relajaciones en las fibras cardíacas y proporciona una visión indirecta del flujo sanguíneo al músculo cardíaco. Proporciona información sobre la frecuencia cardíaca, el ritmo cardíaco y la actividad eléctrica. El ECG se registra midiendo la diferencia de potencial entre dos electrodos colocados en la piel del paciente.  [16] La mayoría de las patologías cardíacas se pueden entender observando la señal del ECG. Las señales de frecuencia cardíaca y ECG se utilizan para evaluar un corazón sano e identificar diversas patologías.[17] Sin embargo, el ECG es susceptible a diferentes tipos de ruidos, que pueden distorsionar las características morfológicas y los aspectos de intervalo del ECG.
  
@@ -122,6 +124,11 @@ Las wavelets de la familia de los symlets se conocen por symN (N es el orden). E
 | Discusiones  | <p align="justify">Tenemos una señal filtrada buena, en la que se puede reconocer la cantidad de complejos QRS en un tiempo dado, por lo tanto, se podría calcular la frecuencia cardíaca. Además, se puede llegar a medir el intervalo RR y el intervalo QT y obtener valores aproximados. Todos estos datos son importantes para evaluar la función cardíaca.| <p align="justify">Idealmente el filtro nos permitiría identificar  los complejos cardíacos, como las ondas P, el complejo QRS y la onda T para poder evaluar su duración, amplitud y detectar posibles anomalías; sin embargo, no se obtiene una señal tan buena como lo obtenido con el filtro Wavelet, por lo que al menos en este caso no se llega a tener un buen filtrado. | <p align="justify">Gracias al filtrado Wavelet en la señal ECG podemos analizar cómo las frecuencias de la señal se distribuyen en escalas, también gracias a la imagen de la señal filtrada podemos identificar y analizar la amplitud y  la duración del complejo QRS y la onda P, gracias a todo ello se pueden detectar arritmias  cardíacas y la identificación de patrones anómalos en la señal de la persona.|
 
 </div>
+
+### **Archivos** <a name="arch"></a>
+
+
+- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/f969f36d273772d218a80eb36dafb51be4d3568c/ISB/Laboratorios/Laboratorio%2006%20-%20Filtros%20digitales/Archivos)
 
 
 ## **Conclusiones** <a name="conclu"></a>
