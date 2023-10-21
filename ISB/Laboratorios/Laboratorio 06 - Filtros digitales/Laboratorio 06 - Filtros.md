@@ -21,14 +21,14 @@
 
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/83f4b9d0e8a2c9e6bcfd0cb304cf57cb379155ef/Dise%C3%B1o/Laboratorio_07/fir_filtros.png"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/fir_filtros.png?raw=true"  width="400" height="200"> </p>
   <em><p align="center">Comparación de tipos de filtros en el dominio de tiempo y frecuencia [1]</p></em> 
 
 **Filtros IIR**
 <p align="justify"> El filtro digital IIR es un filtro importante. Puede lograr una selectividad de frecuencia precisa con un orden inferior. Por lo general, para diseñar un filtro digital IIR es necesario diseñar primero el filtro analógico y luego transformarlo en un filtro digital. Este método tiene desventajas como el costo de la banda de transición amplia, por lo que el rendimiento del filtro no es lo suficientemente ideal. Algunos académicos también han aplicado algoritmos de enjambre de partículas al diseño de filtros IIR, pero estos algoritmos pueden tener deficiencias de convergencia óptima o lenta local [2] </p>
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/83f4b9d0e8a2c9e6bcfd0cb304cf57cb379155ef/Dise%C3%B1o/Laboratorio_07/IIR%20filters.png"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/IIR%20filters.png?raw=true"  width="400" height="200"> </p>
 <em><p align="center">Respuesta en frecuencia de los filtros IIR [3]</p></em> 
 
 **Wavelet**
@@ -37,7 +37,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/wavelet.png?raw=true"  width="400" height="200"> </p>
   <em><p align="center">Transformada de Wavelet [5]</em> 
 
 
@@ -54,7 +54,7 @@
 <p align="justify">El electroencefalograma (EEG) es un método no invasivo para recopilar señales cerebrales del cuero cabelludo humano. Las señales de EEG se encuentran en un rango de frecuencia baja y relativamente pequeñas. La amplitud de estas señales es de aproximadamente 50 μ V y la amplitud máxima es de aproximadamente 100 μ V. Por lo tanto, hay varias fuentes, como la línea eléctrica, el EOG o el ECG, que pueden interferir extremadamente con las señales de EEG. La detección y eliminación de artefactos juega un papel importante para adquirir señales EEG limpias para analizar y detectar actividades cerebrales [5]. El análisis de las señales del electroencefalograma (EEG) es fundamental porque es un método eficaz para diagnosticar trastornos neurológicos cerebrales [6].
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/ecg.png?raw=true"  width="400" height="200"> </p>
   <em><p align="center">Señal cruda</em> 
 
 
@@ -64,7 +64,7 @@
 
 |  | Filtro FIR | Filtro IIR | Wavelet |
 |--------------|--------------|--------------|--------------|
-| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p>|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_iir.png?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_wv.png?raw=true" width="400" height="300"></p>|
 | Descripción    | <p align="justify">En este análisis se pretende estructurar un filtro FIR avanzado basado en Field Programmable Gate Array (FPGA) para obtener señales biomédicas más rápidas, especialmente señales EEG. A este respecto, se introduce un filtro FIR simple y rentable para hacer que la señal de EEG esté libre de ruido, sea menos costosa, consuma menos energía y sea simple. Requiere menos espacio para la implementación del chip que otros filtros digitales y evita la mezcla de otras señales biomédicas [4] | <p align="justify">Usamos un filtro butterworth un método de filtrado de prototipos analógicos en el que se utilizan los polos y ceros de un prototipo de filtro paso bajo clásico en el dominio continuo (Laplace), obtenga un filtro digital mediante transformación de frecuencia y discretización del filtro [6] | <p align="justify">La transformada wavelet se utiliza para convertir la señal EEG en una serie de wavelet que son una versión desplazada y escalada de la wavelet madre. Por lo tanto, Wavelet puede ser adecuado con eventos ocultos que pueden ayudar a detectar la frecuencia exacta y la ubicación del evento en una escala de tiempo. La transformada Wavelet utiliza diferentes tamaños de ventana para cada rango de frecuencias. Ventana más larga para el rango de frecuencias más bajas y ventana más corta para el rango de frecuencias más altas [2].|
 | Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 0.5 Hz <p align="justify">- Frecuencia de corte 2: 50 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 2<p align="justify">- Frecuencia de muestreo: 1 Hz   | <p align="justify">-	Frecuencia de muestreo: 1000 Hz<p align="justify">-	Frecuencia de corte inferior: 0.5 Hz<p align="justify">-	Frecuencia de corte inferior: 50 Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 4| <p align="justify">-	Nivel: 8 <p align="justify">-	Familia: Symlet (sym) 3<p align="justify">-	Coeficientes de aproximación: se eliminan de la tabla D1, D8 y A8 (ruidos)|
 
@@ -82,11 +82,15 @@ Las wavelets de la familia de los symlets se conocen por symN (N es el orden). E
 
 <p align="justify">Las señales de sEMG se obtienen utilizando electrodos colocados en la piel para capturar las señales eléctricas generadas por la actividad muscular. Estas señales son relativamente débiles, con amplitudes de alrededor de 0.1 a 5.0 mV. Esto significa que se necesita un sistema de medición muy sensible, pero esta sensibilidad puede hacer que las señales sean más susceptibles a interferencias. Aunque la mayor parte de la energía de la señal sEMG se encuentra en un rango de frecuencias de 0 a 1000 Hz, las señales de EMG suelen filtrarse en un rango de 20 a 500 Hz, con atenuación de 40 dB/década, a fin de  eliminar el ruido eléctrico por debajo de 20 Hz y por encima de 500 Hz. La interferencia de la línea de alimentación eléctrica se puede reducir con un filtro notch centrado en 50 o 60 Hz. Se debe tomar en cuenta que cuando se realiza el filtrado es necesario reducir la frecuencia de muestreo de la señal EMG (downsampling) para evitar la distorsión de la señal. 
 
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg.png?raw=true"  width="400" height="200"> </p>
+  <em><p align="center">Señal cruda</em> 
+
 <div align="center">
 
 |  | Filtro FIR | Filtro IIR | Wavelet |
 |--------------|--------------|--------------|--------------|
-| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p>|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_iir.png?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_wv.png?raw=true" width="400" height="300"></p>|
 | Descripción    |<p align="justify">El diseño de un filtro FIR Hanning implica la multiplicación de la respuesta de un filtro ideal (como un filtro paso bajo) con la función de ventana de Hanning en el dominio del tiempo. Esto se hace para suavizar la transición entre las frecuencias de paso y de paro del filtro, reduciendo así las oscilaciones no deseadas en la respuesta en frecuencia. | <p align="justify">Filtro IIR logra una buena atenuación en la banda de paso y en la banda de parada, también obtiene frecuencias de borde precisas en la banda de paso y banda de parada, y los requisitos computacionales son pequeños, lo que reduce en gran medida los requisitos de costos de hardware. El filtro IIR Butterworth requiere solo 14 pasos para lograr una atenuación máxima de -100 dB a 50 H| <p align="justify">Se realizaron descomposiciones sucesivas similares hasta que el componente de alta frecuencia presentó cambios en el voltaje promedio y/o picos. Para estimar el ruido, los últimos componentes de la descomposición se filtraron para eliminar la mayor parte de las señales musculares de la interferencia de ruido. Para atenuar la interferencia de ruido de 60 Hz fue la WT de Daubechies de cuarto orden.|
 | Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 70 Hz <p align="justify">- Frecuencia de corte 2: 108 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 2<p align="justify">- Frecuencia de muestreo: 2K Hz   | <p align="justify">-	Frecuencia de muestreo: 10000 Hz<p align="justify">-	Frecuencia de trampa: 50 Hz<p align="justify">-	Rango de frecuencia: 20 Hz - 500Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 2| <p align="justify">-	Nivel: 4 <p align="justify">-	Familia: Daucbechies<p align="justify">-	Coeficientes de aproximación en el árbol de descomposición|
 
