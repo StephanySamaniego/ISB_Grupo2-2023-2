@@ -47,14 +47,14 @@
 - Diseñar 1 filtro FIR, elegir 2 métodos de ventana pueden ser: Hanning, Hamming,Bartlett, rectangular o Blackman
 - Diseñar un filtro Wavelet
 
-## **Resultados** <a name="resul"></a>
+## **Resultados y Discusiones** <a name="resul"></a>
 ---
 ### **Señal EEG** <a name="conex"></a>
 
 <p align="justify">El electroencefalograma (EEG) es un método no invasivo para recopilar señales cerebrales del cuero cabelludo humano. Las señales de EEG se encuentran en un rango de frecuencia baja y relativamente pequeñas. La amplitud de estas señales es de aproximadamente 50 μ V y la amplitud máxima es de aproximadamente 100 μ V. Por lo tanto, hay varias fuentes, como la línea eléctrica, el EOG o el ECG, que pueden interferir extremadamente con las señales de EEG. La detección y eliminación de artefactos juega un papel importante para adquirir señales EEG limpias para analizar y detectar actividades cerebrales [5]. El análisis de las señales del electroencefalograma (EEG) es fundamental porque es un método eficaz para diagnosticar trastornos neurológicos cerebrales [6].
 
 <p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/ecg.png?raw=true"  width="400" height="200"> </p>
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg.png?raw=true"  width="400" height="200"> </p>
   <em><p align="center">Señal cruda</em> 
 
 
@@ -64,9 +64,10 @@
 
 |  | Filtro FIR | Filtro IIR | Wavelet |
 |--------------|--------------|--------------|--------------|
-| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_fir.png?raw=true" width="400" height=70%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_iir.png?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_wv.png?raw=true" width="400" height="300"></p>|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_fir.png?raw=true" width="400" height=70%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_iir.png?raw=true" width="400" height=100%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_wv.png?raw=true" width="400" height=80% ></p>|
 | Descripción    | <p align="justify">En este análisis se pretende estructurar un filtro FIR avanzado basado en Field Programmable Gate Array (FPGA) para obtener señales biomédicas más rápidas, especialmente señales EEG. A este respecto, se introduce un filtro FIR simple y rentable para hacer que la señal de EEG esté libre de ruido, sea menos costosa, consuma menos energía y sea simple. Requiere menos espacio para la implementación del chip que otros filtros digitales y evita la mezcla de otras señales biomédicas [4] | <p align="justify">Usamos un filtro butterworth un método de filtrado de prototipos analógicos en el que se utilizan los polos y ceros de un prototipo de filtro paso bajo clásico en el dominio continuo (Laplace), obtenga un filtro digital mediante transformación de frecuencia y discretización del filtro [6] | <p align="justify">La transformada wavelet se utiliza para convertir la señal EEG en una serie de wavelet que son una versión desplazada y escalada de la wavelet madre. Por lo tanto, Wavelet puede ser adecuado con eventos ocultos que pueden ayudar a detectar la frecuencia exacta y la ubicación del evento en una escala de tiempo. La transformada Wavelet utiliza diferentes tamaños de ventana para cada rango de frecuencias. Ventana más larga para el rango de frecuencias más bajas y ventana más corta para el rango de frecuencias más altas [2].|
 | Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 0.5 Hz <p align="justify">- Frecuencia de corte 2: 50 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 2<p align="justify">- Frecuencia de muestreo: 1 Hz   | <p align="justify">-	Frecuencia de muestreo: 1000 Hz<p align="justify">-	Frecuencia de corte inferior: 0.5 Hz<p align="justify">-	Frecuencia de corte inferior: 50 Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 4| <p align="justify">-	Nivel: 8 <p align="justify">-	Familia: Symlet (sym) 3<p align="justify">-	Coeficientes de aproximación: se eliminan de la tabla D1, D8 y A8 (ruidos)|
+| Discusiones  | <p align="justify">Al utilizar la ventana Hamming, usamos una ventana específica para la respuesta de frecuencia, lo que afectará la forma en que se ven y se analizan las oscilaciones en la señal EEG, se debería poder identificar las ondas alfa, delta, beta y gamma, pero podemos observar que no se tiene una señal muy buena y tampoco se puede diferenciar bien cuál banda de frecuencia muestra una mayor amplitud en un momento específico. | <p align="justify">En la señal EEG filtrada con Butterworth podemos identificar las amplitudes de las oscilaciones en diferentes bandas de frecuencia, como delta, theta, alpha, beta y gamma. El gráfico nos permite cuantificar la amplitud en microvoltios(uV) o unidades relativas.| <p align="justify">Podemos observar que después de aplicar el filtro Wavelet Sym3 de nivel 8, la señal tiene la semejanza esperada de acuerdo a la referencia del paper estudiado. Además, en la señal filtrada podemos buscar patrones específicos, como los picos de onda, ritmos específicos (como el ritmo alfa o delta) y eventos relacionados con la actividad cerebral.|
 
 </div>
 
@@ -90,9 +91,10 @@ Las wavelets de la familia de los symlets se conocen por symN (N es el orden). E
 
 |  | Filtro FIR | Filtro IIR | Wavelet |
 |--------------|--------------|--------------|--------------|
-| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_iir.png?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_wv.png?raw=true" width="400" height="300"></p>|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_fir.png?raw=true" width="400" height=70%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_iir.png?raw=true" width="400" height=70%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/emg_wv.png?raw=true" width="400" height=90%></p>|
 | Descripción    |<p align="justify">El diseño de un filtro FIR Hanning implica la multiplicación de la respuesta de un filtro ideal (como un filtro paso bajo) con la función de ventana de Hanning en el dominio del tiempo. Esto se hace para suavizar la transición entre las frecuencias de paso y de paro del filtro, reduciendo así las oscilaciones no deseadas en la respuesta en frecuencia. | <p align="justify">Filtro IIR logra una buena atenuación en la banda de paso y en la banda de parada, también obtiene frecuencias de borde precisas en la banda de paso y banda de parada, y los requisitos computacionales son pequeños, lo que reduce en gran medida los requisitos de costos de hardware. El filtro IIR Butterworth requiere solo 14 pasos para lograr una atenuación máxima de -100 dB a 50 H| <p align="justify">Se realizaron descomposiciones sucesivas similares hasta que el componente de alta frecuencia presentó cambios en el voltaje promedio y/o picos. Para estimar el ruido, los últimos componentes de la descomposición se filtraron para eliminar la mayor parte de las señales musculares de la interferencia de ruido. Para atenuar la interferencia de ruido de 60 Hz fue la WT de Daubechies de cuarto orden.|
 | Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 70 Hz <p align="justify">- Frecuencia de corte 2: 108 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 2<p align="justify">- Frecuencia de muestreo: 2K Hz   | <p align="justify">-	Frecuencia de muestreo: 10000 Hz<p align="justify">-	Frecuencia de trampa: 50 Hz<p align="justify">-	Rango de frecuencia: 20 Hz - 500Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 2| <p align="justify">-	Nivel: 4 <p align="justify">-	Familia: Daucbechies<p align="justify">-	Coeficientes de aproximación en el árbol de descomposición|
+| Discusiones  | <p align="justify">Para el caso de esta señal de EMG, el filtrado atenuó pequeñas frecuencias, por ello aún se conservó el ruido de la señal| <p align="justify">Nuevamente, el filtrado no resultó como se deseaba, ya que los parámetros del filtro que seleccionamos atenuaban demasiado la señal, y se le atribuye el posible error a la Frecuencia de Muestreo utilizado en el bitalino al adquirir la señal.| <p align="justify">Con este filtro se pueden obtener características específicas de la señal EMG, como por ejemplo RMS, la amplitud, la frecuencia, entre otros, y como se puede ver en la imagen de la señal  filtrada hay un contraste significativo con la imagen de la señal no filtrada, ambos se encuentran en las mismas escalas, pero en la señal filtrada se pueden extraer con mayor facilidad las características mencionadas. Además, se pueden identificar las frecuencias dominantes dentro de la señal y cómo varían en el tiempo.|
 
 </div>
 
@@ -106,86 +108,25 @@ Las wavelets de la familia de los symlets se conocen por symN (N es el orden). E
 
 <p align="justify">Una señal ECG es una serie temporal cuasiperiódica no lineal y no estacionaria, que representa la función cardiaca, tanto musculares como eléctricas. Es una bioseñal variable en el tiempo que refleja el flujo de corriente iónica, que provoca contracciones y posteriores relajaciones en las fibras cardíacas y proporciona una visión indirecta del flujo sanguíneo al músculo cardíaco. Proporciona información sobre la frecuencia cardíaca, el ritmo cardíaco y la actividad eléctrica. El ECG se registra midiendo la diferencia de potencial entre dos electrodos colocados en la piel del paciente.  [C1] La mayoría de las patologías cardíacas se pueden entender observando la señal del ECG. Las señales de frecuencia cardíaca y ECG se utilizan para evaluar un corazón sano e identificar diversas patologías.[C2] Sin embargo, el ECG es susceptible a diferentes tipos de ruidos, que pueden distorsionar las características morfológicas y los aspectos de intervalo del ECG.
  
+ <p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/ecg.png?raw=true"  width="400" height="200"> </p>
+  <em><p align="center">Señal cruda de ECG</em> 
 
 <div align="center">
 
 |  | Filtro FIR | Filtro IIR | Wavelet |
 |--------------|--------------|--------------|--------------|
-| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/conexion_usada.jpg?raw=true" width="400" height="300"></p>|
+| Señal filtrada |<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/ecg_fir.png?raw=true" width="400" height=70%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/ecg_iir.png?raw=true" width="400" height=70%></p> | <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/ecg_wv.png?raw=true" width="400" height=70%></p>|
 | Descripción    |<p align="justify"> Los filtros FIR (Finite Impulse Response) son caracterizados por no tener una retroalimentación, lo que les permite ser estables y tener fases lineales [3]. Se conocen cinco métodos de diseño de este filtro, mediante ventanas, multibanda con bandas de transición, mínimos cuadrados restringidos, respuesta arbitraria y coseno alzado  [4]. La técnica más fácil es ventanas debido a que estas se basan entre la elección entre funciones de transición ya conocidas, existen múltiples ventanas como rectangular que representa una respuesta ideal y entre las que tienen respuestas al coseno más compleja son la Hanning, Hamming y Blackman  [5]. Hanning es la ventana comúnmente usada para este propósito. Para el diseño del filtro se considera los siguientes parámetros:[6]| <p align="justify">Un filtro IIR (Infinite Impulse Response) es uno que responde a una ecuación recursiva, está ampliamente relacionado a los filtros analógicos por su respuesta infinita [C5,C8]. Dentro de los filtros IIR clásicos se tiene Butterworth, Chebyshev I y II, elíptico y Besel [C6]. El primero está basado en un aproximación en base a las series de Taylor a un filtro ideal [C7]. Se ha evidenciado que Butterworth tiene una mejor respuesta de atenuación frente a Chebyshev [C9].|<p align="justify"> La transformada wavelet descompone la señal ECG en una serie de coeficientes de wavelet en diferentes escalas y ubicaciones temporales. Estos coeficientes se pueden procesar y analizar para identificar patrones característicos en la señal, como picos, ondas y segmentos. Además, la transformada wavelet es capaz de separar el contenido de alta y baja frecuencia de la señal, lo que facilita la eliminación de ruido y la mejora de la detección de eventos cardíacos. |
 | Parámetros    | <p align="justify">- Ventana: Hanning <p align="justify">- Frecuencia de corte 1: 0.5 Hz <p align="justify">- Frecuencia de corte 2: 108 Hz <p align="justify">- Tipo de filtro: filtro notch <p align="justify">- Orden del filtro: 56<p align="justify">- Frecuencia de muestreo: 200 Hz   | <p align="justify">-	Frecuencia de muestreo: 500 Hz<p align="justify">-	Frecuencia de corte: 150 Hz<p align="justify">-	Tipo de filtro: Butterworth<p align="justify">-	Orden: 100| <p align="justify">-	Nivel: 7 <p align="justify">-	Familia: Daucbechies9<p align="justify">-	Coeficientes de aproximación: cA7|
+| Discusiones  | <p align="justify">Tenemos una señal filtrada buena, en la que se puede reconocer la cantidad de complejos QRS en un tiempo dado, por lo tanto, se podría calcular la frecuencia cardíaca. Además, se puede llegar a medir el intervalo RR y el intervalo QT y obtener valores aproximados. Todos estos datos son importantes para evaluar la función cardíaca.| <p align="justify">Idealmente el filtro nos permitiría identificar  los complejos cardíacos, como las ondas P, el complejo QRS y la onda T para poder evaluar su duración, amplitud y detectar posibles anomalías; sin embargo, no se obtiene una señal tan buena como lo obtenido con el filtro Wavelet, por lo que al menos en este caso no se llega a tener un buen filtrado. | <p align="justify">Gracias al filtrado Wavelet en la señal ECG podemos analizar cómo las frecuencias de la señal se distribuyen en escalas, también gracias a la imagen de la señal filtrada podemos identificar y analizar la amplitud y  la duración del complejo QRS y la onda P, gracias a todo ello se pueden detectar arritmias  cardíacas y la identificación de patrones anómalos en la señal de la persona.|
 
 </div>
-
-<p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/assets/99302662/6d65bb66-31da-4bdf-b6b6-8b945b607d95"  width="400" height="200"> </p>
-  <em><p align="center">Árbol de descomposición</em> 
-
-
-### Discusión
-**Apertura y cierre de ojos**
-
-En adultos despiertos, el EEG revela principalmente la presencia de ondas alfa y beta, como se muestra en la Imagen 11 del paper [13].
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen1.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Imagen 11: Detección de ondas alfa a partir de una señal EEG registrada [13]</p></em> 
-
-La Imagen 12 muestra las diferencias entre un participante con los ojos abiertos (parte superior) y un participante con los ojos cerrados (parte inferior) [14].
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen3.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Imagen 12. Gráfica superior, participante con ojos abiertos. Gráfica inferior, participante con ojos cerrados. [14]</p></em> 
-
-**Complejidad de problemas matemáticos**
-
-En problemas matemáticos de alta complejidad, se registra una mayor actividad en las bandas de frecuencia theta y alfa en las áreas frontales y parietales izquierdas, que están vinculadas al razonamiento matemático y el cálculo. Estos resultados respaldan investigaciones previas que indican una mayor activación de estas áreas cerebrales en situaciones de mayor dificultad. Además, se ha notado una disminución en la actividad de las regiones temporales durante la resolución de estos problemas[15].
-
-La siguiente imagen ilustra la interacción entre las áreas cerebrales encargadas de almacenar y manipular la información visual, destacando las oscilaciones en las bandas de frecuencia theta y alfa2[15].
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen4.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Interacción entre áreas cerebrales [15]
-</p></em> 
-
-En otro estudio, tanto las concentraciones de hemoglobina oxigenada (HbO) como las señales de EEG mostraron un aumento durante la tarea mental, pero el inicio, el período y la cantidad de ese aumento depende de las características de cada modalidad [16].
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/imagen5.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Comparación de señales [16]
-</p></em> 
-
-### **Archivos** <a name="arch"></a>
-
-- [Documentos.txt](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/972ce8758b55bbeff94d1fea3cc9e4206d2c9f3b/ISB/Laboratorios/Laboratorio%2005%20-%20Registro%20de%20EEG/Documentaci%C3%B3n/Archivos%20.txt)
-- [Código para plotear señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/972ce8758b55bbeff94d1fea3cc9e4206d2c9f3b/ISB/Laboratorios/Laboratorio%2005%20-%20Registro%20de%20EEG/Documentaci%C3%B3n/C%C3%B3digos)
-
-### **Ploteo de la señal en Python** <a name="plote"></a>
-
-**SEÑAL OBTENIDA CON EL BITALINO**
-<div align="center">
-
-| **Etapa** | **Señal Bitalino** |  
-|:-------------:|:-------------:|
-| **Reposo (30 segundos)**| <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg1.png?raw=true"  width="50%" height="50%"> <p align="justify">| 
-| **Abrir y cerrar ojos** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg2.png?raw=true"  width="50%" height="50%"><p align="justify"> | 
-| **Reposo** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg3.png?raw=true"  width="50%" height="50%"><p align="justify"> | 
-| **Preguntas matemáticas** |<img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg4.png?raw=true"  width="50%" height="50%" ><p align="justify"> | 
-</div>
-
-**SEÑAL OBTENIDA CON EL ULTRACORTEX**
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg1_uc.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">Ploteo de la señal obtenida</p></em> 
-
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_05/eeg_fft_psd_uc.png?raw=true"  width="400" height="200"> </p> 
-<em><p align="center">PSD para FFT de la señal</p></em> 
-
-
 
 
 ## **Conclusiones** <a name="conclu"></a>
 ---
-- Se pudo observar variaciones en las mediciones de las gráficas de ojos cerrados y abiertos, Se observa el aumento de amplitud sobre los 10 Hz y la aparición de las ondas alfa en los electrodos occipitales O1 y O2. Sin embargo, el ruido generado puede deberse a la mala posición de los electrodos.
-- El cerebro realiza mayor esfuerzo cuando el sujeto se encuentra bajo presión procesando las preguntas matemáticas.
-- Se pudieron comparar entre las señales del ultracortex y el bitalino, que el primero posee una mejor muestra de las señales ya que no adquiere tanto ruido a diferencia del bitalino, esto se puede deber al nivel de filtrado que posee cada uno y la calidad de sus componentes.
-- La presencia de artefactos cerca del sujeto y que este esté conectado eléctricamente a otros dispositivos pueden generar altas impedancias en los electrodos de EEG y alterar los rangos normales.
+Tras observar el filtrado en cada respectiva señal (EEG, EMG y ECG), llegamos a la conclusión de que el filtrado Wavelet es el que mejor ha resultado debido a que no realizan una atenuación muy grande a la señal, por ello, se pueden realizar las distintas mediciones y extracciones de características necesarias para el análisis estadístico u otros y poder analizarlos mejor para un diagnóstico más pertinente de la salud del paciente.
 
 
 
