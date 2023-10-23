@@ -130,7 +130,7 @@ Por ello, se busca realizar una comparativa entre un método no invasivo utiliza
 ## **Archivos** <a name="arch"></a>
 ---
 
-- [Presentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/43528c222d389e230508135e5f7d8d0409accf48/ISB/Proyecto/Documentos/Diapositivas_Dise%C3%B1o%20de%20un%20monitor%20de%20signos%20vitales.pdf)
+- [Presentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/a82641809794ba262acc9c135210b966af016989/ISB/Proyecto/Entregable%202/Archivo/M%C3%A9todo%20comparativo.pdf)
 
 ## **Referencias** <a name="ref"></a>
 ---
