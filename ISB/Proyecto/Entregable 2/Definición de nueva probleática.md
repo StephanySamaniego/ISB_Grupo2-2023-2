@@ -1,10 +1,23 @@
-## Contexto
-### Epidemiologia 
+# Comparativa Entre un Método No Invasivo Utilizando UN Bitalino (r)evolution y el Gold Standard para el Monitoreo de la Presión Arterial en Procesos Perioperatorios.
+
+1. [Contexto](#cont)
+2. [Justificación](#just)
+3. [Impacto económico](#impact)
+4. [Efectos](#efecto)
+5. [Causas](#causa)
+6. [Definición del problema](#problema)
+6. [Propuesta de solución](#propuesta)
+6. [Archivos](#arch)
+7. [Referencias](#ref)
+
+
+## **Contexto** <a name="cont"></a>
+---
 <p align="justify">En medicina perioperatoria y de cuidados intensivos, las mediciones de la presión arterial tienen un impacto significativo en el manejo del paciente, especialmente para la identificación y el tratamiento oportuno y correcto de la hipotensión. Estudios recientes incluso sugieren que solo unos pocos minutos de hipotensión en el entorno de cuidados intensivos aumentan la incidencia de infarto de miocardio, acv, lesión renal aguda y la muerte. Por lo tanto, es necesario monitorear la presión arterial de manera continua. [1]
 
 <p align="justify">En el 90% de los pacientes quirúrgicos, la presión arterial (PAB) se controla de forma no invasiva pero de forma intermitente mediante un manguito de presión arterial, sin embargo en pacientes de alto riesgo se aplica la monitorización hemodinámica invasiva mediante un catéter arterial que suele colocarse en la arteria radial, braquial o femoral. Sin embargo, la canulación de una arteria puede llevar mucho tiempo, debe ser realizada por un operador capacitado y las estimaciones de la tasa total de complicaciones oscilan entre le 15% y el 40%, en la siguiente tabla se menciona algunas complicaciones. [2][3] 
 
-<p align="center">
+<div align="center">
 
 |                          |                                |
 |--------------------------|--------------------------------|
@@ -18,24 +31,56 @@
 | Perdida de sangre diagnóstica | **Arteria braquial**         |
 | Fistula arteriovenosa    | Daño al nervio mediano         |
 
-</p>
+</div>
+
 <p align="justify">Por otro lado,  la monitorización no invasiva sule ser inexacta y discontinua ya que solo permite monitorear la presión en un rango de tiempo, Además, la precisión del dispositivo puede deteriorarse en pacientes con una fuerte vasoconstricción, enfermedad vascular periférica o dedos deformados debido a la artritis. Entonces, la monitorización ideal de la presión arterial debe ser no invasiva y continua. [2] 
 
+## **Justificación** <a name="just"></a>
+---
+1. **Hipotensión relacionada a complicaciones perioperatorias**
+---
+<p align="justify">La hipotensión intraoperatoria (IOH) o presión arterial baja (PA) durante la cirugía, es común en pacientes que se someten a cirugía no cardíaca bajo anestesia general. Tiene el potencial de causar una lesión por isquemia-reperfusión que puede manifestarse como disfunción de cualquier órgano vital y se vincula con un mayor riesgo de desarrollar Lesión Renal Aguda (LRA), lesión miocárdica y complicaciones cardíacas que son son afecciones frecuentes, relacionadas con un mayor riesgo de morbilidad y mortalidad, además representan un coste considerable en la atención médica [a]. La prevención de la hipotensión intraoperatoria reduce el riesgo de disfunción orgánica postoperatoria en aproximadamente un 25%, lo que sugiere que la asociación entre la hipotensión y la lesión orgánica es causal y, por lo tanto, potencialmente susceptible de intervención[b].
 
-## Análisis de impactos y efectos
-### Impacto económico
-<p align="justify">El costo total de una monitorización inadecuada de los signos vitales durante una cirugía incluye tanto los costos directos como los indirectos. Los costos directos se refieren a gastos adicionales debido a procedimientos médicos extras que pueden surgir por mediciones incorrectas. Además, con las infecciones o retrasos en procedimientos, pueden aumentar el tiempo de hospitalización o incluso requerir reingreso hospitalario. En promedio, la hospitalización en una unidad de cuidados intensivos (UCI) dura entre 14 y 17 días [4]. El retraso en la atención
-oportuna se asocia a mayores costos y deficientes resultados.[5] Es una forma de error de diagnóstico que puede provocar daños al paciente e incluso la muerte. Para 
-Muchos niños con afecciones médicas complejas pueden tener un mayor riesgo de resultados deteriorados debido a sus enfermedades subyacentes, susceptibilidad a los efectos adversos de las intervenciones terapéuticas o experiencias educativas y terapéuticas perdidas mientras están hospitalizados, lo que los convierte en los pacientes más vulnerables de la unidad de cuidados intensivos pediátricos (UCIP)[6].
+- **Monitoreo de la hipotensión:** <p align="justify">Un estudio intervencionista con 143 pacientes destacó que la monitorización invasiva de la presión arterial (PA) identificó, en promedio, el doble de momentos de presión arterial baja en comparación con las mediciones oscilométricas. Además, los pacientes sometidos a la monitorización invasiva de la PA recibieron aproximadamente un tercio más de tratamientos con vasopresores en comparación con aquellos que se sometieron a la monitorización oscilométrica de la PA. Se plantea la posibilidad de utilizar tecnologías de monitorización continua de la PA no invasivas, como los dispositivos de manguito de dedo, como una alternativa a la monitorización intermitente no invasiva o invasiva tradicional de la PA en pacientes sometidos a cirugía. Otro estudio, probó la hipótesis de que la monitorización continua no invasiva de la PA reduce la hipotensión intraoperatoria [c].
+<p align="justify">
+
+
+
+2. **Hipertensión relacionada a complicaciones perioperatorias**
+---
+<p align="justify">La hipertensión arterial (HTA) es una enfermedad definida como la presencia en un paciente de cifras de presión arterial sistólica de 140 mmHg o más, o una presión arterial diastólica igual o superior a 90 mmHg, o ambas cifras inclusive, en tres o más determinaciones constatadas en condiciones basales [S1]. Además, es un factor de riesgo modificable para las enfermedades cardiovasculares, que puede tener un impacto en las complicaciones perioperatorias, en función del daño orgánico que sufre el paciente y que se encuentra casi siempre como antecedente en todo el espectro de afecciones cardiovasculares que comprometen órganos vitales (cerebro, corazón, riñón) [S2].
+
+- **Epidemiología de pacientes en UCI**
+<p align="justify">La HTA afecta a más de 1000 millones de personas en el mundo, mayormente a aquellos de países de mediano y bajos ingresos [S3]. De acuerdo con la Organización Mundial de la Salud (OMS), la prevalencia de la HT aumenta con la edad y se estima que 1/3 de la población mundial presenta esta condición. A pesar de la medicación, 1/3 de estos pacientes no logran alcanzar metas de presión arterial [S4]. Esta condición se encuentra distribuida en todas las regiones del mundo, y su prevalencia está asociada a múltiples factores económicos, sociales, culturales, ambientales y étnicos. Se estima que las bajas tasas de diagnóstico previo de la enfermedad, definida por autorreporte, contribuyen al incremento de las complicaciones de esta condición en países subdesarrollados 3. Más aún, el 10% de los gastos en salud a nivel global están destinados sólo al tratamiento de los casos identificados llegando hasta un trillón de dólares americanos con tratamiento subóptimo [S1].
+
+<p align="justify">Estudios poblacionales en países de mediano y bajo ingreso han demostrado un incremento de la prevalencia de HTA en comparación a los países de alto ingreso, en donde existe una disminución sostenida. No obstante, datos recientes han demostrado tendencias contradictorias, sobre todo en América del Sur y el Caribe, en donde la prevalencia de HTA se mantiene estable o en disminución. En el caso de Perú, un estudio reciente sobre las tendencias de prevalencia y tratamiento de hipertensión reportó que la prevalencia estandarizada de hipertensión por edad aumentó de 18,7% en 2015 a 20,6% en el 2018, mientras que la prevalencia de diagnóstico previo y control de esta condición evidenció una disminución. De acuerdo con ello, en el 2018, menos de la mitad de los peruanos hipertensos tenían diagnóstico; 20,6% recibía tratamiento, y solo el 5,3% tenían un control adecuado. Asimismo, se evidenció que las proporciones más bajas de diagnóstico, tratamiento y control de la HTA era en personas que vivían en áreas rurales y con bajo nivel socioeconómico [S5].
+
+- **Importancia**
+<p align="justify">En el escenario quirúrgico, 1 de 4 pacientes presenta HTA y a pesar de su elevada prevalencia, no existen guías actualizadas para un abordaje perioperatorio y un curso de acción. De igual forma, las guías ACC/AHA de 2014 afirman que los pacientes hipertensos que se someten a cirugía tienen un mayor riesgo de muerte operatoria y morbilidad quirúrgica, incluyendo arritmias, isquemia miocárdica, IAM, ACV, y deterioro de la función renal [S6] Se recomienda la monitorización intermitente de la presión arterial en todo paciente bajo anestesia general, regional, sedación o un cuidado anestésico monitorizado. El intervalo de medición no debe ser mayor a los 5 minutos. Deben existir mangos de presión adecuados para el tamaño de cada paciente. Esta recomendación pone especial énfasis en grupos especiales de pacientes como pediátricos y obesos. La medición invasiva y continua de la presión arterial debe estar disponible para todo paciente de ser necesario [S7]. Es por ello la importancia de tener un monitoreo continuo de la presión arterial, ya que se busca garantizar la seguridad y el bienestar de los pacientes durante los procedimientos perioperatorios. Además, permite a los profesionales de la salud detectar y abordar rápidamente cualquier cambio en la presión arterial, lo que a su vez ayuda a prevenir complicaciones y a mantener al paciente en un estado seguro y estable.
+
+3. **Monitoreo estándar de la Presión Arterial**
+---
+<p align="justify">Actualmente el método estándar para la medición de la Presión Arterial es el el método de auscultación, hasta hace unos años el dispositivo más utilizado para ello era el esfigmomanómetro de mercurio, sin embargo, debido a las prohibiciones hacia los dispositivos que utilizan mercurio estos están siendo utilizados cada vez menos y reemplazados por dispositivos electrónicos que utilizan el mismo método eliminando el mercurio, siendo estos menos precisos y con una necesidad más frecuente de calibración. Entre las principales limitaciones que tenemos con el método de medición actual encontramos la necesidad de encontrar una correcta posición en el cuerpo para obtener una medida fiable, la posición estándar es el brazo debido a que se busca obtener la presión de la arteria braquial ya que las presiones sistólica y diastólica varían sustancialmente en diferentes partes del árbol arterial: la presión sistólica aumenta en las arterias más distales y la presión diastólica disminuye. Otra limitación se encuentra en la necesidad de tener un operador para empezar la medición de la presión haciendo que esta no sea continua. [1] Además, el tamaño del manguito que se utiliza en este método de medición es importante ya que utilizar uno demasiado grande o demasiado pequeño puede darte lecturas de la presión arterial que no sean precisas obligando a los establecimientos de salud a tener diferentes medidas del manguito a utilizar. [2] 
+
+<p align="justify">Ante esto, con el método propuesto buscamos que la medición de la presión arterial se haga de forma continúa, además de eliminar la necesidad de tener accesorios de diferentes tamaños y al ser una medida obtenida del ECG buscamos que esta no tenga tantas variaciones como con el método auscultatorio dependiendo de la posición en la que se toma. 
+
+## **Impacto económico** <a name="impact"></a>
+---
+<p align="justify">El costo total de una monitorización inadecuada de los signos vitales durante una cirugía incluye tanto los costos directos como los indirectos. Los costos directos se refieren a gastos adicionales debido a procedimientos médicos extras que pueden surgir por mediciones incorrectas. Además, con las infecciones o retrasos en procedimientos, pueden aumentar el tiempo de hospitalización o incluso requerir reingreso hospitalario. En promedio, la hospitalización en una unidad de cuidados intensivos (UCI) dura entre 14 y 17 días [4]. El retraso en la atención oportuna se asocia a mayores costos y deficientes resultados.[5] Es una forma de error de diagnóstico que puede provocar daños al paciente e incluso la muerte. 
+
+<p align="justify">Según los tarifarios de procedimientos médicos, establecidos por el MINSA, los centros de salud públicos presentan costos de internamiento, los cuales oscilan entre un rango de 300 a 763 soles por día, el cual depende de la gravedad del paciente; cabe resaltar que estos costos excluyen los costos de medicamentos, atención (entre 16 a 74 soles por día) y procedimientos complementarios (diagnóstico por imágenes, reingreso a sala quirúrgica, uso de equipos médicos, diagnóstico médico, etc). [C1]¨[C2].
+ 
+<p align="justify">Por otro lado, específicamente los niños con afecciones médicas complejas pueden tener un mayor riesgo de resultados deteriorados debido a sus enfermedades subyacentes, susceptibilidad a los efectos adversos de las intervenciones terapéuticas o experiencias educativas y terapéuticas pérdidas mientras están hospitalizados, lo que los convierte en los pacientes más vulnerables de la unidad de cuidados intensivos pediátricos (UCIP)[6].
 
 <p align="justify">Asimismo, las consecuencias de la atención quirúrgica inadecuada en los países de ingresos bajos y medios (PIBM) son especialmente graves entre los niños, donde muchas afecciones provocan discapacidades de por vida o muertes prematuras [7].
 
+<p align="justify">Las limitaciones para estimar los costos adicionales se deben a la falta de literatura y la variabilidad en las cirugías. La estimación realizada es una simple extrapolación para comprender el impacto económico sin pretender ser un modelo ajustado.
 
-Las limitaciones para estimar los costos adicionales se deben a la falta de literatura y la variabilidad en las cirugías. La estimación realizada es una extrapolación simple para comprender el impacto económico sin pretender ser un modelo ajustado.
+<p align="justify">Por ejemplo, el costo máximo directo por cirugías pediátricas fue de $106.48 USD en Uganda entre 2017 y 2019 [8]. Considerando que el PBI per cápita promedio en Uganda fue de $770.51 USD en esos años [9]. Mientras que en Perú fue casi 8 veces mayor, con $6898.64 USD. Aplicando una relación lineal, el costo directo promedio en Perú sería de $935.35 USD, equivalente a 3126.35 PEN, según el tipo de cambio promedio en la fecha. El costo indirecto máximo se calculó de manera similar, resultando en 7142.85 PEN. Por lo tanto, se estima que el costo para cada familia peruana por cirugía pediátrica adicional sería de 10,272.19 soles [10].
 
-El costo máximo directo por cirugías pediátricas fue de $106.48 USD en Uganda entre 2017 y 2019 [8]. Considerando que el PBI per cápita promedio en Uganda fue de $770.51 USD en esos años [9]. Mientras que en Perú fue casi 8 veces mayor, con $6898.64 USD. Aplicando una relación lineal, el costo directo promedio en Perú sería de $935.35 USD, equivalente a 3126.35 PEN, según el tipo de cambio promedio en la fecha. El costo indirecto máximo se calculó de manera similar, resultando en 7142.85 PEN. Por lo tanto, se estima que el costo para cada familia peruana por cirugía pediátrica adicional sería de 10,272.19 soles [10].
 
-### Efectos
+## **Efectos** <a name="efecto"></a>
+---
 - **Efectos provocados por afecciones desatendidas**
 <p align="justify">Nos referimos a las afecciones desatendidas a padecimientos ignorados y no registrados en los procedimientos médicos. Según los expertos, el 50% de estos pacientes podrían haber experimentado al menos una consecuencia de un triaje insuficiente, 45% podría haberse sometido a más intervenciones, 40% podría haber experimentado más investigaciones de diagnóstico debido a la demora del tratamiento, 34% habría tenido probabilidades de tener complicaciones; 6% podría haber estado hospitalizado por más tiempo, 11% podría haber experimentado morbilidad a largo plazo, y 3% podría haber muerto debido al retraso del tratamiento. [11].
 
@@ -47,7 +92,8 @@ El costo máximo directo por cirugías pediátricas fue de $106.48 USD en Uganda
 mentales, emocionales (estrés y ansiedad) y físicas, antes, durante y después del acto quirúrgico, que elevan el estado de ansiedad, e inclusive afectan en la etapa de recuperación [14]. La mayoría de los pacientes experimentan mayor o menor nivel de las alteraciones antes dichas frente a una intervención quirúrgica dependiendo de distintos factores como el sexo, la  personalidad, la edad, la experiencia anestésica previa, el tipo de intervención, entre otros [15].
 
 
-### Causas
+## **Causas** <a name="causa"></a>
+---
 
 - **Presupuestos limitados del sector salud**
 <p align="justify">Si bien a lo largo de los años el presupuesto público destinado a salud en el Perú ha tenido un comportamiento ascendente, en el 2018 aún se encontraba por debajo del porcentaje del PBI con respecto a otros países de la región con 5.2%, mientras que en Chile y Colombia fue del 9.14% y 7.4% respectivamente [16]. No obstante, una segunda adversidad es que el gasto ejecutado en salud corresponde en un 30% para fines administrativos, por lo que se evidencia un manejo inapropiado de los recursos [17]. Además, tampoco ha sido muy atractiva la inversión privada en equipos de monitorización diseñados para niños, en comparación al público adulto [18], [19].
@@ -64,29 +110,30 @@ mentales, emocionales (estrés y ansiedad) y físicas, antes, durante y después
 - **Reducidos métodos de monitpreo de signos vitales**
 <p align="justify">La mayoría de los métodos de monitoreo de presión arterial son incómodos, por lo que la investigación en equipos más ergonómicos para el paciente se ha vuelto una tarea relevante [22].
 
-## Definición del problema
-“Necesidad de dispositivos que monitoreen la presión arterial continua de manera  no invasiva en adultos, para reducir el riesgo perioperatorio“
+## **Definición del problema** <a name="problema"></a>
+---
+<p align="justify">“Limitados métodos de medición continua y no invasiva de presión arterial para reducir el riesgo perioperatorio"
 
-## Propuesta de solución
+## **Propuesta de solución** <a name="propuesta"></a>
+---
+<p align="justify">La solución toma en cuenta que los usuarios son los médicos y los beneficiarios son los pacientes que ingresarán a sala quirúrgica.
+Por ello, se busca realizar una comparativa entre un método no invasivo utilizando un Bitalino (r)evolution y el gold standard para el monitoreo de la presión arterial en procesos perioperatorios
 
-**Descripción**
 
-Habiendo descrito la problemática en la que nuestros usuarios son los médicos,el usuario serán adultos. Se busca realizar un dispositivo adaptado a sus necesidades, el cual monitorea la presión arterial de manera constante y de forma no invasiva
+**Objetivos**
 
-**Objetivo**
+- <p align="justify">Implementar un prototipo de baja resolución de un dispositivo de monitorización continua de presión arterial no invasivo en el proceso perioperatorio.
 
-**General** 
-- Implementar un prototipo de baja resolución de un dispositivo de monitorización continua de presión arterial no invasivo en el proceso perioperatorio para adultos. 
+- <p align="justify">Comparar la efectividad del uso del Bitalino (r)evolution con el Gold standard en procesos perioperatorios.
 
-**Específicos** 
-
-- Realizar un estudio del estado del arte respecto a un dispositivo de monitorización continua de presión arterial no invasivo en el proceso perioperatorio. 
-
-- Implementar un prototipo de baja resolución del diseño conceptual seleccionado
 ## **Archivos** <a name="arch"></a>
+---
 
 - [Presentación](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/43528c222d389e230508135e5f7d8d0409accf48/ISB/Proyecto/Documentos/Diapositivas_Dise%C3%B1o%20de%20un%20monitor%20de%20signos%20vitales.pdf)
-## Referencias
+
+## **Referencias** <a name="ref"></a>
+---
+
 [1] B. L. Hill et al., "Imputation of the continuous arterial line blood pressure waveform from non-invasive measurements using deep learning," *Scientific Reports*, vol. 11, no. 1, 2021. [doi:10.1038/s41598-021-94913-y](https://doi.org/10.1038/s41598-021-94913-y)
 
 [2] B. Saugel, K. Kouz, A. S. Meidert, L. Schulte-Uentrop, and S. Romagnoli, "How to measure blood pressure using an arterial catheter: A systematic 5-step approach," *Critical Care*, vol. 24, no. 1, 2020. [doi:10.1186/s13054-020-02859-w](https://doi.org/10.1186/s13054-020-02859-w)
