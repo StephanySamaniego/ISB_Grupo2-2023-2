@@ -113,7 +113,7 @@ mentales, emocionales (estrés y ansiedad) y físicas, antes, durante y después
 
 ## **Definición del problema** <a name="problema"></a>
 ---
-<p align="justify">“Limitados métodos de medición continua y no invasiva de presión arterial para reducir el riesgo perioperatorio"
+### <p align="justify">**“Limitados métodos de medición continua y no invasiva de presión arterial para reducir el riesgo perioperatorio"**
 
 ## **Propuesta de solución** <a name="propuesta"></a>
 ---
