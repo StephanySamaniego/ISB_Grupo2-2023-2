@@ -84,13 +84,19 @@ Esta característica de la señal puede brindarnos información de la actividad 
 2. **Extracción de características**
 
 - **Detección de eventos - Contracciones musculares**
+<div align="center">
 <img src="Img\emg_deteccion_eventos.png"  width="300" height="300"> 
+</div>
 
 - **Detección de señales de activación**
-<img src="Img\emg_deteccion_señal_activación.png"  width="300" height="300"> 
+<div align="center">
+<img src="Img\emg_deteccion_señal_activación.png"  width="400" height="300"> 
+</div>
 
 - **RMS**
+<div align="center">
 <img src="Img\emg_RMS.png"  width="300" height="300"> 
+</div>
 
 - **Valores obtenidos**
     - Maximum EMG (mV): 1.274705
