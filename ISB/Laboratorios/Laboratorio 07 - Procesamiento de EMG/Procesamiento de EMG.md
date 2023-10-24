@@ -2,11 +2,7 @@
 
 1. [Introducción](#intro)
 2. [Metodología](#met)
-3. [Resultados](#resul)\
-     3.1 [Señal EEG](#EEG)\
-     3.1 [Señal EMG](#EMG)\
-     3.1 [Señal ECG](#ECG)\
-     3.2 [Archivos](#arch)
+3. [Resultados](#resul)
 6. [Conclusiones](#conclu)
 7. [Referencias](#ref)
 
@@ -46,14 +42,26 @@
   <img src="Img\procedimiento.png"  width="400" height="200"> </p>
   <em><p align="center">Fig. X: Sistema de control mioeléctrico basados en reconocimiento de patrones</p></em> 
 
-6. **Análisis**
-<p align="justify">
-**Filtros IIR**
-<p align="justify"> El filtro digital IIR es un filtro importante. Puede lograr una selectividad de frecuencia precisa con un orden inferior. Por lo general, para diseñar un filtro digital IIR es necesario diseñar primero el filtro analógico y luego transformarlo en un filtro digital. Este método tiene desventajas como el costo de la banda de transición amplia, por lo que el rendimiento del filtro no es lo suficientemente ideal. Algunos académicos también han aplicado algoritmos de enjambre de partículas al diseño de filtros IIR, pero estos algoritmos pueden tener deficiencias de convergencia óptima o lenta local [3] </p>
+## **Resultados** <a name="met"></a>
+--- 
 
-<p align="center">
-  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/IIR%20filters.png?raw=true"  width="400" height="200"> </p>
-<em><p align="center">Influencia de la rectificación en la señal en función del nivel de excitación.</p></em> 
+1. **Filtrado**
+
+|Señal Cruda | Espectro de frecuencia|
+|-------------|-------------|
+| <img src="Img\ssin_filtrar.jpg"  width="400" height="200">  | <img src="Img\fft_cruda.jpg"  width="400" height="200">  |
+
+**Filtro Notch**
+|Señal filtrada  | Espectro de frecuencia | Espectro de frecuencia |
+|-------------|-------------|-------------|
+| <img src="Img\senal_filtrada.jpg"  width="400" height="200">   |<img src="Img\filtro_notch.jpg"  width="400" height="200">  |<img src="Img\filtro_notch_2.jpg"  width="400" height="200">|
+
+**Filtro pasabanda**
+|Señal filtrada  | Espectro de frecuencia |
+|-------------|-------------|
+| <img src="Img\sfiltrada_pasab.jpg"  width="400" height="200">   |<img src="Img\fft_pasabanda.jpg"  width="400" height="200">  |
+
+
 
 **Wavelet**
 
