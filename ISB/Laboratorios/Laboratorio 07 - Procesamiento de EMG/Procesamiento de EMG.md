@@ -77,7 +77,12 @@ Esta característica de la señal puede brindarnos información de la actividad 
 - **Detección de eventos - Contracciones musculares**
 <img src="Img\emg_deteccion_eventos.png"  width="300" height="300"> 
 
-- 
+- **Detección de señales de activación**
+<img src="Img\emg_señal_activación.png"  width="300" height="300"> 
+
+- **RMS**
+<img src="Img\emg_RMS.png"  width="300" height="300"> 
+
 
 
 
