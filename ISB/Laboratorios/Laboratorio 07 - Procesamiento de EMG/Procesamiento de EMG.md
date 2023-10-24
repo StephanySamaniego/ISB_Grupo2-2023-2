@@ -33,7 +33,7 @@
   <em><p align="center">Influencia de la rectificación en la señal en función del nivel de excitación</p></em> 
 
 4. **Suavización**
-<p align="justify">Este procedimiento es útil cuando se requiere realizar estudios de amplitud. El suavizado elimina o reduce significativamente los picos indeseados y extrae la tendencia de la señal. Uno de los métodos más utilizados es el Root mean-squared (RMS), el cual es la raíz cuadrada de la potencia promedio de una señal EMG en un intervalo de tiempo específico. Se denomina "variable en el dominio del tiempo" porque muestra cómo cambia la amplitud de la señal a lo largo del tiempo. El tamaño del segmento suele situarse entre 50-100 ms dependiendo del tipo de movimiento.
+<p align="justify">Este procedimiento es útil cuando se requiere realizar estudios de amplitud. El suavizado elimina o reduce significativamente los picos indeseados y extrae la tendencia de la señal. Uno de los métodos más utilizados es el Root mean-squared (RMS), el cual es la raíz cuadrada de la potencia promedio de una señal EMG en un intervalo de tiempo específico. Se denomina "variable en el dominio del tiempo" porque muestra cómo cambia la amplitud de la señal a lo largo del tiempo. El tamaño del segmento suele situarse entre 50-100 ms dependiendo del tipo de movimiento [5].
 
 5. **Extracción de características**
 <p align="justify">La extracción de características consiste en obtener información relevante de la  señal de sEMG mediante una transformación de los datos originales, de esta transformación se obtiene el vector de características o Feature Vector (FV). Existen tres tipos de características para la señal de EMG: las características en el dominio del tiempo, en el dominio de la frecuencia y en el dominio de tiempo frecuencia.
@@ -49,7 +49,7 @@
 
 |Señal Cruda | Espectro de frecuencia|
 |-------------|-------------|
-| <img src="Img\ssin_filtrar.jpg"  width="400" height="200">  | <img src="Img\fft_cruda.jpg"  width="400" height="200">  |
+| <img src="Img\ssin_filtrar.jpg"  width="300" height="200">  | <img src="Img\fft_cruda.jpg"  width="300" height="200">  |
 
 **Filtro Notch**
 |Señal filtrada  | Espectro de frecuencia | Espectro de frecuencia |
