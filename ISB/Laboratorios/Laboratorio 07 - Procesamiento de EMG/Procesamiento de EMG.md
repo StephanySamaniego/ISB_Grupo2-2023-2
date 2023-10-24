@@ -10,37 +10,46 @@
 ## **Introducción** <a name="intro"></a>
 ---
 **Extracción de características de un EMG**
+<p align="justify">La señal de electromiografía (EMG) es una indicación eléctrica de la actuación neuromuscular relacionada con un músculo en contracción. Es un signo extremadamente complicado que está influenciado por las propiedades anatómicas y fisiológicas de los músculos, el sistema de control del sistema sensorial marginal y también las características de la instrumentación que se utiliza para identificarlo y observarlo. La mayoría de las conexiones entre la señal EMG y las propiedades de un músculo en contracción que se utilizará rápidamente se han desarrollado de forma fortuita. La ausencia de una representación adecuada de la señal EMG es probablemente la variable más notable que ha obstaculizado el desarrollo de la EMG hasta convertirla en un campo específico [1].
 
-<p align="justify">En general el proceso se rige por las etapas de adquisición de datos, procesamiento de señal, extracción y clasificación de características de señal y funciones de predicción. Cada una de las etapas varía dependiendo los parámetros de diseño, como costo de elaboración y porcentaje de asertividad [1].
+<p align="justify">En general el proceso se rige por las etapas de adquisición de datos, procesamiento de señal, extracción y clasificación de características de señal y funciones de predicción. Cada una de las etapas varía dependiendo los parámetros de diseño, como costo de elaboración y porcentaje de asertividad [2]
 
 ## **Metodología EMG** <a name="met"></a>
 --- 
 1. **Adquisición** 
-<p align="justify"> Dado su sencillo diseño, los filtros FIR de fase lineal encuentran una amplia variedad de aplicaciones en los campos de procesamiento de señales de voz y biomédicas. Esto se debe a su estabilidad asegurada, una distorsión de fase mínima y una baja sensibilidad a los coeficientes. Dependiendo de si el número de coeficientes (N) es par o impar y de si la respuesta al impulso h(n) es simétrica o asimétrica, los filtros FIR de fase lineal pueden clasificarse en cuatro tipos, todos con la característica de tener una fase lineal. Diversos métodos están disponibles para derivar h(n), incluyendo los filtros de fase lineal que emplean el método de la ventana, los que se basan en el muestreo de frecuencia (FSM) y la ampliamente utilizada técnica de filtro FIR óptimo [2].
+<p align="justify"> La adquisición de señales biomédicas es una herramienta fundamental en la evaluación de pacientes con patologías, e incluso, en la evaluación del rendimiento deportivo. En el mismo contexto, el uso de la electromiografía de superficie (EMGs) ha permitido fortalecer los esquemas de tratamiento convencionales, pesquisando posibles modificaciones musculoesqueléticas vinculadas al tiempo de activación, coactivación, patrones de activación, entre otros [3].
+En la adquisición de las señales de sEMG es posible distinguir las siguientes etapas: pre-amplificación, filtrado y la etapa de conversión de analógico a digital [4].
 
 <p align="center">
   <img src="Img\tabla.png"  width="400" height="200"> </p>
-  <em><p align="center">Tabla 1: Características de sEMG y EMG invasiva [2]</p></em> 
+  <em><p align="center">Tabla 1: Características de sEMG y EMG invasiva [4]</p></em> 
 
 2. **Filtrado**
-<p align="justify">La señal proveniente de la etapa de pre-amplificación contiene una mezcla de señales biológicas y ruido del ambiente, es por esta razón que se requiere depurar o filtrar la información.  Para descartae interferencias originadas por fuentes electromagnéticas de 50Hz, generalmente se utiliza un filtro Butterworth de orden 2 con frecuencia de bloqueo entre 49 y 51 Hz. Adicionalmente, la señal debe ser filtrada con un paso de banda de 20 a 400 Hz para eliminar los artefactos de movimiento o frecuencias inusuales.
+<p align="justify">La señal proveniente de la etapa de pre-amplificación contiene una mezcla de señales biológicas y ruido del ambiente, es por esta razón que se requiere depurar o filtrar la información.  Para descartar interferencias originadas por fuentes electromagnéticas de 50Hz, generalmente se utiliza un filtro Butterworth de orden 2 con frecuencia de bloqueo entre 49 y 51 Hz [5]. Adicionalmente, la señal debe ser filtrada con un paso de banda de 20 a 400 Hz para eliminar los artefactos producidos por los movimientos del electrodo y la piel del paciente [6]. Los parámetros que utilizaremos son los siguientes:
+
+- Filtro paso alto con frecuencia de corte entre 10 – 20 Hz.
+- Filtro paso bajo con frecuencia de corte entre 400 – 450 Hz.
+
 
 3. **Rectificación**
-<p align="justify">Consiste en obtener el valor ansoluto de la señal cruda. La rectificación puede ser de dos tipos: de media onda, donde se excluyen los valores negativos y únicamente se consideran los valores positivos; o de onda completa, en la que se obtiene el valor absoluto de todos los valores, incluyendo los negativos.
+<p align="justify">La técnica más común de detección de la amplitud de EMG es la rectificación seguida de una etapa de suavizado. Consiste en obtener el valor absoluto de la señal cruda. La rectificación puede ser de dos tipos: de media onda, donde se excluyen los valores negativos y únicamente se consideran los valores positivos; o de onda completa, en la que se obtiene el valor absoluto de todos los valores, incluyendo los negativos [5]. 
 
 <p align="center">
-  <img src="Img\rectificación.png"  width="400" height="200"> </p>
-  <em><p align="center">Influencia de la rectificación en la señal en función del nivel de excitación</p></em> 
+  <img src="Img\rectificación3.png"  width="400" height="200"> </p>
+  <em><p align="center">Figura 1: Rectificación y filtrado de una señal EMG en el dominio de la frecuencia [7]</p></em> 
 
 4. **Suavización**
 <p align="justify">Este procedimiento es útil cuando se requiere realizar estudios de amplitud. El suavizado elimina o reduce significativamente los picos indeseados y extrae la tendencia de la señal. Uno de los métodos más utilizados es el Root mean-squared (RMS), el cual es la raíz cuadrada de la potencia promedio de una señal EMG en un intervalo de tiempo específico. Se denomina "variable en el dominio del tiempo" porque muestra cómo cambia la amplitud de la señal a lo largo del tiempo. El tamaño del segmento suele situarse entre 50-100 ms dependiendo del tipo de movimiento [5].
 
 5. **Extracción de características**
-<p align="justify">La extracción de características consiste en obtener información relevante de la  señal de sEMG mediante una transformación de los datos originales, de esta transformación se obtiene el vector de características o Feature Vector (FV). Existen tres tipos de características para la señal de EMG: las características en el dominio del tiempo, en el dominio de la frecuencia y en el dominio de tiempo frecuencia.
+<p align="justify">La extracción de características consiste en obtener información relevante de la  señal de sEMG mediante una transformación de los datos originales, de esta transformación se obtiene el vector de características o Feature Vector (FV). Existen tres tipos de características para la señal de EMG: las características en el dominio del tiempo, en el dominio de la frecuencia y en el dominio de tiempo frecuencia [4].
+Esta característica de la señal puede brindarnos información de la actividad muscular, el nivel de fatiga muscular, detección de patrones anormales, así como una evaluación de coordinación muscular [8].
+
+- 
 
 <p align="center">
   <img src="Img\procedimiento.png"  width="400" height="200"> </p>
-  <em><p align="center">Fig. X: Sistema de control mioeléctrico basados en reconocimiento de patrones</p></em> 
+  <em><p align="center">Fig. 2: Sistema de control mioeléctrico basados en reconocimiento de patrones</p></em> 
 
 ## **Resultados** <a name="met"></a>
 --- 
@@ -62,6 +71,7 @@
 |Señal filtrada  | Espectro de frecuencia |
 |-------------|-------------|
 | <img src="Img\sfiltrada_pasab.jpg"  width="300" height="300">  |<img src="Img\fft_pasabanda.jpg"  width="300" height="300">  |
+
 
 
 
