@@ -72,7 +72,12 @@ Esta característica de la señal puede brindarnos información de la actividad 
 |-------------|-------------|
 | <img src="Img\sfiltrada_pasab.jpg"  width="300" height="300">  |<img src="Img\fft_pasabanda.jpg"  width="300" height="300">  |
 
+2. **Extracción de características**
 
+- **Detección de eventos - Contracciones musculares**
+<img src="Img\emg_deteccion_eventos.png"  width="300" height="300"> 
+
+- 
 
 
 
