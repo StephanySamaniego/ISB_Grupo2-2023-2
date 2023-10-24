@@ -45,14 +45,23 @@ En la adquisición de las señales de sEMG es posible distinguir las siguientes 
 <p align="justify">La extracción de características consiste en obtener información relevante de la  señal de sEMG mediante una transformación de los datos originales, de esta transformación se obtiene el vector de características o Feature Vector (FV). Existen tres tipos de características para la señal de EMG: las características en el dominio del tiempo, en el dominio de la frecuencia y en el dominio de tiempo frecuencia [4].
 Esta característica de la señal puede brindarnos información de la actividad muscular, el nivel de fatiga muscular, detección de patrones anormales, así como una evaluación de coordinación muscular [8].
 
-- 
+- **Dominio del tiempo**
+<p align="justify">Para ello se pueden usar diversas funciones como IEMG, MAV, RMS, VAR y ZC. Ante esto, se eligió la técnica  RMS por su reducción de la variabilidad, respuesta ponderada alta y sencillez, en comparación con los otros métodos.
+
+- **Dominio de la frecuencia**
+<p align="justify">Para esta característica se suele usar las funciones MNF, MDF y PSD. Estas ayudan a identificar patrones específicos e identificar la activación y coordinación de diversas tareas y obtener información sobre la modulación de la fuerza y velocidad de contracción muscular.
+
+- **Dominio de tiempo frecuencia**
+<p align="justify">Las herramientas de análisis en tiempo-frecuencia son capaces de darnos la información temporal de la cual se carece en el análisis espectral. Además, permite una mejor lectura e interpretación de las contracciones musculares.
+
 
 <p align="center">
   <img src="Img\procedimiento.png"  width="400" height="200"> </p>
   <em><p align="center">Fig. 2: Sistema de control mioeléctrico basados en reconocimiento de patrones</p></em> 
 
-## **Resultados** <a name="met"></a>
+## **Resultados y Discusiones** <a name="met"></a>
 --- 
+<p align="justify">Para obtener los resultados, primero se utilizó un filtro Notch de 60Hz para eliminar el ruido, luego se pasó la señal por un filtro pasabanda de 20 a 400 Hz, así mismo, se adjuntan las imágenes de los espectros de cada paso de la señal. Luego, se hace una detección de eventos y una comparación con la señal filtrada.
 
 1. **Filtrado**
 
@@ -78,77 +87,38 @@ Esta característica de la señal puede brindarnos información de la actividad 
 <img src="Img\emg_deteccion_eventos.png"  width="300" height="300"> 
 
 - **Detección de señales de activación**
-<img src="Img\emg_señal_activación.png"  width="300" height="300"> 
+<img src="Img\emg_deteccion_señal_activación.png"  width="300" height="300"> 
 
 - **RMS**
 <img src="Img\emg_RMS.png"  width="300" height="300"> 
 
+<p align="justify">Tomando en cuenta que se usó la señal de contracción, tenemos la gráfica de RMS que nos muestra la relación a la fuerza aplicada bajo condiciones de no fatiga, entonces sabemos que en un evento de contracción puede haber fatiga muscular. Un aumento del RMS en la señal suele estar relacionado con una mayor actividad muscular, como la que ocurre durante una contracción muscular más intensa, también, generalmente indica una mayor amplitud de la actividad muscular.
 
 
-
-
-## **Conclusiones** <a name="conclu"></a>
----
-Tras observar el filtrado en cada respectiva señal (EEG, EMG y ECG), llegamos a la conclusión de que el filtrado Wavelet es el que mejor ha resultado debido a que no realizan una atenuación muy grande a la señal, por ello, se pueden realizar las distintas mediciones y extracciones de características necesarias para el análisis estadístico u otros y poder analizarlos mejor para un diagnóstico más pertinente de la salud del paciente.
 
 
 
 ## **Referencias** <a name="ref"></a>
 ---
-[1] J. G. Proakis and D. G. Manolakis, "Digital Signal Processing," 4th ed., Prentice Hall, Madrid, 1998.
+[1] Bita Mokhlesabadifarahani and Vinit Kumar Gunjan, “Introduction to EMG Technique and Feature Extraction,” SpringerBriefs in applied sciences and technology, pp. 1–9, Jan. 2015, doi: https://doi.org/10.1007/978-981-287-320-0_1. Available: https://link.springer.com/chapter/10.1007/978-981-287-320-0_1. [Accessed: Oct. 24, 2023]
+‌
 
-[2] Niyan Marchon, “Efficient FIR Filters for Biomedical Signals,” Oct. 2019, doi: https://doi.org/10.1109/tencon.2019.8929397. Available: https://ieeexplore.ieee.org/document/8929397. [Accessed: Oct. 21, 2023]
-[3] D. Yue and H. Liu, “The Design Of Intelligent Filter For EEG,” MATEC Web of Conferences, vol. 232, p. 04023, 2018, doi: https://doi.org/10.1051/matecconf/201823204023
-
-[4] C. J. Kikkert, “A Phasor Measurement Unit Algorithm Using IIR Filters for FPGA Implementation,” Electronics, vol. 8, no. 12, pp. 1523–1523, Dec. 2019, doi: https://doi.org/10.3390/electronics8121523. Available: https://www.mdpi.com/2079-9292/8/12/1523. [Accessed: Oct. 21, 2023]
-
-[5] “IEEE Xplore Full-Text PDF”:, Ieee.org, 2023. Available: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8944069. [Accessed: Oct. 21, 2023]
+[2] L. Sanabria and O. Avilez, “Extracción de características y métodos de clasificación para reconocimiento de movimientos de mano a partir de señales de EMG y EEG: Revisión.” Available: https://repository.udistrital.edu.co/bitstream/handle/11349/25505/SanabriaHernandezLauraViviana2020.pdf?sequence=1&isAllowed=y
 
 
-[6] M. Sharma, Abhinav Dhere, Ram Bilas Pachori, and U. Rajendra Acharya, “An automatic detection of focal EEG signals using new class of time–frequency localized orthogonal wavelet filter banks,” Knowledge Based Systems, vol. 118, pp. 217–227, Feb. 2017, doi: https://doi.org/10.1016/j.knosys.2016.11.024. Available: https://www.sciencedirect.com/science/article/abs/pii/S0950705116304816. [Accessed: Oct. 21, 2023]
+[3] O. Valencia, C. De La Fuente, R. Guzmán-Venegas, R. Salas, and A. Weinstein, “Propuesta de Flujo de Procesamiento utilizando Python para ajustar la Señal Electromiográfica Funcional a la Contracción Voluntaria Máxima,” vol. 40, no. 3, pp. 171–175, 2021, Available: https://repositoriobibliotecas.uv.cl/bitstream/handle/uvscl/7565/Valencia_Pro2021.pdf?sequence=1&isAllowed=y. [Accessed: Oct. 24, 2023]
+
+‌[4] “Item 1009/743 | Repositorio INAOE,” Repositorioinstitucional.mx, 2023, doi: http://inaoe.repositorioinstitucional.mx/jspui/handle/1009/743. Available: https://inaoe.repositorioinstitucional.mx/jspui/handle/1009/743. [Accessed: Oct. 24, 2023]
 
 
-[7] Novel Applications of Wavelet Transforms based Side-Channel Analysis - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/Wavelet-transform-illustration_fig1_265359018 [accessed 21 Oct, 2023]
-
-[8] Pham Phuc Ngoc, Vu Duy Hai, Nguyen Chi Bach, and Pham Van Binh, “EEG Signal Analysis and Artifact Removal by Wavelet Transform,” IFMBE proceedings, pp. 179–183, Jan. 2015, doi: https://doi.org/10.1007/978-3-319-11776-8_44. Available: https://link.springer.com/chapter/10.1007/978-3-319-11776-8_44. [Accessed: Oct. 21, 2023]
+[5]A. Moreno Sanz, “Procesado Avanzado de señal EMG,” thesis, Universidad Carlos III de Madrid, Escuela politécnica superior, Madrid, 2017 
 
 
-[9] F. A. Alturki, Khalil AlSharabi, A. M. Abdurraqeeb, and Majid Aljalal, “EEG Signal Analysis for Diagnosing Neurological Disorders Using Discrete Wavelet Transform and Intelligent Techniques,” Sensors, vol. 20, no. 9, pp. 2505–2505, Apr. 2020, doi: https://doi.org/10.3390/s20092505. Available: https://www.mdpi.com/1424-8220/20/9/2505. [Accessed: Oct. 21, 2023]
+‌[6] C. Alva Coras, “Procesamiento de señales de electromiografía superficial para la detección de movimiento de dos dedos de la mano,” thesis, Universidad Ricardo Palma, Peru, 2012
 
 
-[10] A. Mahabub, “Design and implementation of cost-effective IIR filter for EEG signal on FPGA,” Australian Journal of Electrical and Electronics Engineering, vol. 17, no. 2, pp. 83–91, Apr. 2020, doi: https://doi.org/10.1080/1448837x.2020.1771662
+[7] J. Avila Lapo and F. Fajardo Taday, “Análisis entre señales electromiográficas en los mússculos cervicales y el ángulo de inclinación de la cabeza en niños con PCI entre 5 y 10 años aplicada a terapia cervical,” thesis, Universidad Politécnica Salesiana Sede Cuenca, Cuenca, 2019 
 
 
-[11] “VisibleBreadcrumbs,” Mathworks.com, 2023. Available: https://www.mathworks.com/help/signal/ug/iir-filter-design.html. [Accessed: Oct. 21, 2023]
-
-[12] M. Felja, A. Bencheqroune, M. Karim, and G. B. Limas, “Removing Artifacts From EEG Signal Using Wavelet Transform and Conventional Filters,” WSEAS TRANSACTIONS ON INFORMATION SCIENCE AND APPLICATIONS, vol. 17, pp. 177–183, Feb. 2021, doi: https://doi.org/10.37394/23209.2020.17.22
-
-[13] Different types of filters that can be used to shape...,” ResearchGate, 2020. Available: https://www.researchgate.net/figure/A-Different-types-of-filters-that-can-be-used-to-shape-the-EMG-spectrum-to-keep_fig14_344666810. [Accessed: Oct. 21, 2023]
-
-[14]  Z. Xiao, J. Ye, H. Shen, S. Deng, H. Zhu, and X. Han, “Analysis of Digital Filtering Design Based on Surface EMG Signals,” Apr. 2023, doi: https://doi.org/10.1109/iceib57887.2023.10170168. Available: https://ieeexplore.ieee.org/abstract/document/10170168?casa_token=Epyu1ipDXccAAAAA:7rlxsFaoju_vAGk2qw3lHHTWjA4M3CqbL4Zv8GCiZkDgcqpy-HZK7CE1PP_oC7WmdW1RyvUV. [Accessed: Oct. 21, 2023]
-
-[15] Rodrigo Lício Ortolan, R. Mori, R. Pereira, C. Maria, José Carlos Pereira, and A. Cliquet, “Evaluation of adaptive/nonadaptive filtering and wavelet transform techniques for noise reduction in EMG mobile acquisition equipment,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 11, no. 1, pp. 60–69, Mar. 2003, doi: https://doi.org/10.1109/tnsre.2003.810432. Available: https://ieeexplore.ieee.org/abstract/document/1200908?casa_token=EQtC1icvSZ8AAAAA:ALAVecBpqkWB45PHzRZa67EUAgCX_0tw3rL67tK0OeG_8t-3ARPz2vo5UE_2YrksVrg7tC2v. [Accessed: Oct. 21, 2023]
-
-[16]   	S. Chatterjee, R. S. Thakur, R. N. Yadav, L. Gupta, and D. K. Raghuvanshi, “Review of noise removal techniques in ECG signals,” IET Signal Processing, vol. 14, no. 9, pp. 569–590, Dec. 2020, doi: 10.1049/IET-SPR.2020.0104.
-
-[17]   	N. Manjula, N. P. Singh, and P. A. Babu, “An Efficient Designing of IIR Filter for ECG Signal Classification Using MATLAB,” Engineering Proceedings 2023, Vol. 34, Page 24, vol. 34, no. 1, p. 24, Mar. 2023, doi: 10.3390/HMAM2-14154.
-
-[18] 	R. Oshana, “Overview of DSP Algorithms,” DSP for Embedded and Real-Time Systems, pp. 113–131, Jan. 2012, doi: 10.1016/B978-0-12-386535-9.00007-X.
-
-[19] 	“Diseño de filtros FIR - MATLAB & Simulink - MathWorks América Latina.” Accessed: Oct. 19, 2023. [Online]. Available: https://la.mathworks.com/help/signal/ug/fir-filter-design.html
-
-[20] 	S. Gopal, A. P. Gawande, K. B. Khanchandani, and T. P. Marode, “PERFORMANCE ANALYSIS OF FIR DIGITAL FILTER DESIGN TECHNIQUES,” vol. 2, 2012, Accessed: Oct. 19, 2023. [Online]. Available: http://www.ijccr.com
-
-[21]   	I. Jahan and O. Sarker, “A Lower Transition Width FIR Filter & its Noise Removal Performance on an ECG Signal,” Oct. 2017.
-
-[22]   	J. D. Broesch, “Digital Filters,” Digit Signal Process, pp. 101–123, 2009, doi: 10.1016/B978-0-7506-8976-2.00006-7.
-
-[23]   	S. M. Alessio, “IIR Filter Design,” pp. 263–367, 2016, doi: 10.1007/978-3-319-25468-5_8.
-
-[24]   	“Diseño de filtros IIR - MATLAB & Simulink - MathWorks América Latina.” Accessed: Oct. 19, 2023. [Online]. Available: https://la.mathworks.com/help/signal/ug/iir-filter-design.html?s_tid=mwa_osa_a
-
-[25]   	Dr. R. Mehra, “Analysis of Different IIR Filter based on Implementation Cost Performance,” International Journal of Engineering and Advance Technology, vol. 3, pp. 267–270, Oct. 2014.
-
-[26]   	G. Gupta and R. Mehra, “Design Analysis of IIR Filter for Power Line Interference Reduction in ECG Signals,” 2013.
-
-[27]   	U. Seljuq, F. Himayun, and H. Rasheed, “Selection of an optimal mother wavelet basis function for ECG signal denoising,” 17th IEEE International Multi Topic Conference: Collaborative and Sustainable Development of Technologies, IEEE INMIC 2014 - Proceedings, pp. 26–30, 2014, doi: 10.1109/INMIC.2014.7096905.
+[8] Nizam Uddin Ahamed, Tasriva Sikandar, Mohammad Fazle Rabbi, and Kamarul Hawari Ghazali, “Time and frequency domain features of EMG signal during Islamic prayer (Salat),” Mar. 2017, doi: https://doi.org/10.1109/cspa.2017.8064939. Available: https://ieeexplore.ieee.org/abstract/document/8064939. [Accessed: Oct. 24, 2023]
+‌
