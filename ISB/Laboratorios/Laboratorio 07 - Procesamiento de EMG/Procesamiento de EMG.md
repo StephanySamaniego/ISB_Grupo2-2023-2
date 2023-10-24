@@ -1,12 +1,12 @@
 # Laboratorio 6: Procesamiento de EMG 
 
 1. [Introducción](#intro)
-2. [Objetivos](#obj)
+2. [Metodología](#met)
 3. [Resultados](#resul)\
      3.1 [Señal EEG](#EEG)\
      3.1 [Señal EMG](#EMG)\
      3.1 [Señal ECG](#ECG)\
-     3.2 [Archivos](#arch)\
+     3.2 [Archivos](#arch)
 6. [Conclusiones](#conclu)
 7. [Referencias](#ref)
 
@@ -17,8 +17,8 @@
 
 <p align="justify">En general el proceso se rige por las etapas de adquisición de datos, procesamiento de señal, extracción y clasificación de características de señal y funciones de predicción. Cada una de las etapas varía dependiendo los parámetros de diseño, como costo de elaboración y porcentaje de asertividad [1].
 
-**Metodología EMG**
-
+## **Metodología EMG** <a name="met"></a>
+--- 
 1. **Adquisición** 
 <p align="justify"> Dado su sencillo diseño, los filtros FIR de fase lineal encuentran una amplia variedad de aplicaciones en los campos de procesamiento de señales de voz y biomédicas. Esto se debe a su estabilidad asegurada, una distorsión de fase mínima y una baja sensibilidad a los coeficientes. Dependiendo de si el número de coeficientes (N) es par o impar y de si la respuesta al impulso h(n) es simétrica o asimétrica, los filtros FIR de fase lineal pueden clasificarse en cuatro tipos, todos con la característica de tener una fase lineal. Diversos métodos están disponibles para derivar h(n), incluyendo los filtros de fase lineal que emplean el método de la ventana, los que se basan en el muestreo de frecuencia (FSM) y la ampliamente utilizada técnica de filtro FIR óptimo [2].
 
