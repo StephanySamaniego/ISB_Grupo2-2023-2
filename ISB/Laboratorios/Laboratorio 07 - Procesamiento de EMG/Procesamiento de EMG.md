@@ -92,10 +92,14 @@ Esta característica de la señal puede brindarnos información de la actividad 
 - **RMS**
 <img src="Img\emg_RMS.png"  width="300" height="300"> 
 
+- **Valores obtenidos**
+    - Maximum EMG (mV): 1.274705
+    - Minimum EMG (mV): -1.02152
+    - Average EMG (mV): -1.58645
+    - Standard Deviation EMG : 0.085814
+    - RMS EMG: 0.0003960
+
 <p align="justify">Tomando en cuenta que se usó la señal de contracción, tenemos la gráfica de RMS que nos muestra la relación a la fuerza aplicada bajo condiciones de no fatiga, entonces sabemos que en un evento de contracción puede haber fatiga muscular. Un aumento del RMS en la señal suele estar relacionado con una mayor actividad muscular, como la que ocurre durante una contracción muscular más intensa, también, generalmente indica una mayor amplitud de la actividad muscular.
-
-
-
 
 
 ## **Referencias** <a name="ref"></a>
