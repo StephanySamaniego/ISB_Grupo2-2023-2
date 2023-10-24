@@ -49,7 +49,7 @@
 
 |Señal Cruda | Espectro de frecuencia|
 |-------------|-------------|
-| <img src="Img\ssin_filtrar.jpg"  width="300" height="200">  | <img src="Img\fft_cruda.jpg"  width="300" height="200">  |
+| <img src="Img\ssin_filtrar.jpg"  width="300" height="300">  | <img src="Img\fft_cruda.jpg"  width="300" height="300">  |
 
 **Filtro Notch**
 |Señal filtrada  | Espectro de frecuencia | Espectro de frecuencia |
