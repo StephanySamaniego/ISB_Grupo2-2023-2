@@ -78,22 +78,29 @@ Es el periodo entre el comienzo de la despolarización y el final de la repolari
 
 1. **Filtrado**
 
+<div align="center">
+
 | |Señal Cruda | Espectro de frecuencia|
 |-------------|-------------|-------------|
 |Señal propia| <img src="img\porción_señal.png"  width="300" height="300">  | <img src="img\Espectro_frecuencias.png"  width="300" height="300">  |
 |Señal referencial| <img src="img\cruda_ref.png"  width="300" height="300">  | <img src="img\espectro_ref.png"  width="300" height="300">  |
 |Dsicusiones| <p align="justify">Observamos la señal ECG, en el que se puede observar que la duración del complejo QRS dura aproximadamente 0.04s, lo cual está por debajo de la duración mínima normal de 0.06s; por otro lado la duración del intervalo RR es de 0.09 aproximadamente|<p align="justify"> Para el espectro de frecuencias ECG sin filtrar la señal generada, con respecto a la señal referencial, se puede apreciar con un mayor ruido o interferencias entre 0 y 50 Hz lo cual puede deberse a errores en la adquisición.En ambas gráficas se puede observar un pico cerca a la frecuencia de 50 Hz. |
 
+</div>
 
 - **Filtros Notch**
+<div align="center">
 
 |Señal filtrada completa |Señal filtrada recortada| Espectro de frecuencia |
 |-------------|-------------|-------------|
 | <img src="img\señal_ecg_filtros_notch_completa.png"  width="300" height="300">   |<img src="img\señal_ecg_filtros_notch_recortada.png"  width="300" height="300"> |<img src="img\Analisis_frecuencial_filtros_notch.png"  width="300" height="300"> |
 | |<p align="justify">Con este filtro se pueden apreciar mejor los intervalos y se puede sacar una mejor aproximación de sus duraciones, por ejemplo, se puede apreciar mejor la región del intervalo PR que tiene una duración de aproximadamente 0.4 s, lo cual es bajo considerando que lo mínimo es de 0.10 s.|<p align="justify">Tal cual la teoría, al aplicar el filtro Notch se hace uso de un filtro de 60 Hz, por lo que podemos apreciar que a comparación de la Figura 6 en este caso, se ha reducido el tamaño de los picos ubicados cerca de la frecuencia de 60 Hz.|
 
+</div >
 
 - **Filtro Wavelet**
+
+<div align="center">
 
 |||
 |-------------|-------------|
@@ -106,6 +113,7 @@ Es el periodo entre el comienzo de la despolarización y el final de la repolari
 
 <p align="justify">Con este filtro la señal se ve mucho más limpia, se pueden diferenciar el complejo QRS, el intervalo RR, el intervalo PR y la onda T, el cual en este caso tiene una duración de aproximadamente de 0.04 s.
 
+</div>
 
 2. **Extracción de características**
 
@@ -118,21 +126,33 @@ Es el periodo entre el comienzo de la despolarización y el final de la repolari
 
 
 - **Operador derivativo**
+<div align="center">
+
 |Filtro derivativo|Señal completa|Señal recortada|
 |-------------|-------------|-------------|
 | <img src="img\Filtro_Derivativo.png"  width="300" height="300">   |<img src="img\Completa_der.png"  width="300" height="300"> |<img src="img\Recortada_der.png"  width="300" height="300"> |
 
+</div>
+
 - **Operador cuadrático**
+
+<div align="center">
 
 |Señal completa|Señal recortada|
 |-------------|-------------|
 |<img src="img\Complea_operador.png"  width="300" height="300"> |<img src="img\Recortada_operador.png"  width="300" height="300"> |
 
+</div>
+
 - **Operdador Moving Window Integration**
+
+<div align="center">
 
 |Señal completa|Señal recortada|
 |-------------|-------------|
 |<img src="img\Completa_w.png"  width="300" height="300"> |<img src="img\Recortada_w.png"  width="300" height="300"> |
+
+</div>
 
 ### **Buscando los picos**
 
@@ -148,24 +168,36 @@ Para la identificación del inicio y fin del complejo QRS
   <img src="img\Threshold.png"  width="400" height="200"> </p>
   <em><p align="center">Señal con análisis de threshold</p></em> 
 
+<div align="center">
+
 ||||
 |-------------|-------------|-------------|
 | <img src="img\Treshold_ECG_1.png"  width="300" height="300">   |<img src="img\Treshold_ECG_2.png"  width="300" height="300"> |<img src="img\Treshold_ECG_3.png"  width="300" height="300"> |
 
+</div>
 
 ### **Extracción BPM y  duración R-R**
 
 Para la extracción de algunas características es necesario trabajar con el tacograma de la señal
 
+<div align="center">
+
 |||
 |-------------|-------------|
 | <img src="img\Tacograma.png"  width="300" height="300">   |<img src="img\Tacogra_after_ectopic_beat_removal.png"  width="300" height="300"> |
 
+</div>
+
 Además, la libreria biosignalsnotebooks te permite extraer una lista de características por medio de la función hrv_parameters.
+
+<div align="center">
 
 |||
 |-------------|-------------|
 | <img src="img\características_biosignals.png"  width="300" height="300">   |<img src="img\extracción_características.png"  width="300" height="300"> |
+
+</div>
+
 
 ### **Picos encontrados usando BioSignals**
 
@@ -199,7 +231,7 @@ Se pudieron identificar los picos de la señal, sin embargo no son tan precisos.
 
 [6] U. Seljuq, F. Himayun, and H. Rasheed, “Selection of an optimal mother wavelet basis function for ECG signal denoising,” 17th IEEE International Multi Topic Conference: Collaborative and Sustainable Development of Technologies, IEEE INMIC 2014 - Proceedings, pp. 26–30, 2014, doi: 10.1109/INMIC.2014.7096905.
 
-[7]
+[7] OSCAR EDUARDO VERA, EDISON DUQUE CARDONA, and JORGE RIVERA PIEDRAHITA, “EXTRACCIÓN DE CARACTERÍSTICAS DE LA SEÑAL ELECTROCARDIOGRÁFICA MEDIANTE SOFTWARE DE ANÁLISIS MATEMÁTICO,” Scientia Et Technica, vol. XII, no. 31, pp. 59–64, 2023, Available: https://www.redalyc.org/articulo.oa?id=84911639012. [Accessed: Oct. 29, 2023]
 
 [8] J. Li, G. Deng, W. Wei, H. Wang, and Z. Ming, “Design of a Real-Time ECG Filter for Portable Mobile Medical Systems,” IEEE Access, vol. 5, pp. 696–704, 2017, doi: 10.1109/ACCESS.2016.2612222.
 
