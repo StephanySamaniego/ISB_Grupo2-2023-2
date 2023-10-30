@@ -180,7 +180,7 @@ Se pudieron identificar los picos de la señal, sin embargo no son tan precisos.
 
 ## **Archivos** <a name="arch"></a>
 
-- [Código para plotear la señales en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/056b39fd74757aefab00947a853ec98b077bb590/ISB/Laboratorios/Laboratorio%2007%20-%20Procesamiento%20de%20EMG/C%C3%B3digo)
+- [Código para procesar la señal en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/6ff4cfff06c539e3f96778536c82a64bf7267348/ISB/Laboratorios/Laboratorio%2008%20-%20Procesamiento%20de%20ECG/Archivos)
 
 
 
