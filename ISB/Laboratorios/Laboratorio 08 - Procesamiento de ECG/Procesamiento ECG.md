@@ -92,7 +92,7 @@ Es el periodo entre el comienzo de la despolarización y el final de la repolari
 <div align="center">
 
 |Señal filtrada completa |Señal filtrada recortada| Espectro de frecuencia |
-|-------------|-------------|-------------|
+|---------------------|-------------|-------------|
 | <img src="img\señal_ecg_filtros_notch_completa.png"  width="300" height="300">   |<img src="img\señal_ecg_filtros_notch_recortada.png"  width="300" height="300"> |<img src="img\Analisis_frecuencial_filtros_notch.png"  width="300" height="300"> |
 |<p align="justify"> Se obtine la señal completa con el filtro Notch y aún se observa la presencia de ruido.|<p align="justify">Con este filtro se pueden apreciar mejor los intervalos y se puede sacar una mejor aproximación de sus duraciones, por ejemplo, se puede apreciar mejor la región del intervalo PR que tiene una duración de aproximadamente 0.4 s, lo cual es bajo considerando que lo mínimo es de 0.10 s.|<p align="justify">Tal cual la teoría, al aplicar el filtro Notch se hace uso de un filtro de 60 Hz, por lo que podemos apreciar que a comparación de la Figura 6 en este caso, se ha reducido el tamaño de los picos ubicados cerca de la frecuencia de 60 Hz.|
 
