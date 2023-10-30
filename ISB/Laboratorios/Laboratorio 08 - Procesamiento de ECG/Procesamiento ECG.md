@@ -107,29 +107,40 @@ Es el periodo entre el comienzo de la despolarización y el final de la repolari
 <p align="justify">Con este filtro la señal se ve mucho más limpia, se pueden diferenciar el complejo QRS, el intervalo RR, el intervalo PR y la onda T, el cual en este caso tiene una duración de aproximadamente de 0.04 s.
 
 
-
-- **Filtro pasabanda**
-
-|Señal filtrada  | Espectro de frecuencia |
-|-------------|-------------|
-| <img src="Img\sfiltrada_pasab.jpg"  width="300" height="300">  |<img src="Img\fft_pasabanda.jpg"  width="300" height="300">  |
-
 2. **Extracción de características**
 
-- **Detección de eventos - Contracciones musculares**
-<div align="center">
-<img src="Img\emg_deteccion_eventos.png"  width="300" height="300"> 
-</div>
+### **Identificación del complejo QRS**
+<p align="justify">Para hallar el complejo QRS ploteamos las señales de Identificación, de Operador Cuadrático, de Operador Derivativo y el Operador Moving Window Integration. 
 
-- **Detección de señales de activación**
-<div align="center">
-<img src="Img\emg_deteccion_señal_activación.png"  width="400" height="300"> 
-</div>
+<p align="justify">Además, se usó la librería Biosignalsnotebooks, que la librería biosignalsnotebooks te permite extraer una lista de características por medio de la función hrv_parameters, también nos permite hacer la identificación de diferentes tipos de picos de manera directa con la función "detect_r_peaks”.
 
-- **RMS**
-<div align="center">
-<img src="Img\emg_RMS.png"  width="300" height="300"> 
-</div>
+<p align="justify">Luego realizamos un Análisis de Threshold para la identificación del inicio y fin del complejo QRS. Aquí también analizamos los picos y vemos la duración del complejo QRS gracias a los Threshold. El Tacograma nos ayuda a extraer información y parámetros del ECG.
+
+
+- **Operador derivativo**
+|Filtro derivativo|Señal completa|Señal recortada|
+|-------------|-------------|-------------|
+| <img src="img\Filtro_Derivativo.png"  width="300" height="300">   |<img src="img\Completa_der.png"  width="300" height="300"> |<img src="img\Recortada_der.png"  width="300" height="300"> |
+
+- **Operador cuadrático**
+
+|Señal completa|Señal recortada|
+|-------------|-------------|
+|<img src="img\Complea_operador.png"  width="300" height="300"> |<img src="img\Recortada_operador.png"  width="300" height="300"> |
+
+- **Operdador Moving Window Integration**
+
+|Señal completa|Señal recortada|
+|-------------|-------------|
+|<img src="img\Completa_w.png"  width="300" height="300"> |<img src="img\Recortada_w.png"  width="300" height="300"> |
+
+### **Buscando los picos**
+
+<p align="center">
+  <img src="img\ecg_find_peaks.png"  width="400" height="200"> </p>
+  <em><p align="center">Picos del complejo QRS encontrados en la señal</p></em> 
+
+
 
 - **Valores obtenidos**
     - Maximum EMG (mV): 1.274705
