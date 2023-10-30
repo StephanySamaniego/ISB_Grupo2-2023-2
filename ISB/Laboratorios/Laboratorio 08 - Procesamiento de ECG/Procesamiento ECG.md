@@ -169,8 +169,14 @@ Además, la libreria biosignalsnotebooks te permite extraer una lista de caracte
 
 ### **Picos encontrados usando BioSignals**
 
+<p align="center">
+  <img src="img\Find_peaks_biosignals.png"  width="400" height="200"> </p>
 
 
+<p align="center">
+  <img src="img\Find_peaks_biosignals_2.png"  width="400" height="200"> </p>
+  
+Se pudieron identificar los picos de la señal, sin embargo no son tan precisos.
 
 ## **Archivos** <a name="arch"></a>
 
