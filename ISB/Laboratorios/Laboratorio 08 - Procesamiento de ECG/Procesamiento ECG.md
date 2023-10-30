@@ -140,16 +140,37 @@ Es el periodo entre el comienzo de la despolarización y el final de la repolari
   <img src="img\ecg_find_peaks.png"  width="400" height="200"> </p>
   <em><p align="center">Picos del complejo QRS encontrados en la señal</p></em> 
 
+### **Análisis del Threshold**
+
+Para la identificación del inicio y fin del complejo QRS
+
+<p align="center">
+  <img src="img\Threshold.png"  width="400" height="200"> </p>
+  <em><p align="center">Señal con análisis de threshold</p></em> 
+
+||||
+|-------------|-------------|-------------|
+| <img src="img\Treshold_ECG_1.png"  width="300" height="300">   |<img src="img\Treshold_ECG_2.png"  width="300" height="300"> |<img src="img\Treshold_ECG_3.png"  width="300" height="300"> |
 
 
-- **Valores obtenidos**
-    - Maximum EMG (mV): 1.274705
-    - Minimum EMG (mV): -1.02152
-    - Average EMG (mV): -1.58645
-    - Standard Deviation EMG : 0.085814
-    - RMS EMG: 0.0003960
+### **Extracción BPM y  duración R-R**
 
-<p align="justify">Tomando en cuenta que se usó la señal de contracción, tenemos la gráfica de RMS que nos muestra la relación a la fuerza aplicada bajo condiciones de no fatiga, entonces sabemos que en un evento de contracción puede haber fatiga muscular. Un aumento del RMS en la señal suele estar relacionado con una mayor actividad muscular, como la que ocurre durante una contracción muscular más intensa, también, generalmente indica una mayor amplitud de la actividad muscular.
+Para la extracción de algunas características es necesario trabajar con el tacograma de la señal
+
+|||
+|-------------|-------------|
+| <img src="img\Tacograma.png"  width="300" height="300">   |<img src="img\Tacogra_after_ectopic_beat_removal.png"  width="300" height="300"> |
+
+Además, la libreria biosignalsnotebooks te permite extraer una lista de características por medio de la función hrv_parameters.
+
+|||
+|-------------|-------------|
+| <img src="img\características_biosignals.png"  width="300" height="300">   |<img src="img\extracción_características.png"  width="300" height="300"> |
+
+### **Picos encontrados usando BioSignals**
+
+
+
 
 ## **Archivos** <a name="arch"></a>
 
