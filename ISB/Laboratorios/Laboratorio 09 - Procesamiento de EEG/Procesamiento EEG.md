@@ -86,16 +86,16 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 <p align="center"><img src="img\EEG_Wavelet_2.png" width="400" height="200" ></p>
 
 - **Extracción de la banda Theta**
-<p align="center"><img src="img\Banda_teta.png" width="400" height="200" ></p>
+<p align="center"><img src="img\Banda_teta.png" width="600" height="300" ></p>
 
 - **Extracción de la banda Delta**
-<p align="center"><img src="img\Banda_delta.png" width="400" height="200" ></p>
+<p align="center"><img src="img\Banda_delta.png" width="600" height="300" ></p>
 
 - **Extracción de la banda Alfa**
-<p align="center"><img src="img\Banda_alfa.png" width="400" height="200" ></p>
+<p align="center"><img src="img\Banda_alfa.png" width="600" height="300" ></p>
 
 - **Extracción de la banda Beta**
-<p align="center"><img src="img\Banda_beta.png" width="400" height="200" ></p>
+<p align="center"><img src="img\Banda_beta.png" width="600" height="300" ></p>
 
 
 ## **Referencias** <a name="ref"></a>
