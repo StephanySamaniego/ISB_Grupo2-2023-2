@@ -78,17 +78,24 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 
 - **Señal filtrada**
 
-<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_wv.png?raw=true" width="400" height="200" ></p>
+<p align="center"><img src="img\EEG_filtrado.png" width="400" height="200" ></p>
 
 <p align="justify">Podemo observar patrones específicos de la señal filtrada , como los picos de onda, ritmos específicos (como el ritmo alfa o delta) y eventos relacionados con la actividad cerebral.
 
+<p align="center"><img src="img\EEG_Wavelet_1.png" width="400" height="200" ></p>
+<p align="center"><img src="img\EEG_Wavelet_2.png" width="400" height="200" ></p>
+
 - **Extracción de la banda Theta**
+<p align="center"><img src="img\Banda_teta.png" width="400" height="200" ></p>
 
 - **Extracción de la banda Delta**
+<p align="center"><img src="img\Banda_delta.png" width="400" height="200" ></p>
 
 - **Extracción de la banda Alfa**
+<p align="center"><img src="img\Banda_alfa.png" width="400" height="200" ></p>
 
 - **Extracción de la banda Beta**
+<p align="center"><img src="img\Banda_beta.png" width="400" height="200" ></p>
 
 
 ## **Referencias** <a name="ref"></a>
@@ -100,7 +107,7 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 
 [3] W. Amirah and Yin Fen Low, “Feature extraction of electroencephalogram (EEG) signal - A review,” Dec. 2014, doi: https://doi.org/10.1109/iecbes.2014.7047620.
 
-[4]
+[4] A. R. Mane, S. D. Biradar, and R. K. Shastri, "Review Paper on Feature Extraction Methods for EEG Signal Analysis," International Journal of Emerging Trend in Engineering and Basic Sciences (IJEEBS), vol. 2, no. 1, pp. 545-552, Jan-Feb 2015. . Available: https://www.researchgate.net/profile/Shashank-Biradar/publication/337831914_Review_paper_on_Feature_Extraction_Methods_for_EEG_Signal_Analysis/links/5dee1825299bf10bc34cac5e/Review-paper-on-Feature-Extraction-Methods-for-EEG-Signal-Analysis.pdf . ISSN  2349-6967.
 
 [5] B. Medina, J. Sierra, and A. Ulloa, “Técnicas de extracción de características de señales EEG en la imaginación de movimiento para sistemas BCI Extraction techniques of EEG signals characteristics in motion imagination for BCI systems Contenido,” No22), vol. 39, 2018, Available: https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
 
