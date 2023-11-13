@@ -1,4 +1,4 @@
-Laboratorio 9: Procesamiento de EEG 
+# Laboratorio 9: Procesamiento de EEG 
 
 1. [Introducción](#intro)
 2. [Metodología](#met)
@@ -78,12 +78,12 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 
 - **Señal filtrada**
 
-<p align="center"><img src="img\EEG_filtrado.png" width="400" height="200" ></p>
+<p align="center"><img src="img\EEG_filtrado.png" width="600" height="300"  ></p>
 
 <p align="justify">Podemo observar patrones específicos de la señal filtrada , como los picos de onda, ritmos específicos (como el ritmo alfa o delta) y eventos relacionados con la actividad cerebral.
 
-<p align="center"><img src="img\EEG_Wavelet_1.png" width="400" height="200" ></p>
-<p align="center"><img src="img\EEG_Wavelet_2.png" width="400" height="200" ></p>
+<p align="center"><img src="img\EEG_Wavelet_1.png" width="600" height="300"  ></p>
+<p align="center"><img src="img\EEG_Wavelet_2.png" width="600" height="300"  ></p>
 
 - **Extracción de la banda Theta**
 <p align="center"><img src="img\Banda_teta.png" width="600" height="300" ></p>
