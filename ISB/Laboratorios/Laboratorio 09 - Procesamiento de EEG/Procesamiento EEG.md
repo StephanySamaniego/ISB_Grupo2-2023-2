@@ -59,11 +59,6 @@
 - Desviación Estándar
 
 
-<p align="center">
-  <img src="img\tabla.png"  width="400" height="200"> </p>
-  <em><p align="center">Tabla 1: Descomposición y adquisición de señales EEG después de la SWT nivel 8 de la Transformada de Wavelet
-</p></em> 
-
 4. **Procesamiento y obtención de características de EEG**
 Se tendrá en cuenta los siguientes parámetros para la obtención de las características deseadas:
 Filtros generados para la adquisición de las características, usaando un filtro de pasa alta y un filtro pasabaja, lo que nos da un rango de 0.5 a 50 Hz
@@ -98,6 +93,11 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 
 - **Características generales**
 <p align="center"><img src="img\valores_extracción_características.png" width="500" height="200" ></p>
+
+## **Archivos** <a name="arch"></a>
+
+- [Códigos para procesar la señal en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/6ff4cfff06c539e3f96778536c82a64bf7267348/ISB/Laboratorios/Laboratorio%2008%20-%20Procesamiento%20de%20ECG/Archivos)
+
 
 
 ## **Referencias** <a name="ref"></a>
