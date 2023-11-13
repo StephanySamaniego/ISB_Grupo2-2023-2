@@ -3,7 +3,9 @@
 1. [Introducción](#intro)
 2. [Metodología](#met)
 3. [Resultados](#resul)
-6. [Archivos](#arch)
+4. [Discusiones] (#disc)
+5. [Archivos](#arch)
+6. [Conclusiones](#conc)
 7. [Referencias](#ref)
 
 
@@ -54,12 +56,18 @@
 - Extracción de la banda Delta
 - Extracción de la banda Alfa
 - Extracción de la banda Beta
+- Valor máximo
+- Valor mínimo
+- Amplitud
+- Valor medio
 - Media
 - Varianza
 - Desviación Estándar
 
 
-4. **Procesamiento y obtención de características de EEG**
+## **Resultados** <a name="resul"></a>
+--- 
+**Procesamiento y obtención de características de EEG**
 Se tendrá en cuenta los siguientes parámetros para la obtención de las características deseadas:
 Filtros generados para la adquisición de las características, usaando un filtro de pasa alta y un filtro pasabaja, lo que nos da un rango de 0.5 a 50 Hz
 Tiempo de muestreo 20 seg
@@ -78,6 +86,9 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 <p align="center"><img src="img\EEG_Wavelet_1.png" width="600" height="300"  ></p>
 <p align="center"><img src="img\EEG_Wavelet_2.png" width="600" height="300"  ></p>
 
+- **Características generales**
+<p align="center"><img src="img\valores_extracción_características.png" width="500" height="200" ></p>
+
 - **Extracción de bandas**
 <div align='center'>
 
@@ -91,14 +102,46 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 
 </div>
 
-- **Características generales**
-<p align="center"><img src="img\valores_extracción_características.png" width="500" height="200" ></p>
+## **Discusiones** <a name="disc"></a>
+---
+- **Banda theta**
+
+|||
+|-----------|------------|
+|<p align="center"><img src="img\Banda_teta.png" width="400" height="200" ></p>|<p align="center"><img src="img\theta.png" width="400" height="200" ></p>|
+<p align="justify">Este tipo de onda se observa cuando la persona se encuentra en un estado de relajación o meditación, lo cual podría ser equivalente al estado de reposo antes del cierre y abrir de ojos, aún así no es tan común en los adultos. Se puede ver una diferencia notable entre ambas imágenes, la del sujeto a prueba presenta una línea creciente, mentiras que el otro presenta fluctuaciones.
+
+- **Banda delta**
+
+|||
+|-----------|------------|
+|<p align="center"><img src="img\Banda_delta.png" width="400" height="200" ></p>|<p align="center"><img src="img\delta.png" width="400" height="200" ></p>|
+<p align="justify">La onda delta es la más grande en amplitud y a la vez la más lenta, son raras cuando los adultos están despiertos, en este caso con los ojos abiertos. En la imagen del sujeto se puede observar que el pico máximo de la onda es más de 450 uV, lo cual coincide con la literatura de que tiene la amplitud más alta.
+
+- **Banda alfa**
+
+|||
+|-----------|------------|
+|<p align="center"><img src="img\Banda_alfa.png" width="400" height="200" ></p>|<p align="center"><img src="img\alfa.png" width="400" height="200" ></p>|
+<p align="justify">La onda alfa se encuentra en todos los casos, también cuando la persona está despierta, pero se encuentra con los ojos cerrados. Es el puente entre lo consciente y lo subconsciente. Ocurre en ambos lados de la cabeza, pero tiene una amplitud ligeramente mayor en el lado dominante y se registra en las regiones occipital y parietal del cerebro.
+
+- **Banda beta**
+
+|||
+|-----------|------------|
+|<p align="center"><img src="img\Banda_beta.png" width="400" height="200" ></p>|<p align="center"><img src="img\beta.png" width="400" height="200" ></p>|
+<p align="justify">Las ondas betas están bastante relacionadas con lo que la persona mira, siente, toca, oye, huele y prueba, lo cual podría estar relacionado a cuando el sujeto mira fijamente a un punto de concentración mientras escucha, analiza y responde las preguntas realizadas por otra persona. Además, estas ondas se producen en estado consciente como hablar, resolver problemas o tomar decisiones, lo cual está bastante relacionado al caso del sujeto. Comparando las imágenes, se puede observar que las ondas siguen ciertos patrones con fluctuaciones muy notorias en ambas. 
 
 ## **Archivos** <a name="arch"></a>
+---
+- [Códigos para procesar la señal en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2009%20-%20Procesamiento%20de%20EEG/Archivo)
 
-- [Códigos para procesar la señal en Python](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/6ff4cfff06c539e3f96778536c82a64bf7267348/ISB/Laboratorios/Laboratorio%2008%20-%20Procesamiento%20de%20ECG/Archivos)
-
-
+## **Conclusiones** <a name="conc"></a>
+---
+- Seguir adecuadamente el proceso de adquisición, filtrado, pre y procesamiento nos permitió extraer las características deseadas.
+- El análisis previo de los coeficientes de detalle fue fundamental para la extracción de características.
+- Se logró la extracción de las ondas alfa, beta, theta y delta y poder compararlas con la información brindada en la literatura, por ejemplo, el caso de la mayor amplitud.
+- Las características de medio, desviación estándar, varianza, valor máximo y mínimo sí van acorde a lo obtenido en las bandas alfa, theta, beta y delta.
 
 ## **Referencias** <a name="ref"></a>
 ---
