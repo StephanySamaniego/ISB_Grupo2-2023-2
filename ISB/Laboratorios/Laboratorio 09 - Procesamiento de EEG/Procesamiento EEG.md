@@ -3,7 +3,7 @@
 1. [Introducción](#intro)
 2. [Metodología](#met)
 3. [Resultados](#resul)
-4. [Discusiones] (#disc)
+4. [Discusiones](#disc)
 5. [Archivos](#arch)
 6. [Conclusiones](#conc)
 7. [Referencias](#ref)
