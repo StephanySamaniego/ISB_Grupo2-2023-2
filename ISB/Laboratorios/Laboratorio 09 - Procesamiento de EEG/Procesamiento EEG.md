@@ -112,31 +112,44 @@ Al realizar la extracción de los valores de los valores máximos y mínimos, as
 ---
 - **Banda theta**
 
+<div align='center'>
+
 |||
 |-----------|------------|
 |<p align="center"><img src="img\Banda_teta.png" width="400" height="200" ></p>|<p align="center"><img src="img\theta.png" width="400" height="200" ></p><em><p align="center">Banda Theta extraído de[8] </p></em> |
 <p align="justify">Este tipo de onda se observa cuando la persona se encuentra en un estado de relajación o meditación, lo cual podría ser equivalente al estado de reposo antes del cierre y abrir de ojos, aún así no es tan común en los adultos. Se puede ver una diferencia notable entre ambas imágenes, la del sujeto a prueba presenta una línea creciente, mentiras que el otro presenta fluctuaciones.
 
+</div>
+
 - **Banda delta**
+
+<div align='center'>
 
 |||
 |-----------|------------|
 |<p align="center"><img src="img\Banda_delta.png" width="400" height="200" ></p>|<p align="center"><img src="img\delta.png" width="400" height="200" ></p></p><em><p align="center">Banda Delta extraído de[8] </p></em>|
 <p align="justify">La onda delta es la más grande en amplitud y a la vez la más lenta, son raras cuando los adultos están despiertos, en este caso con los ojos abiertos. En la imagen del sujeto se puede observar que el pico máximo de la onda es más de 450 uV, lo cual coincide con la literatura de que tiene la amplitud más alta.
+</div>
 
 - **Banda alfa**
+
+<div align='center'>
 
 |||
 |-----------|------------|
 |<p align="center"><img src="img\Banda_alfa.png" width="400" height="200" ></p>|<p align="center"><img src="img\alfa.png" width="400" height="200" ></p></p><em><p align="center">Banda Alfa extraído de[8] </p></em>|
 <p align="justify">La onda alfa se encuentra en todos los casos, también cuando la persona está despierta, pero se encuentra con los ojos cerrados. Es el puente entre lo consciente y lo subconsciente. Ocurre en ambos lados de la cabeza, pero tiene una amplitud ligeramente mayor en el lado dominante y se registra en las regiones occipital y parietal del cerebro.
+</div>
 
 - **Banda beta**
+
+<div align='center'>
 
 |||
 |-----------|------------|
 |<p align="center"><img src="img\Banda_beta.png" width="400" height="200" ></p>|<p align="center"><img src="img\beta.png" width="400" height="200" ></p></p><em><p align="center">Banda Beta extraído de[8] </p></em>|
 <p align="justify">Las ondas betas están bastante relacionadas con lo que la persona mira, siente, toca, oye, huele y prueba, lo cual podría estar relacionado a cuando el sujeto mira fijamente a un punto de concentración mientras escucha, analiza y responde las preguntas realizadas por otra persona. Además, estas ondas se producen en estado consciente como hablar, resolver problemas o tomar decisiones, lo cual está bastante relacionado al caso del sujeto. Comparando las imágenes, se puede observar que las ondas siguen ciertos patrones con fluctuaciones muy notorias en ambas. 
+</div>
 
 ## **Archivos** <a name="arch"></a>
 ---
