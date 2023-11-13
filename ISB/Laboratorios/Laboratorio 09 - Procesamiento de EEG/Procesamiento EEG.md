@@ -50,18 +50,26 @@ Laboratorio 9: Procesamiento de EEG
 
 <p align="justify">Los métodos temporales usan como características las variaciones temporales de las señales; estos son adaptados particularmente para describir las señales neurofisiológicas con un compás de tiempo preciso y específico. Diversas técnicas estadísticas permiten caracterizar la señal EEG, entre las cuales se encuentran el valor absoluto medio, longitud de onda, cambios en la pendiente de la señal, la integral cuadrada simple, la amplitud de Willison, Kurtosis. Otras técnicas estadísticas como cruce por cero, Varianza, Desviación Estándar, coeficiente de correlación y parámetros de Hjorth son empleadas para extraer características relevantes en la señal de EEG, con el objeto de alcanzar menos complejidad computacional [5].
 
+- Extracción de la banda Theta
+- Extracción de la banda Delta
+- Extracción de la banda Alfa
+- Extracción de la banda Beta
 - Media
 - Varianza
-- Simetría
-- Kurtosis
+- Desviación Estándar
+
 
 
 <p align="center">
   <img src="img\tabla.png"  width="400" height="200"> </p>
-  <em><p align="center">Tabla 1: Conjunto de mediciones caracterizando cada latido. Extraído de [9]
+  <em><p align="center">Tabla 1: Descomposición y adquisición de señales EEG después de la SWT nivel 8 de la Transformada de Wavelet
 </p></em> 
 
 4. **Procesamiento y obtención de características de EEG**
+Se tendrá en cuenta los siguientes parámetros para la obtención de las características deseadas:
+Filtros generados para la adquisición de las características, usaando un filtro de pasa alta y un filtro pasabaja, lo que nos da un rango de 0.5 a 50 Hz
+Tiempo de muestreo 20 seg
+Para la extracción de características se identificarán las bandas theta (1-4 Hz), delta (4-7 Hz), alfa (8-12 Hz) y beta (12-30 Hz) [6]
 
 -   **Señal original**
 <p align="center">
@@ -72,8 +80,15 @@ Laboratorio 9: Procesamiento de EEG
 
 <p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_wv.png?raw=true" width="400" height="200" ></p>
 
-<p align="justify">Podemos observar que después de aplicar el filtro Wavelet Sym3 de nivel 8, la señal tiene la semejanza esperada de acuerdo a la referencia del paper estudiado. Además, en la señal filtrada podemos buscar patrones específicos, como los picos de onda, ritmos específicos (como el ritmo alfa o delta) y eventos relacionados con la actividad cerebral.
+<p align="justify">Podemo observar patrones específicos de la señal filtrada , como los picos de onda, ritmos específicos (como el ritmo alfa o delta) y eventos relacionados con la actividad cerebral.
 
+- **Extracción de la banda Theta**
+
+- **Extracción de la banda Delta**
+
+- **Extracción de la banda Alfa**
+
+- **Extracción de la banda Beta**
 
 
 ## **Referencias** <a name="ref"></a>
@@ -88,3 +103,5 @@ Laboratorio 9: Procesamiento de EEG
 [4]
 
 [5] B. Medina, J. Sierra, and A. Ulloa, “Técnicas de extracción de características de señales EEG en la imaginación de movimiento para sistemas BCI Extraction techniques of EEG signals characteristics in motion imagination for BCI systems Contenido,” No22), vol. 39, 2018, Available: https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
+
+[6] L. Cabañero-Gomez, R. Hervas, I. Gonzalez, and L. Rodriguez-Benitez, “eeglib: A Python module for EEG feature extraction,” SoftwareX, vol. 15, p. 100745, Jul. 2021, doi: 10.1016/J.SOFTX.2021.100745.
