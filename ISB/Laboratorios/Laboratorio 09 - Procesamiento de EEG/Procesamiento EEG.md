@@ -76,7 +76,7 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 Al realizar la extracción de los valores de los valores máximos y mínimos, así como la amplitud, media, valor medio, desviación estándar y variación se usa la librería numpy para obtener los valores [7]. Donde la media, varianza y desviación estándar están dadas por las siguientes expresiones matemáticas, siendo Cj,ki.los coeficientes de Wavelet.
 
 <p align="center">
-  <img src="img\formulas.png" width="500" height="250"> </p>
+  <img src="img\formulas.png" width="500" height="100"> </p>
 
 
 -   **Señal original**
