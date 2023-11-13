@@ -73,6 +73,12 @@ Filtros generados para la adquisición de las características, usaando un filtr
 Tiempo de muestreo 20 seg
 Para la extracción de características se identificarán las bandas theta (1-4 Hz), delta (4-7 Hz), alfa (8-12 Hz) y beta (12-30 Hz) [6]
 
+Al realizar la extracción de los valores de los valores máximos y mínimos, así como la amplitud, media, valor medio, desviación estándar y variación se usa la librería numpy para obtener los valores [7]. Donde la media, varianza y desviación estándar están dadas por las siguientes expresiones matemáticas, siendo Cj,ki.los coeficientes de Wavelet.
+
+<p align="center">
+  <img src="img\formulas.png" width="500" height="250"> </p>
+
+
 -   **Señal original**
 <p align="center">
   <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg.png?raw=true"  width="500" height="250"> </p>
@@ -108,28 +114,28 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 
 |||
 |-----------|------------|
-|<p align="center"><img src="img\Banda_teta.png" width="400" height="200" ></p>|<p align="center"><img src="img\theta.png" width="400" height="200" ></p>|
+|<p align="center"><img src="img\Banda_teta.png" width="400" height="200" ></p>|<p align="center"><img src="img\theta.png" width="400" height="200" ></p><em><p align="center">Banda Theta extraído de[8] </p></em> |
 <p align="justify">Este tipo de onda se observa cuando la persona se encuentra en un estado de relajación o meditación, lo cual podría ser equivalente al estado de reposo antes del cierre y abrir de ojos, aún así no es tan común en los adultos. Se puede ver una diferencia notable entre ambas imágenes, la del sujeto a prueba presenta una línea creciente, mentiras que el otro presenta fluctuaciones.
 
 - **Banda delta**
 
 |||
 |-----------|------------|
-|<p align="center"><img src="img\Banda_delta.png" width="400" height="200" ></p>|<p align="center"><img src="img\delta.png" width="400" height="200" ></p>|
+|<p align="center"><img src="img\Banda_delta.png" width="400" height="200" ></p>|<p align="center"><img src="img\delta.png" width="400" height="200" ></p></p><em><p align="center">Banda Delta extraído de[8] </p></em>|
 <p align="justify">La onda delta es la más grande en amplitud y a la vez la más lenta, son raras cuando los adultos están despiertos, en este caso con los ojos abiertos. En la imagen del sujeto se puede observar que el pico máximo de la onda es más de 450 uV, lo cual coincide con la literatura de que tiene la amplitud más alta.
 
 - **Banda alfa**
 
 |||
 |-----------|------------|
-|<p align="center"><img src="img\Banda_alfa.png" width="400" height="200" ></p>|<p align="center"><img src="img\alfa.png" width="400" height="200" ></p>|
+|<p align="center"><img src="img\Banda_alfa.png" width="400" height="200" ></p>|<p align="center"><img src="img\alfa.png" width="400" height="200" ></p></p><em><p align="center">Banda Alfa extraído de[8] </p></em>|
 <p align="justify">La onda alfa se encuentra en todos los casos, también cuando la persona está despierta, pero se encuentra con los ojos cerrados. Es el puente entre lo consciente y lo subconsciente. Ocurre en ambos lados de la cabeza, pero tiene una amplitud ligeramente mayor en el lado dominante y se registra en las regiones occipital y parietal del cerebro.
 
 - **Banda beta**
 
 |||
 |-----------|------------|
-|<p align="center"><img src="img\Banda_beta.png" width="400" height="200" ></p>|<p align="center"><img src="img\beta.png" width="400" height="200" ></p>|
+|<p align="center"><img src="img\Banda_beta.png" width="400" height="200" ></p>|<p align="center"><img src="img\beta.png" width="400" height="200" ></p></p><em><p align="center">Banda Beta extraído de[8] </p></em>|
 <p align="justify">Las ondas betas están bastante relacionadas con lo que la persona mira, siente, toca, oye, huele y prueba, lo cual podría estar relacionado a cuando el sujeto mira fijamente a un punto de concentración mientras escucha, analiza y responde las preguntas realizadas por otra persona. Además, estas ondas se producen en estado consciente como hablar, resolver problemas o tomar decisiones, lo cual está bastante relacionado al caso del sujeto. Comparando las imágenes, se puede observar que las ondas siguen ciertos patrones con fluctuaciones muy notorias en ambas. 
 
 ## **Archivos** <a name="arch"></a>
@@ -157,3 +163,7 @@ Para la extracción de características se identificarán las bandas theta (1-4 
 [5] B. Medina, J. Sierra, and A. Ulloa, “Técnicas de extracción de características de señales EEG en la imaginación de movimiento para sistemas BCI Extraction techniques of EEG signals characteristics in motion imagination for BCI systems Contenido,” No22), vol. 39, 2018, Available: https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
 
 [6] L. Cabañero-Gomez, R. Hervas, I. Gonzalez, and L. Rodriguez-Benitez, “eeglib: A Python module for EEG feature extraction,” SoftwareX, vol. 15, p. 100745, Jul. 2021, doi: 10.1016/J.SOFTX.2021.100745.
+
+[7] “Revista Ingeniería,” Udistrital.edu.co, 2023. https://revistas.udistrital.edu.co/index.php/reving/article/view/10968/12577 (accessed Nov. 13, 2023).
+
+[8] J. Satheesh Kumar and P. T. V. Bhuvaneswari, “Analysis of Electroencephalography (EEG) Signals and Its Categorization–A Study,” Procedia Engineering, vol. 38, pp. 2525–2536, Jan. 2012, doi: https://doi.org/10.1016/j.proeng.2012.06.298.
