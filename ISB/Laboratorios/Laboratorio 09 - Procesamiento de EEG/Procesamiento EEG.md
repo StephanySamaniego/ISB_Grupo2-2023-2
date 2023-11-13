@@ -25,14 +25,20 @@ Laboratorio 9: Procesamiento de EEG
 ## **Metodología EEG** <a name="met"></a>
 --- 
 1. **Adquisición** 
-<p align="justify"> La señal fue obtenida con el Ultracortex Mark IV. Herramienta de investigación científicamente validada que le permite adquirir hasta 16 canales de datos EEG y es capaz de muestrear hasta 16 canales de EEG desde hasta 35 ubicaciones diferentes de 10-20. 
+<p align="justify"> La señal fue obtenida con el Bitalino.En el protocolo, se conectaron tres electrodos de EEG al participante, asegurando un entorno sin interferencias. Se registró una línea base de 10 segundos y fases de ojos abiertos/cerrados. Se repitió el ciclo y se añadió la resolución de ejercicios matemáticos mientras se grababan los datos. Finalmente, se detuvo la grabación para analizar los resultados obtenidos. 
 
 2. **Filtrado**
 <p align="justify">Durante la adquisición de señales se puede observar la interferencia de diversos artefactos fisiológicos, como los movimientos oculares involuntarios, el parpadeo, la actividad cardíaca y los movimientos musculares, se encuentran presentes en las señales de EEG, comprometiendo así la calidad de las señales obtenidas . Por ello, para eliminar los componentes de parpadeo, implementamos Stationary Wavelet Transform (SWT) de 8 niveles de transformada wavelet discreta no diezmada. Se propone utilizar Wavelet Sym3 que tiene una alta correlación con los artefactos de parpadeo para el algoritmo de cancelación de ruido. Los coeficientes de detalle D1, D8 y A8 son componentes de artefactos que luego se eliminan de las señales [2].
 
+
 **Nivel: 8** 
 -	Familia: Symlet (sym) 3
 -	Coeficientes de aproximación: se eliminan de la tabla D1, D8 y A8 (ruidos)
+
+<p align="center">
+  <img src="img\tabla.png"  width="400" height="200"> </p>
+  <em><p align="center">Tabla 1: Descomposición y adquisición de señales EEG después de la SWT nivel 8 de la Transformada de Wavelet </p></em> 
+
 
 
 3. **Extracción de características**
@@ -55,8 +61,18 @@ Laboratorio 9: Procesamiento de EEG
   <em><p align="center">Tabla 1: Conjunto de mediciones caracterizando cada latido. Extraído de [9]
 </p></em> 
 
+4. **Procesamiento y obtención de características de EEG**
 
+-   **Señal original**
+<p align="center">
+  <img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg.png?raw=true"  width="500" height="250"> </p>
+  <em><p align="center">Señal cruda</em> 
 
+- **Señal filtrada**
+
+<p align="center"><img src="https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/Dise%C3%B1o/Laboratorio_07/eeg_wv.png?raw=true" width="400" height="200" ></p>
+
+<p align="justify">Podemos observar que después de aplicar el filtro Wavelet Sym3 de nivel 8, la señal tiene la semejanza esperada de acuerdo a la referencia del paper estudiado. Además, en la señal filtrada podemos buscar patrones específicos, como los picos de onda, ritmos específicos (como el ritmo alfa o delta) y eventos relacionados con la actividad cerebral.
 
 
 
@@ -68,7 +84,6 @@ Laboratorio 9: Procesamiento de EEG
 [2] Pham Phuc Ngoc, Vu Duy Hai, Nguyen Chi Bach, and Pham Van Binh, “EEG Signal Analysis and Artifact Removal by Wavelet Transform,” IFMBE proceedings, pp. 179–183, Jan. 2015, doi: https://doi.org/10.1007/978-3-319-11776-8_44. Available: https://link.springer.com/chapter/10.1007/978-3-319-11776-8_44.
 
 [3] W. Amirah and Yin Fen Low, “Feature extraction of electroencephalogram (EEG) signal - A review,” Dec. 2014, doi: https://doi.org/10.1109/iecbes.2014.7047620.
-
 
 [4]
 
