@@ -70,7 +70,9 @@
   <img src="img\resultado.png"  width="400" height="200"> </p>
   <em><p align="center">Resultado obtenido después del entrenamiento </p></em>
 
-3. **Discusión y conclusiones** <a name="met"></a>
+## **Discusión y conclusiones** <a name="disc"></a>
+---
+
 <p align="justify">Al finalizar el entrenamiento, obtuvimos un porcentaje de exactitud del 77%, esto se puede deber a que previamente tuvimos datos cargados en el Edge Impulse que no borramos antes de darle a “split”. La 
 Por otro lado, la falta de data de entrenamiento afecta a la precisión del modelo, por lo que se podría desarrollar data sintética, a partir de la data obtenida, o ampliar la data de muestreo, para lo cual se deberían obtener más data de los participantes; esto mejoraría la precisión del modelo.
  
