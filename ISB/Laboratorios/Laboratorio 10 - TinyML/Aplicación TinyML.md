@@ -77,8 +77,9 @@ Por otro lado, la falta de data de entrenamiento afecta a la precisión del mode
 
 ## **Archivos** <a name="arch"></a>
 ---
-- [Archivos de csv](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2009%20-%20Procesamiento%20de%20EEG/Archivo)
+- [Archivos de csv](https://github.com/StephanySamaniego/ISB_Grupo2-2023-2/tree/main/ISB/Laboratorios/Laboratorio%2010%20-%20TinyML/Archivos)
 
+- [Archivo Edge Impulse](https://studio.edgeimpulse.com/studio/311090/learning/keras/5)
 
 
 ## **Referencias** <a name="ref"></a>
