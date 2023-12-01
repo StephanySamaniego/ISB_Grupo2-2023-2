@@ -7,10 +7,10 @@
 1. [Resumen](#Resumen)
 2. [Motivación](#Motivación)
 3. [Principales hallazgos](#Hallazgos)
-4. [Motivación](#Motivación)
+4. [Equipo](#Equipo)
 5. [Referencias](#Referencias)
 
-## Resumen
+## Resumen <a name="Resumen"></a>
 
 <p align="justify">El presente proyecto aborda la necesidad de desarrollar y comparar un algoritmo innovador para la estimación continua y no invasiva de la presión arterial durante procedimientos preoperatorios, utilizando la señal de electrocardiograma (ECG) registrada con el dispositivo BITalino (r)evolution. La monitorización precisa de la presión arterial es fundamental en entornos quirúrgicos y de cuidados intensivos, donde cambios rápidos pueden tener implicaciones críticas para la salud del paciente.
 
@@ -23,24 +23,20 @@
 
 
 
-## Motivación 
+## Motivación <a name="Motivación"></a>
 
 <p align="justify">La mejoría de la monitorización médica mediante el desarrollo de un algoritmo preciso y comparación de parámetros para la estimación de la presión arterial contribuirá a la detección temprana de cambios en la presión arterial, permitiendo una intervención médica oportuna, especialmente en entornos perioperatorios y de cuidados intensivos. Además, el trabajo podría ser impulsado por el deseo de innovar en el campo de la tecnología médica, explorando nuevas formas de utilizar dispositivos como el Bitalino (r)evolution para mejorar la atención médica y hacerla más accesible. Por otro lado, el reducir la necesidad de métodos invasivos para la medición de la presión arterial, como la canulación arterial, que conlleva riesgos y complicaciones podría mejorar la seguridad y comodidad de los pacientes. 
 Es por ello que, como grupo, tuvimos el compromiso de llevar a cabo este proyecto siguiendo todo lo mencionado previamente.
 
-## Principales hallazgos
+## Principales hallazgos <a name="Hallazgos"></a>
 
 
 En el año 2020, en el Perú se llevaron a cabo un total de 4,452 cirugías en pacientes menores de 5 años, según datos del MINSA. El grupo más representativo fue el de niños de un año, que constituyó el 19% del total con 846 cirugías, seguido por los niños de dos años con 668 cirugías, representando el 15% [3]. En el Instituto Nacional de Salud del Niño (INSN) de Breña, se realizaron más de 49,816 cirugías en pacientes menores de 18 años entre 2015 y 2019. De estas cirugías, más del 40% se realizaron en niños de 1 a 4 años, lo que destaca este grupo de edad como un área de interés debido a su contribución significativa al total de intervenciones realizadas[4]–[8]. 
 
-## Problemática
-“ Falta de dispositivos que midan continuamente y demanera no invasiva de signos vitales en niños de 1 a 2 años para reducir el riesgo perioperatorio “
+## [Conoce al equipo](hhttps://github.com/StephanySamaniego/ISB_Grupo2-2023-2/blob/main/ISB/Proyecto/Entregable%201/presentaci%C3%B3n.md) <a name="Equipo"></a>
 
-## Motivación
-Un dispositivo crucial para la medición de signos vitales es el electrocardiograma (ECG). Su interpretación ha demostrado ser esencial para las áreas de medicina interna, cirugía general y médicos en general. Se ha registrado que los estudiantes del área de ciencias de la salud presentan habilidades de interpretación de ECG menos que óptimas. En general, médicos residentes tanto en medicina interna y de emergencia, han afirmado sus déficits de conocimiento sobre el ECG e infieren que su entrenamiento durante la escuela de medicina y de posgrado no fue adecuado. 
-Siendo el ECG un dispositivo tan crucial para la medición de signos vitales, la limitada capacitación y conocimiento del personal médico sobre este implica un gran riesgo para el paciente. 
 
-## Referencias
+## Referencias <a name="Referencias"></a>
 
 ‌[1]Africa:, “Cardiovascular Journal of Africa: Vol 32 No 5 (SEPTEMBER/OCTOBER 2021),” Cvja.co.za, 2021. Available: https://cvja.co.za/onlinejournal/vol32/vol32_issue5/46/. 
 ‌
